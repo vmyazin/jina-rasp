@@ -14,6 +14,8 @@
     "data:setup": "node scripts/data/setup_prod_db.js",
     "security:apply-rls": "node scripts/security/apply_rls_policies.js",
     "security:test-rls": "node scripts/security/test_rls_policies.js",
+    "validation:stress-test": "node scripts/validation/validation-stress-test.js",
+    "validation:report": "node scripts/validation/generate-simple-report.js database --limit=100",
     "config:test": "node -e \"require('./config/config'); console.log('Config loaded successfully')\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

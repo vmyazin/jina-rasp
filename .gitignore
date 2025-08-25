@@ -78,3 +78,17 @@ temp_data/
 # Test files
 test-results/
 coverage/
+
+# Validation reports (generated content)
+scripts/validation/reports/*.txt
+scripts/validation/reports/*.json
+scripts/validation/reports/*-2025-*
+
+# Data files (frequently updated, large files)
+scripts/data/consolidated_brokers.json
+scripts/data/brokers_simple.json
+scripts/data/INSURANCE_BROKERS_FORTALEZA.md
+
+# Keep examples but ignore generated reports
+!scripts/validation/reports/README.md
+!scripts/validation/reports/.gitkeep
