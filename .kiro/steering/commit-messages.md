@@ -23,7 +23,7 @@ Always write commit messages using markdown format. Keep them concise and inform
 
 ## Examples
 ```markdown
-**[SECURITY]**: Complete SEC-001 API keys implementation
+security(%feature_name%): Complete SEC-001 API keys implementation
 
 - Added service role key validation in server.js
 - Updated .env with proper Supabase credentials
@@ -31,14 +31,14 @@ Always write commit messages using markdown format. Keep them concise and inform
 ```
 
 ```markdown
-**[FIX]**: Resolve rate limiting edge case
+fix: Resolve rate limiting edge case
 
 - Fixed IP tracking for proxied requests
 - Added X-Forwarded-For header support
 ```
 
 ```markdown
-**[FEATURE]**: Add advanced search filters
+feat(%feature_name%): Add advanced search filters
 
 - Implemented neighborhood filtering
 - Added specialty-based search logic
