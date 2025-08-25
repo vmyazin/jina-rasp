@@ -24,11 +24,13 @@
 - **Remaining**: Replace `your-actual-service-role-key-here` with real key from Supabase dashboard
 - **Updated**: 2025-08-25
 
-#### SEC-002: Input Sanitization ✅ COMPLETED
-- **Issue**: Search queries passed directly to database without sanitization
-- **Risk**: Potential SQL injection via PostgREST
-- **Action**: ✅ Implemented server-side validation and sanitization
-- **Solution**: Added input validation in `server.js`, sanitizes `<>"'%;()&+` characters
+#### SEC-002: Row Level Security (RLS) Policies ✅ COMPLETED
+- **Issue**: Database access not properly secured with Row Level Security
+- **Risk**: Unauthorized data access and modification
+- **Action**: ✅ Implemented comprehensive RLS policies for insurance_brokers table
+- **Solution**: Created `rls_policies.sql` with secure functions, input sanitization, and access controls
+- **Features**: Public read-only access, authenticated write access, secure search functions, audit logging
+- **Files**: `rls_policies.sql`, `apply_rls_policies.js`, `test_rls_policies.js`
 - **Completed**: 2025-08-25
 
 #### SEC-003: Rate Limiting ✅ COMPLETED
