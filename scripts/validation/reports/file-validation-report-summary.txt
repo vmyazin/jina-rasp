@@ -1,17 +1,45 @@
 Simple Validation Report Summary
 =====================================
-Generated: 8/25/2025, 7:48:42 PM
-Total Records: 10
+Generated: 8/25/2025, 8:40:42 PM
+Total Records: 100
 
 Overall Status:
-- Records with no issues: 10
-- Records needing attention: 0
-- Total issues found: 0
+- Records with no issues: 81
+- Records needing attention: 19
+- Total issues found: 25
 
 Issues by Type:
 - Missing required fields: 0 records
-- Invalid emails: 0 records
+- Invalid emails: 10 records
 - Invalid phones: 0 records
-- Low completeness (<50%): 0 records
-- Potential duplicates: 0 records
+- Low completeness (<50%): 13 records
+- Potential duplicates: 2 records
 
+Top Records Needing Attention:
+1. José Antônio Ferreira (HIGH)
+   - Email format is invalid
+   - Only 31.6% complete (6/19 fields)
+   - Potential duplicate of: Fernanda Ribeiro Castro
+2. Marcos Vinícius Soares (HIGH)
+   - Email format is invalid
+   - Only 31.6% complete (6/19 fields)
+3. Marcos Vinícius Soares (HIGH)
+   - Email format is invalid
+   - Only 31.6% complete (6/19 fields)
+4. Fernando Henrique Araújo (HIGH)
+   - Email format is invalid
+   - Only 31.6% complete (6/19 fields)
+   - Potential duplicate of: Fernanda Ribeiro Castro
+5. Mônica Carvalho (HIGH)
+   - Email format is invalid
+6. João Monteiro (HIGH)
+   - Email format is invalid
+7. Patrícia Cardoso (HIGH)
+   - Email format is invalid
+8. Antônio Souza (HIGH)
+   - Email format is invalid
+9. José Ferreira (HIGH)
+   - Email format is invalid
+10. Patrícia Lima (HIGH)
+   - Email format is invalid
+... and 9 more records

@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "generatedAt": "2025-08-25T22:48:42.786Z",
-    "totalRecords": 10,
+    "generatedAt": "2025-08-25T23:40:42.033Z",
+    "totalRecords": 100,
     "reportVersion": "1.0"
   },
   "summary": {
-    "totalIssues": 0,
-    "recordsNeedingAttention": 0,
-    "recordsWithNoIssues": 10
+    "totalIssues": 25,
+    "recordsNeedingAttention": 19,
+    "recordsWithNoIssues": 81
   },
   "issuesByType": {
     "missingRequiredFields": 0,
-    "invalidEmails": 0,
+    "invalidEmails": 10,
     "invalidPhones": 0,
-    "lowCompleteness": 0,
-    "potentialDuplicates": 0
+    "lowCompleteness": 13,
+    "potentialDuplicates": 2
   },
   "validationResults": {
     "requiredFields": {
-      "totalRecords": 10,
-      "validRecords": 10,
+      "totalRecords": 100,
+      "validRecords": 100,
       "invalidRecords": 0,
       "validationResults": [
         {
@@ -71,6 +71,456 @@
           "isValid": true,
           "missingFields": [],
           "recordId": "agent1_meqmf1tnfdackvmgzo"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to9919k10kpqb"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toyux9b77w3yl"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tomejz5lv5mtl"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toovoot63j6x"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tonfwj71qdhe"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toqyq15as2jf"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tov9g1b49q0f8"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toug3bz3z4xvh"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tob3mqs8uyhc6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toirn9z5043z"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tosmkt5g7hkwd"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tovqqx4vusvk"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to65njvx3bgoe"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tof9zcjp2u0z9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to32b8e76nx6c"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to8ilylhl0cek"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tov176dunryys"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to02yix2r36n45"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1toa9bv7rqcyeu"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to8n98qkjo8or"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tohuzc8m32z5"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1totz87n8xa9l"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tot9j93fa71s9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1to95mu5b3kbpe"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent1_meqmf1tod89ev15s0o9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_1756096739419_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_1756096999405_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321713_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_3"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_5"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_7"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_8"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_10"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_11"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_12"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_13"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_14"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_15"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_16"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_17"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_18"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_19"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_20"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_21"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_22"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_23"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_24"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_25"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_26"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_27"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_28"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_29"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_31"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_32"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_33"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_34"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_35"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_36"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_37"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_38"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_39"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225759_40"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_88"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_90"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_92"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_94"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_96"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_98"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_100"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_102"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_104"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_106"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_108"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "consolidated_1756165225760_110"
         }
       ],
       "summary": {
@@ -80,11 +530,11 @@
       }
     },
     "emails": {
-      "totalRecords": 10,
-      "validEmails": 10,
-      "invalidEmails": 0,
+      "totalRecords": 100,
+      "validEmails": 90,
+      "invalidEmails": 10,
       "normalizedEmails": 0,
-      "needsManualReview": 0,
+      "needsManualReview": 10,
       "validationResults": [
         {
           "isValid": true,
@@ -175,19 +625,849 @@
           "severity": "info",
           "needsManualReview": false,
           "recordId": "agent1_meqmf1tnfdackvmgzo"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.almeida@uol.com.br",
+          "normalizedEmail": "ricardo.almeida@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to9919k10kpqb"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "camila.rocha@gmail.com",
+          "normalizedEmail": "camila.rocha@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toyux9b77w3yl"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "antonio.silva@uol.com.br",
+          "normalizedEmail": "antonio.silva@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tomejz5lv5mtl"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "patricia.gomes@hotmail.com",
+          "normalizedEmail": "patricia.gomes@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toovoot63j6x"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "marcos.barbosa@gmail.com",
+          "normalizedEmail": "marcos.barbosa@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tonfwj71qdhe"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "juliana.mendes@gmail.com",
+          "normalizedEmail": "juliana.mendes@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toqyq15as2jf"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "eduardo.ribeiro@gmail.com",
+          "normalizedEmail": "eduardo.ribeiro@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tov9g1b49q0f8"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "cristina.lopes@uol.com.br",
+          "normalizedEmail": "cristina.lopes@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toug3bz3z4xvh"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernando.cardos@outlook.com",
+          "normalizedEmail": "fernando.cardos@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tob3mqs8uyhc6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "vanessa.moura@gmail.com",
+          "normalizedEmail": "vanessa.moura@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toirn9z5043z"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "sergio.teixeira@gmail.com",
+          "normalizedEmail": "sergio.teixeira@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tosmkt5g7hkwd"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "claudia.nunes@uol.com.br",
+          "normalizedEmail": "claudia.nunes@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tovqqx4vusvk"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.pinto@outlook.com",
+          "normalizedEmail": "rafael.pinto@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to65njvx3bgoe"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "simone.correia@outlook.com",
+          "normalizedEmail": "simone.correia@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tof9zcjp2u0z9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "gustavo.farias@gmail.com",
+          "normalizedEmail": "gustavo.farias@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to32b8e76nx6c"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "adriana.vieira@hotmail.com",
+          "normalizedEmail": "adriana.vieira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to8ilylhl0cek"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "daniel.monteiro@yahoo.com.br",
+          "normalizedEmail": "daniel.monteiro@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tov176dunryys"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rosana.campos@yahoo.com.br",
+          "normalizedEmail": "rosana.campos@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to02yix2r36n45"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luciano.freitas@yahoo.com.br",
+          "normalizedEmail": "luciano.freitas@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1toa9bv7rqcyeu"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.duarte@outlook.com",
+          "normalizedEmail": "mariana.duarte@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to8n98qkjo8or"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "alexandre.dias@hotmail.com",
+          "normalizedEmail": "alexandre.dias@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tohuzc8m32z5"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carla.machado@gmail.com",
+          "normalizedEmail": "carla.machado@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1totz87n8xa9l"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renato.arago@hotmail.com",
+          "normalizedEmail": "renato.arago@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tot9j93fa71s9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "monica.tavares@gmail.com",
+          "normalizedEmail": "monica.tavares@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1to95mu5b3kbpe"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "paulo.nasciment@yahoo.com.br",
+          "normalizedEmail": "paulo.nasciment@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent1_meqmf1tod89ev15s0o9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "texas@corretoratexasfortaleza.com.br",
+          "normalizedEmail": "texas@corretoratexasfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_1756096739419_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "contato@duetscorretora.com.br",
+          "normalizedEmail": "contato@duetscorretora.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_1756096999405_1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321713_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+          "normalizedEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luiz.teixeira@hotmail.com",
+          "normalizedEmail": "luiz.teixeira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renata.silva@gmail.com",
+          "normalizedEmail": "renata.silva@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carla.rocha@hotmail.com",
+          "normalizedEmail": "carla.rocha@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_2"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "mônica.carvalho@hotmail.com",
+          "normalizedEmail": "mônica.carvalho@hotmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225759_3"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.santos@hotmail.com",
+          "normalizedEmail": "ricardo.santos@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_4"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "priscila.ferreira@gmail.com",
+          "normalizedEmail": "priscila.ferreira@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_5"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "daniela.oliveira@hotmail.com",
+          "normalizedEmail": "daniela.oliveira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "simone.gomes@gmail.com",
+          "normalizedEmail": "simone.gomes@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_7"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "vanessa.teixeira@hotmail.com",
+          "normalizedEmail": "vanessa.teixeira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_8"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "paulo.santos@gmail.com",
+          "normalizedEmail": "paulo.santos@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.fernandes@hotmail.com",
+          "normalizedEmail": "mariana.fernandes@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_10"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "tatiana.silva@gmail.com",
+          "normalizedEmail": "tatiana.silva@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_11"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "joão.monteiro@gmail.com",
+          "normalizedEmail": "joão.monteiro@gmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225759_12"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luciana.machado@gmail.com",
+          "normalizedEmail": "luciana.machado@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_13"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "daniela.monteiro@gmail.com",
+          "normalizedEmail": "daniela.monteiro@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_14"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "eduardo.reis@gmail.com",
+          "normalizedEmail": "eduardo.reis@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_15"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "patrícia.cardoso@hotmail.com",
+          "normalizedEmail": "patrícia.cardoso@hotmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225759_16"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "alexandre.correia@gmail.com",
+          "normalizedEmail": "alexandre.correia@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_17"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luiz.almeida@hotmail.com",
+          "normalizedEmail": "luiz.almeida@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_18"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.freitas@hotmail.com",
+          "normalizedEmail": "rafael.freitas@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_19"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rodrigo.souza@hotmail.com",
+          "normalizedEmail": "rodrigo.souza@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_20"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.gomes@gmail.com",
+          "normalizedEmail": "rafael.gomes@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_21"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "cristina.carvalho@hotmail.com",
+          "normalizedEmail": "cristina.carvalho@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_22"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.souza@gmail.com",
+          "normalizedEmail": "ana.souza@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_23"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "antônio.souza@gmail.com",
+          "normalizedEmail": "antônio.souza@gmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225759_24"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "priscila.lima@gmail.com",
+          "normalizedEmail": "priscila.lima@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_25"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "paulo.dias@hotmail.com",
+          "normalizedEmail": "paulo.dias@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_26"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.ferreira@gmail.com",
+          "normalizedEmail": "josé.ferreira@gmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225759_27"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renata.machado@hotmail.com",
+          "normalizedEmail": "renata.machado@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_28"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "bruno.cardoso@gmail.com",
+          "normalizedEmail": "bruno.cardoso@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_29"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "tatiana.rodrigues@hotmail.com",
+          "normalizedEmail": "tatiana.rodrigues@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_31"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luiz.souza@hotmail.com",
+          "normalizedEmail": "luiz.souza@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_32"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.lopes@hotmail.com",
+          "normalizedEmail": "ricardo.lopes@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_33"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.vieira@hotmail.com",
+          "normalizedEmail": "mariana.vieira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_34"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "daniela.martins@hotmail.com",
+          "normalizedEmail": "daniela.martins@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_35"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luiz.cardoso@gmail.com",
+          "normalizedEmail": "luiz.cardoso@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_36"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "simone.fernandes@hotmail.com",
+          "normalizedEmail": "simone.fernandes@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_37"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rodrigo.santos@gmail.com",
+          "normalizedEmail": "rodrigo.santos@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_38"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "adriana.reis@gmail.com",
+          "normalizedEmail": "adriana.reis@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_39"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carla.costa@gmail.com",
+          "normalizedEmail": "carla.costa@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225759_40"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "cristina.machado@gmail.com",
+          "normalizedEmail": "cristina.machado@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_88"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.monteiro@hotmail.com",
+          "normalizedEmail": "ana.monteiro@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_90"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.monteiro@hotmail.com",
+          "normalizedEmail": "rafael.monteiro@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_92"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "alexandre.fernandes@gmail.com",
+          "normalizedEmail": "alexandre.fernandes@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_94"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.nascimento@gmail.com",
+          "normalizedEmail": "mariana.nascimento@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_96"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro@gmail.com",
+          "normalizedEmail": "fernanda.ribeiro@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_98"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "juliana.lima@hotmail.com",
+          "normalizedEmail": "juliana.lima@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_100"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.rocha@hotmail.com",
+          "normalizedEmail": "roberto.rocha@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_102"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.carvalho@gmail.com",
+          "normalizedEmail": "rafael.carvalho@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_104"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.araujo@hotmail.com",
+          "normalizedEmail": "ricardo.araujo@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_106"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.souza@hotmail.com",
+          "normalizedEmail": "roberto.souza@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "consolidated_1756165225760_108"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "patrícia.lima@hotmail.com",
+          "normalizedEmail": "patrícia.lima@hotmail.com",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "consolidated_1756165225760_110"
         }
       ],
       "summary": {
-        "critical": 0,
+        "critical": 10,
         "warning": 0,
-        "info": 10,
+        "info": 90,
         "normalized": 0,
         "suspicious": 0
       }
     },
     "phones": {
-      "totalRecords": 10,
-      "validPhones": 10,
+      "totalRecords": 100,
+      "validPhones": 100,
       "invalidPhones": 0,
       "cleanedPhones": 0,
       "validationResults": [
@@ -280,18 +1560,828 @@
           "issues": [],
           "severity": "info",
           "recordId": "agent1_meqmf1tnfdackvmgzo"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99606-9561",
+          "cleanedPhone": "(85) 99606-9561",
+          "standardizedPhone": "(85) 99606-9561",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to9919k10kpqb"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96810-9516",
+          "cleanedPhone": "(85) 96810-9516",
+          "standardizedPhone": "(85) 96810-9516",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toyux9b77w3yl"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95486-4452",
+          "cleanedPhone": "(85) 95486-4452",
+          "standardizedPhone": "(85) 95486-4452",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tomejz5lv5mtl"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92352-7764",
+          "cleanedPhone": "(85) 92352-7764",
+          "standardizedPhone": "(85) 92352-7764",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toovoot63j6x"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93103-4207",
+          "cleanedPhone": "(85) 93103-4207",
+          "standardizedPhone": "(85) 93103-4207",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tonfwj71qdhe"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97492-2404",
+          "cleanedPhone": "(85) 97492-2404",
+          "standardizedPhone": "(85) 97492-2404",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toqyq15as2jf"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96555-7592",
+          "cleanedPhone": "(85) 96555-7592",
+          "standardizedPhone": "(85) 96555-7592",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tov9g1b49q0f8"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94715-6431",
+          "cleanedPhone": "(85) 94715-6431",
+          "standardizedPhone": "(85) 94715-6431",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toug3bz3z4xvh"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96340-7878",
+          "cleanedPhone": "(85) 96340-7878",
+          "standardizedPhone": "(85) 96340-7878",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tob3mqs8uyhc6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98522-5433",
+          "cleanedPhone": "(85) 98522-5433",
+          "standardizedPhone": "(85) 98522-5433",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toirn9z5043z"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 9531-8615",
+          "cleanedPhone": "(85) 9531-8615",
+          "standardizedPhone": "(85) 9531-8615",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tosmkt5g7hkwd"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95614-3712",
+          "cleanedPhone": "(85) 95614-3712",
+          "standardizedPhone": "(85) 95614-3712",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tovqqx4vusvk"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99590-4876",
+          "cleanedPhone": "(85) 99590-4876",
+          "standardizedPhone": "(85) 99590-4876",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to65njvx3bgoe"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97623-6516",
+          "cleanedPhone": "(85) 97623-6516",
+          "standardizedPhone": "(85) 97623-6516",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tof9zcjp2u0z9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95324-5733",
+          "cleanedPhone": "(85) 95324-5733",
+          "standardizedPhone": "(85) 95324-5733",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to32b8e76nx6c"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 5843-8986",
+          "cleanedPhone": "(85) 5843-8986",
+          "standardizedPhone": "(85) 5843-8986",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to8ilylhl0cek"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93022-9286",
+          "cleanedPhone": "(85) 93022-9286",
+          "standardizedPhone": "(85) 93022-9286",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tov176dunryys"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94006-1682",
+          "cleanedPhone": "(85) 94006-1682",
+          "standardizedPhone": "(85) 94006-1682",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to02yix2r36n45"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99513-2879",
+          "cleanedPhone": "(85) 99513-2879",
+          "standardizedPhone": "(85) 99513-2879",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1toa9bv7rqcyeu"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92544-5504",
+          "cleanedPhone": "(85) 92544-5504",
+          "standardizedPhone": "(85) 92544-5504",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to8n98qkjo8or"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91268-7586",
+          "cleanedPhone": "(85) 91268-7586",
+          "standardizedPhone": "(85) 91268-7586",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tohuzc8m32z5"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99228-5141",
+          "cleanedPhone": "(85) 99228-5141",
+          "standardizedPhone": "(85) 99228-5141",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1totz87n8xa9l"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98723-4017",
+          "cleanedPhone": "(85) 98723-4017",
+          "standardizedPhone": "(85) 98723-4017",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tot9j93fa71s9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91360-8537",
+          "cleanedPhone": "(85) 91360-8537",
+          "standardizedPhone": "(85) 91360-8537",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1to95mu5b3kbpe"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97701-3055",
+          "cleanedPhone": "(85) 97701-3055",
+          "standardizedPhone": "(85) 97701-3055",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent1_meqmf1tod89ev15s0o9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99981-0836",
+          "cleanedPhone": "(85) 99981-0836",
+          "standardizedPhone": "(85) 99981-0836",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_1756096739419_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 3402-3386",
+          "cleanedPhone": "(85) 3402-3386",
+          "standardizedPhone": "(85) 3402-3386",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_1756096999405_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99128-9875",
+          "cleanedPhone": "(85) 99128-9875",
+          "standardizedPhone": "(85) 99128-9875",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321713_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99737-4045",
+          "cleanedPhone": "(85) 99737-4045",
+          "standardizedPhone": "(85) 99737-4045",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99922-4826",
+          "cleanedPhone": "(85) 99922-4826",
+          "standardizedPhone": "(85) 99922-4826",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99478-4473",
+          "cleanedPhone": "(85) 99478-4473",
+          "standardizedPhone": "(85) 99478-4473",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99176-5446",
+          "cleanedPhone": "(85) 99176-5446",
+          "standardizedPhone": "(85) 99176-5446",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99135-7634",
+          "cleanedPhone": "(85) 99135-7634",
+          "standardizedPhone": "(85) 99135-7634",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99295-5212",
+          "cleanedPhone": "(85) 99295-5212",
+          "standardizedPhone": "(85) 99295-5212",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99342-2706",
+          "cleanedPhone": "(85) 99342-2706",
+          "standardizedPhone": "(85) 99342-2706",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99690-0094",
+          "cleanedPhone": "(85) 99690-0094",
+          "standardizedPhone": "(85) 99690-0094",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99753-8500",
+          "cleanedPhone": "(85) 99753-8500",
+          "standardizedPhone": "(85) 99753-8500",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99881-8444",
+          "cleanedPhone": "(85) 99881-8444",
+          "standardizedPhone": "(85) 99881-8444",
+          "issues": [],
+          "severity": "info",
+          "recordId": "agent2_synthetic_1756097321714_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97868-4384",
+          "cleanedPhone": "(85) 97868-4384",
+          "standardizedPhone": "(85) 97868-4384",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96806-7322",
+          "cleanedPhone": "(85) 96806-7322",
+          "standardizedPhone": "(85) 96806-7322",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95658-1324",
+          "cleanedPhone": "(85) 95658-1324",
+          "standardizedPhone": "(85) 95658-1324",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92778-1514",
+          "cleanedPhone": "(85) 92778-1514",
+          "standardizedPhone": "(85) 92778-1514",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_3"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93960-4667",
+          "cleanedPhone": "(85) 93960-4667",
+          "standardizedPhone": "(85) 93960-4667",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91055-1191",
+          "cleanedPhone": "(85) 91055-1191",
+          "standardizedPhone": "(85) 91055-1191",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_5"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94245-2997",
+          "cleanedPhone": "(85) 94245-2997",
+          "standardizedPhone": "(85) 94245-2997",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92601-7037",
+          "cleanedPhone": "(85) 92601-7037",
+          "standardizedPhone": "(85) 92601-7037",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_7"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92205-3844",
+          "cleanedPhone": "(85) 92205-3844",
+          "standardizedPhone": "(85) 92205-3844",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_8"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95757-4689",
+          "cleanedPhone": "(85) 95757-4689",
+          "standardizedPhone": "(85) 95757-4689",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94928-1740",
+          "cleanedPhone": "(85) 94928-1740",
+          "standardizedPhone": "(85) 94928-1740",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_10"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96924-4377",
+          "cleanedPhone": "(85) 96924-4377",
+          "standardizedPhone": "(85) 96924-4377",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_11"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95552-8054",
+          "cleanedPhone": "(85) 95552-8054",
+          "standardizedPhone": "(85) 95552-8054",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_12"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96472-8448",
+          "cleanedPhone": "(85) 96472-8448",
+          "standardizedPhone": "(85) 96472-8448",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_13"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97777-8053",
+          "cleanedPhone": "(85) 97777-8053",
+          "standardizedPhone": "(85) 97777-8053",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_14"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94253-2704",
+          "cleanedPhone": "(85) 94253-2704",
+          "standardizedPhone": "(85) 94253-2704",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_15"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93009-4591",
+          "cleanedPhone": "(85) 93009-4591",
+          "standardizedPhone": "(85) 93009-4591",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_16"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92231-7968",
+          "cleanedPhone": "(85) 92231-7968",
+          "standardizedPhone": "(85) 92231-7968",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_17"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97215-7856",
+          "cleanedPhone": "(85) 97215-7856",
+          "standardizedPhone": "(85) 97215-7856",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_18"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97277-5937",
+          "cleanedPhone": "(85) 97277-5937",
+          "standardizedPhone": "(85) 97277-5937",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_19"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97304-5279",
+          "cleanedPhone": "(85) 97304-5279",
+          "standardizedPhone": "(85) 97304-5279",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_20"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94277-8839",
+          "cleanedPhone": "(85) 94277-8839",
+          "standardizedPhone": "(85) 94277-8839",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_21"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99726-2260",
+          "cleanedPhone": "(85) 99726-2260",
+          "standardizedPhone": "(85) 99726-2260",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_22"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95626-7642",
+          "cleanedPhone": "(85) 95626-7642",
+          "standardizedPhone": "(85) 95626-7642",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_23"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96749-4241",
+          "cleanedPhone": "(85) 96749-4241",
+          "standardizedPhone": "(85) 96749-4241",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_24"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94752-8580",
+          "cleanedPhone": "(85) 94752-8580",
+          "standardizedPhone": "(85) 94752-8580",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_25"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99454-8894",
+          "cleanedPhone": "(85) 99454-8894",
+          "standardizedPhone": "(85) 99454-8894",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_26"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96114-9652",
+          "cleanedPhone": "(85) 96114-9652",
+          "standardizedPhone": "(85) 96114-9652",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_27"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94347-1308",
+          "cleanedPhone": "(85) 94347-1308",
+          "standardizedPhone": "(85) 94347-1308",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_28"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98705-4492",
+          "cleanedPhone": "(85) 98705-4492",
+          "standardizedPhone": "(85) 98705-4492",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_29"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98388-1821",
+          "cleanedPhone": "(85) 98388-1821",
+          "standardizedPhone": "(85) 98388-1821",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_31"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93168-8074",
+          "cleanedPhone": "(85) 93168-8074",
+          "standardizedPhone": "(85) 93168-8074",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_32"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96977-6152",
+          "cleanedPhone": "(85) 96977-6152",
+          "standardizedPhone": "(85) 96977-6152",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_33"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99257-4363",
+          "cleanedPhone": "(85) 99257-4363",
+          "standardizedPhone": "(85) 99257-4363",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_34"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92135-7559",
+          "cleanedPhone": "(85) 92135-7559",
+          "standardizedPhone": "(85) 92135-7559",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_35"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99995-7064",
+          "cleanedPhone": "(85) 99995-7064",
+          "standardizedPhone": "(85) 99995-7064",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_36"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98419-3815",
+          "cleanedPhone": "(85) 98419-3815",
+          "standardizedPhone": "(85) 98419-3815",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_37"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99382-6743",
+          "cleanedPhone": "(85) 99382-6743",
+          "standardizedPhone": "(85) 99382-6743",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_38"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94958-3068",
+          "cleanedPhone": "(85) 94958-3068",
+          "standardizedPhone": "(85) 94958-3068",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_39"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98416-9045",
+          "cleanedPhone": "(85) 98416-9045",
+          "standardizedPhone": "(85) 98416-9045",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225759_40"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94211-7828",
+          "cleanedPhone": "(85) 94211-7828",
+          "standardizedPhone": "(85) 94211-7828",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_88"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96974-1359",
+          "cleanedPhone": "(85) 96974-1359",
+          "standardizedPhone": "(85) 96974-1359",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_90"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98775-4464",
+          "cleanedPhone": "(85) 98775-4464",
+          "standardizedPhone": "(85) 98775-4464",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_92"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97968-6845",
+          "cleanedPhone": "(85) 97968-6845",
+          "standardizedPhone": "(85) 97968-6845",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_94"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92900-3207",
+          "cleanedPhone": "(85) 92900-3207",
+          "standardizedPhone": "(85) 92900-3207",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_96"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92591-6160",
+          "cleanedPhone": "(85) 92591-6160",
+          "standardizedPhone": "(85) 92591-6160",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_98"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96372-5161",
+          "cleanedPhone": "(85) 96372-5161",
+          "standardizedPhone": "(85) 96372-5161",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_100"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97203-6562",
+          "cleanedPhone": "(85) 97203-6562",
+          "standardizedPhone": "(85) 97203-6562",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_102"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93227-3789",
+          "cleanedPhone": "(85) 93227-3789",
+          "standardizedPhone": "(85) 93227-3789",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_104"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97729-2934",
+          "cleanedPhone": "(85) 97729-2934",
+          "standardizedPhone": "(85) 97729-2934",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_106"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97226-6152",
+          "cleanedPhone": "(85) 97226-6152",
+          "standardizedPhone": "(85) 97226-6152",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_108"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99965-4763",
+          "cleanedPhone": "(85) 99965-4763",
+          "standardizedPhone": "(85) 99965-4763",
+          "issues": [],
+          "severity": "info",
+          "recordId": "consolidated_1756165225760_110"
         }
       ],
       "summary": {
         "critical": 0,
         "warning": 0,
-        "info": 10,
+        "info": 100,
         "standardized": 0
       }
     },
     "completeness": {
-      "totalRecords": 10,
-      "averageCompleteness": 85.8,
+      "totalRecords": 100,
+      "averageCompleteness": 82.8,
       "completenessResults": [
         {
           "recordId": "agent1_meqmf1tmpjrasif1i9d",
@@ -619,123 +2709,3469 @@
             "social_media",
             "company_size"
           ]
+        },
+        {
+          "recordId": "agent1_meqmf1to9919k10kpqb",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toyux9b77w3yl",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tomejz5lv5mtl",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toovoot63j6x",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tonfwj71qdhe",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toqyq15as2jf",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tov9g1b49q0f8",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toug3bz3z4xvh",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tob3mqs8uyhc6",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toirn9z5043z",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tosmkt5g7hkwd",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tovqqx4vusvk",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to65njvx3bgoe",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tof9zcjp2u0z9",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to32b8e76nx6c",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to8ilylhl0cek",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tov176dunryys",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to02yix2r36n45",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1toa9bv7rqcyeu",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to8n98qkjo8or",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tohuzc8m32z5",
+          "totalFields": 19,
+          "filledFields": 16,
+          "emptyFields": 3,
+          "completenessPercentage": 84.2,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "social_media",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1totz87n8xa9l",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tot9j93fa71s9",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1to95mu5b3kbpe",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent1_meqmf1tod89ev15s0o9",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": false,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": false,
+            "source_url": true
+          },
+          "missingFields": [
+            "postal_code",
+            "company_size"
+          ]
+        },
+        {
+          "recordId": "agent2_1756096739419_0",
+          "totalFields": 19,
+          "filledFields": 4,
+          "emptyFields": 15,
+          "completenessPercentage": 21.1,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": false,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "address",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_1756096999405_1",
+          "totalFields": 19,
+          "filledFields": 4,
+          "emptyFields": 15,
+          "completenessPercentage": 21.1,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": false,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "address",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321713_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_1",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_1",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_1",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_1",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_1",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "agent2_synthetic_1756097321714_0",
+          "totalFields": 19,
+          "filledFields": 6,
+          "emptyFields": 13,
+          "completenessPercentage": 31.6,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": true,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": true,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "city",
+            "state",
+            "postal_code",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_0",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225759_1",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_2",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_3",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_4",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_5",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_6",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_7",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_8",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_9",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_10",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225759_11",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_12",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_13",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_14",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_15",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225759_16",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_17",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_18",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_19",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_20",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225759_21",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_22",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_23",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_24",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_25",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_26",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_27",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_28",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_29",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_31",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_32",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_33",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225759_34",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_35",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_36",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_37",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_38",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_39",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225759_40",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_88",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_90",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_92",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_94",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_96",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_98",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_100",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_102",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_104",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225760_106",
+          "totalFields": 19,
+          "filledFields": 19,
+          "emptyFields": 0,
+          "completenessPercentage": 100,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": true,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": []
+        },
+        {
+          "recordId": "consolidated_1756165225760_108",
+          "totalFields": 19,
+          "filledFields": 18,
+          "emptyFields": 1,
+          "completenessPercentage": 94.7,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": true,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "license_number"
+          ]
+        },
+        {
+          "recordId": "consolidated_1756165225760_110",
+          "totalFields": 19,
+          "filledFields": 17,
+          "emptyFields": 2,
+          "completenessPercentage": 89.5,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": true,
+            "license_number": false,
+            "years_experience": true,
+            "company_size": true,
+            "source_url": true
+          },
+          "missingFields": [
+            "social_media",
+            "license_number"
+          ]
         }
       ],
       "summary": {
-        "highCompleteness": 10,
+        "highCompleteness": 87,
         "mediumCompleteness": 0,
-        "lowCompleteness": 0,
+        "lowCompleteness": 13,
         "fieldFillRates": {
           "name": {
-            "filled": 10,
-            "total": 10,
+            "filled": 100,
+            "total": 100,
             "percentage": 100
           },
           "email": {
-            "filled": 10,
-            "total": 10,
+            "filled": 100,
+            "total": 100,
             "percentage": 100
           },
           "phone": {
-            "filled": 10,
-            "total": 10,
+            "filled": 100,
+            "total": 100,
             "percentage": 100
           },
           "website": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "address": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 98,
+            "total": 100,
+            "percentage": 98
           },
           "neighborhood": {
-            "filled": 10,
-            "total": 10,
+            "filled": 100,
+            "total": 100,
             "percentage": 100
           },
           "city": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "state": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "postal_code": {
-            "filled": 0,
-            "total": 10,
-            "percentage": 0
+            "filled": 52,
+            "total": 100,
+            "percentage": 52
           },
           "specialties": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 98,
+            "total": 100,
+            "percentage": 98
           },
           "rating": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "review_count": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "description": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "social_media": {
-            "filled": 3,
-            "total": 10,
-            "percentage": 30
+            "filled": 39,
+            "total": 100,
+            "percentage": 39
           },
           "business_hours": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "license_number": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 52,
+            "total": 100,
+            "percentage": 52
           },
           "years_experience": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           },
           "company_size": {
-            "filled": 0,
-            "total": 10,
-            "percentage": 0
+            "filled": 52,
+            "total": 100,
+            "percentage": 52
           },
           "source_url": {
-            "filled": 10,
-            "total": 10,
-            "percentage": 100
+            "filled": 87,
+            "total": 100,
+            "percentage": 87
           }
         }
       }
     },
     "duplicates": {
-      "totalRecords": 10,
-      "duplicatesFound": 0,
-      "duplicateGroups": [],
-      "needsManualReview": 0,
+      "totalRecords": 100,
+      "duplicatesFound": 2,
+      "duplicateGroups": [
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: fernanda ribeiro castro",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "agent2_synthetic_1756097321713_0",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "(85) 99128-9875",
+              "email": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+              "originalIndex": 37
+            },
+            {
+              "id": "agent2_synthetic_1756097321714_1",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "(85) 99737-4045",
+              "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 38
+            }
+          ],
+          "suggestedAction": "manual_review"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: marcos vinícius soares",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "agent2_synthetic_1756097321714_0",
+              "name": "Marcos Vinícius Soares",
+              "phone": "(85) 99135-7634",
+              "email": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+              "originalIndex": 42
+            },
+            {
+              "id": "agent2_synthetic_1756097321714_0",
+              "name": "Marcos Vinícius Soares",
+              "phone": "(85) 99342-2706",
+              "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 44
+            }
+          ],
+          "suggestedAction": "manual_review"
+        }
+      ],
+      "needsManualReview": 2,
       "summary": {
         "phoneMatches": 0,
         "emailMatches": 0,
-        "nameMatches": 0,
-        "totalDuplicateRecords": 0
+        "nameMatches": 2,
+        "totalDuplicateRecords": 4
       }
     }
   },
-  "recordsNeedingAttention": []
+  "recordsNeedingAttention": [
+    {
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "name": "José Antônio Ferreira",
+      "phone": "(85) 99478-4473",
+      "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "potential_duplicate",
+          "description": "Potential duplicate of: Fernanda Ribeiro Castro",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "phone": "(85) 99135-7634",
+      "email": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "phone": "(85) 99342-2706",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "name": "Fernando Henrique Araújo",
+      "phone": "(85) 99753-8500",
+      "email": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "potential_duplicate",
+          "description": "Potential duplicate of: Fernanda Ribeiro Castro",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225759_3",
+      "name": "Mônica Carvalho",
+      "phone": "(85) 92778-1514",
+      "email": "mônica.carvalho@hotmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225759_12",
+      "name": "João Monteiro",
+      "phone": "(85) 95552-8054",
+      "email": "joão.monteiro@gmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225759_16",
+      "name": "Patrícia Cardoso",
+      "phone": "(85) 93009-4591",
+      "email": "patrícia.cardoso@hotmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225759_24",
+      "name": "Antônio Souza",
+      "phone": "(85) 96749-4241",
+      "email": "antônio.souza@gmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225759_27",
+      "name": "José Ferreira",
+      "phone": "(85) 96114-9652",
+      "email": "josé.ferreira@gmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "consolidated_1756165225760_110",
+      "name": "Patrícia Lima",
+      "phone": "(85) 99965-4763",
+      "email": "patrícia.lima@hotmail.com",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "agent2_1756096739419_0",
+      "name": "de seguros de Fortaleza",
+      "phone": "(85) 99981-0836",
+      "email": "texas@corretoratexasfortaleza.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 21.1% complete (4/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_1756096999405_1",
+      "name": "de Seguros",
+      "phone": "(85) 3402-3386",
+      "email": "contato@duetscorretora.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 21.1% complete (4/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321713_0",
+      "name": "Fernanda Ribeiro Castro",
+      "phone": "(85) 99128-9875",
+      "email": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "phone": "(85) 99737-4045",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "name": "Ricardo Moura Gomes",
+      "phone": "(85) 99922-4826",
+      "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "name": "Roberto Silva Santos",
+      "phone": "(85) 99176-5446",
+      "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "potential_duplicate",
+          "description": "Potential duplicate of: Fernanda Ribeiro Castro",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "name": "Carlos Eduardo Mendes",
+      "phone": "(85) 99295-5212",
+      "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        },
+        {
+          "type": "potential_duplicate",
+          "description": "Potential duplicate of: Fernanda Ribeiro Castro",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "name": "Ana Beatriz Oliveira",
+      "phone": "(85) 99690-0094",
+      "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    },
+    {
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "name": "Juliana Santos Pereira",
+      "phone": "(85) 99881-8444",
+      "email": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        {
+          "type": "low_completeness",
+          "description": "Only 31.6% complete (6/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "MEDIUM"
+    }
+  ]
 }
