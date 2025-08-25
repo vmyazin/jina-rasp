@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "generatedAt": "2025-08-25T22:43:24.692Z",
+    "totalRecords": 4,
+    "averageCompleteness": 47.3,
+    "scoreableFields": [
+      "name",
+      "email",
+      "phone",
+      "website",
+      "address",
+      "neighborhood",
+      "city",
+      "state",
+      "postal_code",
+      "specialties",
+      "rating",
+      "review_count",
+      "description",
+      "social_media",
+      "business_hours",
+      "license_number",
+      "years_experience",
+      "company_size",
+      "source_url"
+    ]
+  },
+  "summary": {
+    "highCompleteness": 1,
+    "mediumCompleteness": 1,
+    "lowCompleteness": 2,
+    "fieldFillRates": {
+      "name": {
+        "filled": 4,
+        "total": 4,
+        "percentage": 100
+      },
+      "email": {
+        "filled": 3,
+        "total": 4,
+        "percentage": 75
+      },
+      "phone": {
+        "filled": 4,
+        "total": 4,
+        "percentage": 100
+      },
+      "website": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "address": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "neighborhood": {
+        "filled": 3,
+        "total": 4,
+        "percentage": 75
+      },
+      "city": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "state": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "postal_code": {
+        "filled": 1,
+        "total": 4,
+        "percentage": 25
+      },
+      "specialties": {
+        "filled": 3,
+        "total": 4,
+        "percentage": 75
+      },
+      "rating": {
+        "filled": 3,
+        "total": 4,
+        "percentage": 75
+      },
+      "review_count": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "description": {
+        "filled": 2,
+        "total": 4,
+        "percentage": 50
+      },
+      "social_media": {
+        "filled": 0,
+        "total": 4,
+        "percentage": 0
+      },
+      "business_hours": {
+        "filled": 0,
+        "total": 4,
+        "percentage": 0
+      },
+      "license_number": {
+        "filled": 1,
+        "total": 4,
+        "percentage": 25
+      },
+      "years_experience": {
+        "filled": 1,
+        "total": 4,
+        "percentage": 25
+      },
+      "company_size": {
+        "filled": 1,
+        "total": 4,
+        "percentage": 25
+      },
+      "source_url": {
+        "filled": 0,
+        "total": 4,
+        "percentage": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "recordId": "broker-001",
+      "completenessPercentage": 84.2,
+      "filledFields": 16,
+      "totalFields": 19,
+      "category": "High",
+      "missingFields": [
+        "social_media",
+        "business_hours",
+        "source_url"
+      ]
+    },
+    {
+      "recordId": "broker-002",
+      "completenessPercentage": 57.9,
+      "filledFields": 11,
+      "totalFields": 19,
+      "category": "Medium",
+      "missingFields": [
+        "website",
+        "postal_code",
+        "social_media",
+        "business_hours",
+        "license_number",
+        "years_experience",
+        "company_size",
+        "source_url"
+      ]
+    },
+    {
+      "recordId": "broker-003",
+      "completenessPercentage": 36.8,
+      "filledFields": 7,
+      "totalFields": 19,
+      "category": "Low",
+      "missingFields": [
+        "address",
+        "city",
+        "state",
+        "postal_code",
+        "review_count",
+        "description",
+        "social_media",
+        "business_hours",
+        "license_number",
+        "years_experience",
+        "company_size",
+        "source_url"
+      ]
+    },
+    {
+      "recordId": "broker-004",
+      "completenessPercentage": 10.5,
+      "filledFields": 2,
+      "totalFields": 19,
+      "category": "Low",
+      "missingFields": [
+        "email",
+        "website",
+        "address",
+        "neighborhood",
+        "city",
+        "state",
+        "postal_code",
+        "specialties",
+        "rating",
+        "review_count",
+        "description",
+        "social_media",
+        "business_hours",
+        "license_number",
+        "years_experience",
+        "company_size",
+        "source_url"
+      ]
+    }
+  ]
+}

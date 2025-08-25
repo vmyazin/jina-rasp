@@ -1,0 +1,39 @@
+Simple Validation Report Summary
+=====================================
+Generated: 8/25/2025, 7:48:12 PM
+Total Records: 6
+
+Overall Status:
+- Records with no issues: 0
+- Records needing attention: 6
+- Total issues found: 16
+
+Issues by Type:
+- Missing required fields: 2 records
+- Invalid emails: 2 records
+- Invalid phones: 6 records
+- Low completeness (<50%): 5 records
+- Potential duplicates: 1 records
+
+Top Records Needing Attention:
+1. Missing Email Broker (CRITICAL)
+   - Missing: email
+   - Email address is missing or not a string
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+   - Only 21.1% complete (4/19 fields)
+2. Unknown (CRITICAL)
+   - Missing: name
+   - Email format is invalid
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+   - Only 10.5% complete (2/19 fields)
+3. Perfect Broker (HIGH)
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+4. Bad Phone Broker (HIGH)
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+   - Only 21.1% complete (4/19 fields)
+5. Duplicate Broker (HIGH)
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+   - Only 21.1% complete (4/19 fields)
+6. Duplicate Broker (HIGH)
+   - Phone number is obviously invalid (too short/long, all zeros, etc.)
+   - Only 21.1% complete (4/19 fields)

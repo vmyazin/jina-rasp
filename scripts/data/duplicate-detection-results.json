@@ -1,0 +1,248 @@
+{
+  "totalRecords": 100,
+  "duplicatesFound": 9,
+  "duplicateGroups": [
+    {
+      "matchType": "phone_exact",
+      "reason": "Identical phone number: 8539247835",
+      "reviewType": "auto",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "agent2_1756096782758_0",
+          "name": "em vida",
+          "phone": "(85)3924-7835",
+          "email": "",
+          "originalIndex": 36
+        },
+        {
+          "id": "agent2_1756096782759_1",
+          "name": "PREVMAR",
+          "phone": "85 3924-7835",
+          "email": "",
+          "originalIndex": 37
+        }
+      ],
+      "suggestedAction": "merge"
+    },
+    {
+      "matchType": "email_exact",
+      "reason": "Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "reviewType": "auto",
+      "recordCount": 4,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Fernanda Ribeiro Castro",
+          "phone": "+55 (85) 99737-4045",
+          "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 45
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Fernanda Ribeiro Castro",
+          "phone": "+55 (85) 99276-9996",
+          "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 51
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Fernanda Ribeiro Castro",
+          "phone": "+55 (85) 99017-2630",
+          "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 64
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Fernanda Ribeiro Castro",
+          "phone": "+55 (85) 99757-7020",
+          "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 65
+        }
+      ],
+      "suggestedAction": "merge"
+    },
+    {
+      "matchType": "email_exact",
+      "reason": "Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "reviewType": "auto",
+      "recordCount": 3,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Marcos Vinícius Soares",
+          "phone": "+55 (85) 99342-2706",
+          "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 56
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Marcos Vinícius Soares",
+          "phone": "+55 (85) 99211-8121",
+          "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 57
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Marcos Vinícius Soares",
+          "phone": "+55 (85) 99557-8902",
+          "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 59
+        }
+      ],
+      "suggestedAction": "merge"
+    },
+    {
+      "matchType": "email_exact",
+      "reason": "Identical email address: maria.monteiro@broker.com.br",
+      "reviewType": "auto",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "consolidated_1756097700720_2",
+          "name": "Maria Monteiro",
+          "phone": "(85) 96262-2925",
+          "email": "maria.monteiro@broker.com.br",
+          "originalIndex": 68
+        },
+        {
+          "id": "consolidated_1756097700720_5",
+          "name": "Maria Monteiro",
+          "phone": "(85) 93246-6352",
+          "email": "maria.monteiro@broker.com.br",
+          "originalIndex": 71
+        }
+      ],
+      "suggestedAction": "merge"
+    },
+    {
+      "matchType": "name_exact",
+      "reason": "Identical name: ricardo moura gomes",
+      "reviewType": "manual",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Ricardo Moura Gomes",
+          "phone": "+55 (85) 99922-4826",
+          "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 46
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Ricardo Moura Gomes",
+          "phone": "+55 (85) 99911-1301",
+          "email": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+          "originalIndex": 55
+        }
+      ],
+      "suggestedAction": "manual_review"
+    },
+    {
+      "matchType": "name_exact",
+      "reason": "Identical name: josé antônio ferreira",
+      "reviewType": "manual",
+      "recordCount": 3,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99478-4473",
+          "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 47
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99073-0204",
+          "email": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 48
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99034-3253",
+          "email": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 54
+        }
+      ],
+      "suggestedAction": "manual_review"
+    },
+    {
+      "matchType": "name_exact",
+      "reason": "Identical name: roberto silva santos",
+      "reviewType": "manual",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Roberto Silva Santos",
+          "phone": "+55 (85) 99176-5446",
+          "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 49
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Roberto Silva Santos",
+          "phone": "+55 (85) 99224-7553",
+          "email": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+          "originalIndex": 52
+        }
+      ],
+      "suggestedAction": "manual_review"
+    },
+    {
+      "matchType": "name_exact",
+      "reason": "Identical name: carlos eduardo mendes",
+      "reviewType": "manual",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Carlos Eduardo Mendes",
+          "phone": "+55 (85) 99295-5212",
+          "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 53
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_1",
+          "name": "Carlos Eduardo Mendes",
+          "phone": "+55 (85) 99520-1514",
+          "email": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+          "originalIndex": 63
+        }
+      ],
+      "suggestedAction": "manual_review"
+    },
+    {
+      "matchType": "name_exact",
+      "reason": "Identical name: ana beatriz oliveira",
+      "reviewType": "manual",
+      "recordCount": 2,
+      "records": [
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Ana Beatriz Oliveira",
+          "phone": "+55 (85) 99690-0094",
+          "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 58
+        },
+        {
+          "id": "agent2_synthetic_1756097321714_0",
+          "name": "Ana Beatriz Oliveira",
+          "phone": "+55 (85) 99374-4960",
+          "email": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 60
+        }
+      ],
+      "suggestedAction": "manual_review"
+    }
+  ],
+  "needsManualReview": 5,
+  "summary": {
+    "phoneMatches": 1,
+    "emailMatches": 3,
+    "nameMatches": 5,
+    "totalDuplicateRecords": 22
+  }
+}

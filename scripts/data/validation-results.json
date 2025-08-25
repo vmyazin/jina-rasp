@@ -1,0 +1,527 @@
+{
+  "totalRecords": 100,
+  "validRecords": 93,
+  "invalidRecords": 7,
+  "validationResults": [
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tmpjrasif1i9d"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tnqekocmoxut"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tnhcfe9mbywj"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tnx39978ds8e"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tnrtdao0ukbwb"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tn0i5wxpvu24gq"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tn8qz81foz28"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tn0dxjdtm4z8qb"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tny7l70g7efhc"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tnfdackvmgzo"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to9919k10kpqb"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toyux9b77w3yl"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tomejz5lv5mtl"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toovoot63j6x"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tonfwj71qdhe"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toqyq15as2jf"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tov9g1b49q0f8"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toug3bz3z4xvh"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tob3mqs8uyhc6"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toirn9z5043z"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tosmkt5g7hkwd"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tovqqx4vusvk"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to65njvx3bgoe"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tof9zcjp2u0z9"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to32b8e76nx6c"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to8ilylhl0cek"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tov176dunryys"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to02yix2r36n45"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1toa9bv7rqcyeu"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to8n98qkjo8or"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tohuzc8m32z5"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1totz87n8xa9l"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tot9j93fa71s9"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1to95mu5b3kbpe"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent1_meqmf1tod89ev15s0o9"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_1756096739419_0"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "email"
+      ],
+      "recordId": "agent2_1756096782758_0"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "email"
+      ],
+      "recordId": "agent2_1756096782759_1"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "email"
+      ],
+      "recordId": "agent2_1756096817834_0"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "phone"
+      ],
+      "recordId": "agent2_1756096860838_0"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "phone"
+      ],
+      "recordId": "agent2_1756096961157_0"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "phone",
+        "email"
+      ],
+      "recordId": "agent2_1756096996884_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_1756096999405_1"
+    },
+    {
+      "isValid": false,
+      "missingFields": [
+        "email"
+      ],
+      "recordId": "agent2_1756097150375_2"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321713_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "agent2_synthetic_1756097321714_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_0"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_1"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_2"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_3"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_4"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_5"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_6"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_7"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_8"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_9"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_10"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_11"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_12"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_13"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_14"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_15"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_16"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_17"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_18"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700720_19"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_20"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_21"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_22"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_23"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_24"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_25"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_26"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_27"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_28"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_29"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_30"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_31"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_32"
+    },
+    {
+      "isValid": true,
+      "missingFields": [],
+      "recordId": "consolidated_1756097700721_33"
+    }
+  ],
+  "summary": {
+    "missingName": 0,
+    "missingPhone": 3,
+    "missingEmail": 5
+  }
+}

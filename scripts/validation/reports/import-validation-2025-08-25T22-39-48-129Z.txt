@@ -1,0 +1,290 @@
+Data Import Validation Report
+====================================
+Generated: 8/25/2025, 7:39:48 PM
+Import Process: consolidate_data.js
+
+Summary Statistics:
+- Total Records Processed: 66
+- Valid Records: 59
+- Rejected Records: 7
+- Cleaned Records: 23
+- Duplicates Removed: 12
+- Final Record Count: 100
+
+Data Quality:
+- Valid Record Rate: 89.4%
+- Rejection Rate: 10.6%
+- Cleaning Rate: 34.8%
+
+REJECTED Issues (7):
+-----------------------
+- Record: em vida (ID: agent2_1756096782758_0)
+  Phone: (85)3924-7835, Email: unknown
+  Issues: Missing required fields: email
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: PREVMAR (ID: agent2_1756096782759_1)
+  Phone: 85 3924-7835, Email: unknown
+  Issues: Missing required fields: email
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Sustentare (ID: agent2_1756096817834_0)
+  Phone: 85 98776-6489, Email: unknown
+  Issues: Missing required fields: email
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: de Seguros
+
+URL Source (ID: agent2_1756096860838_0)
+  Phone: unknown, Email: contato@seg10.com.br
+  Issues: Missing required fields: phone
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: de seguros auto (ID: agent2_1756096961157_0)
+  Phone: unknown, Email: contato@glisaude.com.br
+  Issues: Missing required fields: phone
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: de Seguros Insurance Fortaleza (ID: agent2_1756096996884_0)
+  Phone: unknown, Email: unknown
+  Issues: Missing required fields: phone, email
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: de seguro (ID: agent2_1756097150375_2)
+  Phone: (85) 3023-1913, Email: unknown
+  Issues: Missing required fields: email
+  Time: 2025-08-25T22:39:48.121Z
+
+WARNING Issues (8):
+----------------------
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99478-4473, Email: josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99073-0204, Email: josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99135-7634, Email: marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99034-3253, Email: josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99342-2706, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99211-8121, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99557-8902, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernando Henrique Araújo (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99753-8500, Email: fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br
+  Issues: Invalid email format: Email format is invalid
+  Time: 2025-08-25T22:39:48.121Z
+
+CLEANED Issues (23):
+----------------------
+- Record: de Seguros (ID: agent2_1756096999405_1)
+  Phone: 8534023386, Email: contato@duetscorretora.com.br
+  Issues: Phone standardized from "8534023386" to "(85) 3402-3386"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321713_0)
+  Phone: +55 (85) 99128-9875, Email: fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br
+  Issues: Phone standardized from "+55 (85) 99128-9875" to "(85) 99128-9875"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99737-4045, Email: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99737-4045" to "(85) 99737-4045"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Ricardo Moura Gomes (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99922-4826, Email: ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99922-4826" to "(85) 99922-4826"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99478-4473, Email: josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99478-4473" to "(85) 99478-4473"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99073-0204, Email: josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99073-0204" to "(85) 99073-0204"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Roberto Silva Santos (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99176-5446, Email: roberto.silva.santos.seguros@corretorapremiumeassociados.com.br
+  Issues: Phone standardized from "+55 (85) 99176-5446" to "(85) 99176-5446"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99135-7634, Email: marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br
+  Issues: Phone standardized from "+55 (85) 99135-7634" to "(85) 99135-7634"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99276-9996, Email: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99276-9996" to "(85) 99276-9996"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Roberto Silva Santos (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99224-7553, Email: roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br
+  Issues: Phone standardized from "+55 (85) 99224-7553" to "(85) 99224-7553"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Carlos Eduardo Mendes (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99295-5212, Email: carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br
+  Issues: Phone standardized from "+55 (85) 99295-5212" to "(85) 99295-5212"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99034-3253, Email: josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br
+  Issues: Phone standardized from "+55 (85) 99034-3253" to "(85) 99034-3253"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Ricardo Moura Gomes (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99911-1301, Email: ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br
+  Issues: Phone standardized from "+55 (85) 99911-1301" to "(85) 99911-1301"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99342-2706, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99342-2706" to "(85) 99342-2706"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99211-8121, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99211-8121" to "(85) 99211-8121"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Ana Beatriz Oliveira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99690-0094, Email: ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99690-0094" to "(85) 99690-0094"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99557-8902, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Phone standardized from "+55 (85) 99557-8902" to "(85) 99557-8902"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Ana Beatriz Oliveira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99374-4960, Email: ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99374-4960" to "(85) 99374-4960"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernando Henrique Araújo (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99753-8500, Email: fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br
+  Issues: Phone standardized from "+55 (85) 99753-8500" to "(85) 99753-8500"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Juliana Santos Pereira (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99881-8444, Email: juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br
+  Issues: Phone standardized from "+55 (85) 99881-8444" to "(85) 99881-8444"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Carlos Eduardo Mendes (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99520-1514, Email: carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br
+  Issues: Phone standardized from "+55 (85) 99520-1514" to "(85) 99520-1514"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321714_0)
+  Phone: +55 (85) 99017-2630, Email: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99017-2630" to "(85) 99017-2630"
+  Time: 2025-08-25T22:39:48.121Z
+
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321714_1)
+  Phone: +55 (85) 99757-7020, Email: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Issues: Phone standardized from "+55 (85) 99757-7020" to "(85) 99757-7020"
+  Time: 2025-08-25T22:39:48.121Z
+
+DUPLICATE_REMOVED Issues (8):
+--------------------------------
+- Record: Fernanda Ribeiro Castro (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99737-4045, Email: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Issues: Duplicate removed: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br (kept 1 of 4 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Marcos Vinícius Soares (ID: agent2_synthetic_1756097321714_0)
+  Phone: (85) 99342-2706, Email: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Issues: Duplicate removed: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br (kept 1 of 3 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Ricardo Moura Gomes (ID: agent2_synthetic_1756097321714_0)
+  Phone: (85) 99922-4826, Email: ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br
+  Issues: Duplicate removed: Identical name: ricardo moura gomes (kept 1 of 2 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99478-4473, Email: josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Duplicate removed: Identical name: josé antônio ferreira (kept 1 of 3 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Roberto Silva Santos (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99176-5446, Email: roberto.silva.santos.seguros@corretorapremiumeassociados.com.br
+  Issues: Duplicate removed: Identical name: roberto silva santos (kept 1 of 2 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Carlos Eduardo Mendes (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99295-5212, Email: carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br
+  Issues: Duplicate removed: Identical name: carlos eduardo mendes (kept 1 of 2 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Ana Beatriz Oliveira (ID: agent2_synthetic_1756097321714_0)
+  Phone: (85) 99690-0094, Email: ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Duplicate removed: Identical name: ana beatriz oliveira (kept 1 of 2 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Tatiana Soares (ID: consolidated_1756161588122_33)
+  Phone: (85) 92894-7613, Email: tatiana.soares@hotmail.com
+  Issues: Duplicate removed: Identical name: tatiana soares (kept 1 of 2 records)
+  Time: 2025-08-25T22:39:48.123Z
+
+MANUAL_REVIEW Issues (6):
+----------------------------
+- Record: Ricardo Moura Gomes (ID: agent2_synthetic_1756097321714_0)
+  Phone: (85) 99922-4826, Email: ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br
+  Issues: Manual review needed: Identical name: ricardo moura gomes (2 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: José Antônio Ferreira (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99478-4473, Email: josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Manual review needed: Identical name: josé antônio ferreira (3 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Roberto Silva Santos (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99176-5446, Email: roberto.silva.santos.seguros@corretorapremiumeassociados.com.br
+  Issues: Manual review needed: Identical name: roberto silva santos (2 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Carlos Eduardo Mendes (ID: agent2_synthetic_1756097321714_1)
+  Phone: (85) 99295-5212, Email: carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br
+  Issues: Manual review needed: Identical name: carlos eduardo mendes (2 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Ana Beatriz Oliveira (ID: agent2_synthetic_1756097321714_0)
+  Phone: (85) 99690-0094, Email: ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br
+  Issues: Manual review needed: Identical name: ana beatriz oliveira (2 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+
+- Record: Tatiana Soares (ID: consolidated_1756161588122_33)
+  Phone: (85) 92894-7613, Email: tatiana.soares@hotmail.com
+  Issues: Manual review needed: Identical name: tatiana soares (2 similar records)
+  Time: 2025-08-25T22:39:48.123Z
+

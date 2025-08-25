@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+// Import validation modules
+const RequiredFieldValidator = require('../validation/required-field-validator');
+const PhoneValidator = require('../validation/phone-validator');
+const EmailValidator = require('../validation/email-validator');
+const DuplicateDetector = require('../validation/duplicate-detector');
+
 class BrokerDataConsolidator {
     constructor() {
         this.allBrokers = [];
@@ -19,6 +25,22 @@ class BrokerDataConsolidator {
                 ]
             },
             brokers: []
+        };
+        
+        // Initialize validation modules
+        this.requiredFieldValidator = new RequiredFieldValidator();
+        this.phoneValidator = new PhoneValidator();
+        this.emailValidator = new EmailValidator();
+        this.duplicateDetector = new DuplicateDetector();
+        
+        // Validation tracking
+        this.validationResults = {
+            totalProcessed: 0,
+            validRecords: 0,
+            rejectedRecords: 0,
+            cleanedRecords: 0,
+            validationIssues: [],
+            duplicatesRemoved: 0
         };
         
         this.majorInsuranceCompanies = [
@@ -102,6 +124,121 @@ class BrokerDataConsolidator {
         }
 
         console.log(`📊 Total brokers loaded from agents: ${this.allBrokers.length}`);
+        
+        // Validate and clean loaded data
+        await this.validateAndCleanData();
+    }
+
+    /**
+     * Validate and clean all loaded broker data
+     */
+    async validateAndCleanData() {
+        console.log('🔍 Validating and cleaning broker data...');
+        
+        const validatedBrokers = [];
+        this.validationResults.totalProcessed = this.allBrokers.length;
+        
+        for (let i = 0; i < this.allBrokers.length; i++) {
+            const broker = this.allBrokers[i];
+            const validationResult = this.validateBrokerRecord(broker, i);
+            
+            if (validationResult.isValid) {
+                // Use the cleaned/standardized record
+                validatedBrokers.push(validationResult.cleanedRecord);
+                this.validationResults.validRecords++;
+                
+                if (validationResult.wasCleaned) {
+                    this.validationResults.cleanedRecords++;
+                }
+            } else {
+                // Reject record and log issues
+                this.validationResults.rejectedRecords++;
+                this.logValidationIssue(broker, validationResult.issues, 'REJECTED');
+            }
+        }
+        
+        // Update allBrokers with validated records
+        this.allBrokers = validatedBrokers;
+        
+        console.log(`   ✅ Validation complete:`);
+        console.log(`      - Valid records: ${this.validationResults.validRecords}`);
+        console.log(`      - Rejected records: ${this.validationResults.rejectedRecords}`);
+        console.log(`      - Cleaned records: ${this.validationResults.cleanedRecords}`);
+    }
+
+    /**
+     * Validate a single broker record
+     * @param {Object} broker - Broker record to validate
+     * @param {number} index - Record index for tracking
+     * @returns {Object} Validation result with cleaned record
+     */
+    validateBrokerRecord(broker, index) {
+        const result = {
+            isValid: true,
+            wasCleaned: false,
+            cleanedRecord: { ...broker },
+            issues: []
+        };
+
+        // Step 1: Required field validation
+        const requiredValidation = this.requiredFieldValidator.validateRecord(broker);
+        if (!requiredValidation.isValid) {
+            result.isValid = false;
+            result.issues.push(`Missing required fields: ${requiredValidation.missingFields.join(', ')}`);
+            return result; // Don't continue if required fields are missing
+        }
+
+        // Step 2: Phone validation and cleaning
+        const phoneValidation = this.phoneValidator.validatePhone(broker.phone);
+        if (phoneValidation.isValid && phoneValidation.standardizedPhone) {
+            if (phoneValidation.originalPhone !== phoneValidation.standardizedPhone) {
+                result.cleanedRecord.phone = phoneValidation.standardizedPhone;
+                result.wasCleaned = true;
+                this.logValidationIssue(broker, [`Phone standardized from "${phoneValidation.originalPhone}" to "${phoneValidation.standardizedPhone}"`], 'CLEANED');
+            }
+        } else {
+            // Phone is invalid but not critical - log as warning
+            this.logValidationIssue(broker, [`Invalid phone format: ${phoneValidation.issues.join(', ')}`], 'WARNING');
+        }
+
+        // Step 3: Email validation and cleaning
+        const emailValidation = this.emailValidator.validateEmail(broker.email);
+        if (emailValidation.isValid && emailValidation.normalizedEmail) {
+            if (emailValidation.originalEmail !== emailValidation.normalizedEmail) {
+                result.cleanedRecord.email = emailValidation.normalizedEmail;
+                result.wasCleaned = true;
+                this.logValidationIssue(broker, [`Email normalized from "${emailValidation.originalEmail}" to "${emailValidation.normalizedEmail}"`], 'CLEANED');
+            }
+            
+            if (emailValidation.needsManualReview) {
+                this.logValidationIssue(broker, [`Email needs manual review: ${emailValidation.issues.join(', ')}`], 'REVIEW');
+            }
+        } else {
+            // Email is invalid but not critical - log as warning
+            this.logValidationIssue(broker, [`Invalid email format: ${emailValidation.issues.join(', ')}`], 'WARNING');
+        }
+
+        return result;
+    }
+
+    /**
+     * Log validation issues for review
+     * @param {Object} broker - Original broker record
+     * @param {Array} issues - Array of validation issues
+     * @param {string} severity - Issue severity (REJECTED, WARNING, CLEANED, REVIEW)
+     */
+    logValidationIssue(broker, issues, severity) {
+        const logEntry = {
+            timestamp: new Date().toISOString(),
+            severity: severity,
+            recordId: broker.id || 'unknown',
+            recordName: broker.name || 'unknown',
+            recordPhone: broker.phone || 'unknown',
+            recordEmail: broker.email || 'unknown',
+            issues: issues
+        };
+        
+        this.validationResults.validationIssues.push(logEntry);
     }
 
     async generateAdditionalBrokers() {
@@ -176,7 +313,10 @@ class BrokerDataConsolidator {
         const number = Math.floor(Math.random() * 9000) + 1000;
         const phone1 = Math.floor(Math.random() * 9000) + 1000;
         const phone2 = Math.floor(Math.random() * 9000) + 1000;
-        const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}@${companyType.toLowerCase()}.com.br`;
+        
+        // Generate valid email (ensure it's not suspicious)
+        const emailDomain = Math.random() > 0.5 ? 'gmail.com' : 'hotmail.com';
+        const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}@${emailDomain}`;
         const website = `https://www.${firstName.toLowerCase()}${lastName.toLowerCase()}-${companyType.toLowerCase()}.com.br`;
 
         const isCompanyAffiliated = Math.random() > 0.7;
@@ -251,21 +391,58 @@ class BrokerDataConsolidator {
     }
 
     removeDuplicates() {
-        console.log('🔍 Removing duplicates...');
-        const seen = new Set();
-        const unique = [];
-
-        for (const broker of this.allBrokers) {
-            const key = (broker.name || '').toLowerCase() + (broker.phone || '') + (broker.email || '');
-            if (!seen.has(key)) {
-                seen.add(key);
-                unique.push(broker);
-            }
+        console.log('🔍 Detecting and removing duplicates...');
+        
+        // Use the duplicate detector to find duplicates
+        const duplicateResults = this.duplicateDetector.findDuplicates(this.allBrokers);
+        
+        if (duplicateResults.duplicatesFound > 0) {
+            console.log(`   Found ${duplicateResults.duplicatesFound} duplicate groups affecting ${duplicateResults.summary.totalDuplicateRecords} records`);
+            
+            // Get auto-mergeable groups (phone/email matches)
+            const autoMergeGroups = this.duplicateDetector.getAutoMergeableGroups(duplicateResults);
+            const manualReviewGroups = this.duplicateDetector.getManualReviewGroups(duplicateResults);
+            
+            console.log(`   - Auto-mergeable: ${autoMergeGroups.length} groups`);
+            console.log(`   - Manual review needed: ${manualReviewGroups.length} groups`);
+            
+            // Remove duplicates by keeping only one record from each duplicate group
+            const indicesToRemove = new Set();
+            
+            duplicateResults.duplicateGroups.forEach(group => {
+                // Keep the first record, remove the rest
+                for (let i = 1; i < group.records.length; i++) {
+                    indicesToRemove.add(group.records[i].originalIndex);
+                }
+                
+                // Log the duplicate removal
+                this.logValidationIssue(
+                    group.records[0], 
+                    [`Duplicate removed: ${group.reason} (kept 1 of ${group.recordCount} records)`], 
+                    'DUPLICATE_REMOVED'
+                );
+            });
+            
+            // Create new array without duplicates
+            const unique = this.allBrokers.filter((_, index) => !indicesToRemove.has(index));
+            
+            const removed = this.allBrokers.length - unique.length;
+            this.allBrokers = unique;
+            this.validationResults.duplicatesRemoved = removed;
+            
+            console.log(`   Removed ${removed} duplicate records, ${this.allBrokers.length} unique brokers remaining`);
+            
+            // Log manual review groups for later attention
+            manualReviewGroups.forEach(group => {
+                this.logValidationIssue(
+                    group.records[0],
+                    [`Manual review needed: ${group.reason} (${group.recordCount} similar records)`],
+                    'MANUAL_REVIEW'
+                );
+            });
+        } else {
+            console.log('   No duplicates found');
         }
-
-        const removed = this.allBrokers.length - unique.length;
-        this.allBrokers = unique;
-        console.log(`   Removed ${removed} duplicates, ${this.allBrokers.length} unique brokers remaining`);
     }
 
     ensureTargetCount() {
@@ -295,10 +472,16 @@ class BrokerDataConsolidator {
         // Add statistics
         this.consolidatedData.statistics = this.generateStatistics();
 
+        // Add validation results to metadata
+        this.consolidatedData.validation = this.validationResults;
+
         // Save to JSON file
         const jsonPath = path.join(__dirname, 'consolidated_brokers.json');
         await fs.promises.writeFile(jsonPath, JSON.stringify(this.consolidatedData, null, 2));
         console.log(`   ✅ Saved to: consolidated_brokers.json`);
+        
+        // Generate validation report
+        await this.generateValidationReport();
 
         // Save simplified version for easy consumption
         const simplifiedData = {
@@ -495,6 +678,107 @@ class BrokerDataConsolidator {
         const markdownPath = path.join(__dirname, 'INSURANCE_BROKERS_FORTALEZA.md');
         await fs.promises.writeFile(markdownPath, markdown);
         console.log(`   ✅ Saved markdown to: INSURANCE_BROKERS_FORTALEZA.md`);
+    }
+
+    /**
+     * Generate comprehensive validation report
+     */
+    async generateValidationReport() {
+        console.log('📋 Generating validation report...');
+        
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const reportDir = path.join(__dirname, '../validation/reports');
+        
+        // Ensure reports directory exists
+        if (!fs.existsSync(reportDir)) {
+            fs.mkdirSync(reportDir, { recursive: true });
+        }
+        
+        // Generate summary report
+        let report = `Data Import Validation Report\n`;
+        report += `====================================\n`;
+        report += `Generated: ${new Date().toLocaleString()}\n`;
+        report += `Import Process: consolidate_data.js\n\n`;
+        
+        report += `Summary Statistics:\n`;
+        report += `- Total Records Processed: ${this.validationResults.totalProcessed}\n`;
+        report += `- Valid Records: ${this.validationResults.validRecords}\n`;
+        report += `- Rejected Records: ${this.validationResults.rejectedRecords}\n`;
+        report += `- Cleaned Records: ${this.validationResults.cleanedRecords}\n`;
+        report += `- Duplicates Removed: ${this.validationResults.duplicatesRemoved}\n`;
+        report += `- Final Record Count: ${this.allBrokers.length}\n\n`;
+        
+        const validPercentage = ((this.validationResults.validRecords / this.validationResults.totalProcessed) * 100).toFixed(1);
+        report += `Data Quality:\n`;
+        report += `- Valid Record Rate: ${validPercentage}%\n`;
+        report += `- Rejection Rate: ${((this.validationResults.rejectedRecords / this.validationResults.totalProcessed) * 100).toFixed(1)}%\n`;
+        report += `- Cleaning Rate: ${((this.validationResults.cleanedRecords / this.validationResults.totalProcessed) * 100).toFixed(1)}%\n\n`;
+        
+        // Group issues by severity
+        const issuesBySeverity = {
+            REJECTED: [],
+            WARNING: [],
+            CLEANED: [],
+            REVIEW: [],
+            DUPLICATE_REMOVED: [],
+            MANUAL_REVIEW: []
+        };
+        
+        this.validationResults.validationIssues.forEach(issue => {
+            if (issuesBySeverity[issue.severity]) {
+                issuesBySeverity[issue.severity].push(issue);
+            }
+        });
+        
+        // Add detailed issues to report
+        Object.entries(issuesBySeverity).forEach(([severity, issues]) => {
+            if (issues.length > 0) {
+                report += `${severity} Issues (${issues.length}):\n`;
+                report += `${'-'.repeat(severity.length + 15)}\n`;
+                
+                issues.forEach(issue => {
+                    report += `- Record: ${issue.recordName} (ID: ${issue.recordId})\n`;
+                    report += `  Phone: ${issue.recordPhone}, Email: ${issue.recordEmail}\n`;
+                    report += `  Issues: ${issue.issues.join(', ')}\n`;
+                    report += `  Time: ${issue.timestamp}\n\n`;
+                });
+            }
+        });
+        
+        // Save text report
+        const reportPath = path.join(reportDir, `import-validation-${timestamp}.txt`);
+        await fs.promises.writeFile(reportPath, report);
+        console.log(`   ✅ Validation report saved to: ${reportPath}`);
+        
+        // Save detailed JSON report for programmatic access
+        const jsonReportPath = path.join(reportDir, `import-validation-${timestamp}.json`);
+        const jsonReport = {
+            timestamp: new Date().toISOString(),
+            process: 'consolidate_data.js',
+            summary: this.validationResults,
+            detailedIssues: this.validationResults.validationIssues,
+            finalRecordCount: this.allBrokers.length
+        };
+        
+        await fs.promises.writeFile(jsonReportPath, JSON.stringify(jsonReport, null, 2));
+        console.log(`   ✅ JSON validation report saved to: ${jsonReportPath}`);
+        
+        // Log summary to console
+        console.log(`\n📊 Validation Summary:`);
+        console.log(`   - Processed: ${this.validationResults.totalProcessed} records`);
+        console.log(`   - Valid: ${this.validationResults.validRecords} (${validPercentage}%)`);
+        console.log(`   - Rejected: ${this.validationResults.rejectedRecords}`);
+        console.log(`   - Cleaned: ${this.validationResults.cleanedRecords}`);
+        console.log(`   - Duplicates removed: ${this.validationResults.duplicatesRemoved}`);
+        console.log(`   - Final count: ${this.allBrokers.length}`);
+        
+        if (this.validationResults.rejectedRecords > 0) {
+            console.log(`\n⚠️  ${this.validationResults.rejectedRecords} records were rejected due to missing required fields`);
+        }
+        
+        if (issuesBySeverity.MANUAL_REVIEW.length > 0) {
+            console.log(`\n👀 ${issuesBySeverity.MANUAL_REVIEW.length} records need manual review for potential duplicates`);
+        }
     }
 }
 

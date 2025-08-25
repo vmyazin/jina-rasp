@@ -1,366 +1,7 @@
 {
-  "metadata": {
-    "total_brokers": 10,
-    "scraped_at": "2025-08-25T22:40:30.095Z",
-    "agents_used": [
-      "Agent 1",
-      "Agent 2"
-    ],
-    "data_sources": [
-      "agent1_results.json",
-      "agent2_results.json"
-    ],
-    "target_neighborhoods": [
-      "Centro",
-      "Aldeota",
-      "Meireles",
-      "Cocó",
-      "Papicu",
-      "Varjota",
-      "Dionísio Torres",
-      "Benfica",
-      "Montese",
-      "Messejana",
-      "Cambeba",
-      "José Bonifácio",
-      "Fátima",
-      "Joaquim Távora",
-      "Mucuripe"
-    ]
-  },
-  "brokers": [
-    {
-      "id": "agent1_meqmf1tmpjrasif1i9d",
-      "name": "Silva Seguros",
-      "owner": "João Silva",
-      "email": "joo.silva@gmail.com",
-      "phone": "(85) 97100-5622",
-      "website": "https://www.silvaseguros.com.br",
-      "address": "Av. Dom Manuel, 534 - Centro, Fortaleza, CE",
-      "neighborhood": "Centro",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "auto"
-      ],
-      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4,
-      "review_count": 24,
-      "business_hours": {
-        "weekdays": "08:30 - 18:00",
-        "saturday": "Fechado",
-        "sunday": "Fechado"
-      },
-      "years_experience": 20,
-      "license_number": 664448,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.146Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tnqekocmoxut",
-      "name": "Oliveira Corretora",
-      "owner": "Maria Oliveira",
-      "email": "maria.oliveira@outlook.com",
-      "phone": "(85) 92895-8815",
-      "website": "https://www.oliveiracorretora.com.br",
-      "address": "Avenida Desembargador Moreira, 683 - Aldeota, Fortaleza, CE",
-      "neighborhood": "Aldeota",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "vida"
-      ],
-      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 3.9,
-      "review_count": 26,
-      "business_hours": {
-        "weekdays": "08:30 - 17:00",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 12,
-      "license_number": 981105,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tnhcfe9mbywj",
-      "name": "Santos Insurance",
-      "owner": "Carlos Santos",
-      "email": "carlos.santos@uol.com.br",
-      "phone": "(85) 92484-7871",
-      "website": "https://www.santosinsurance.com.br",
-      "address": "Rua Visconde do Rio Branco, 1176 - Meireles, Fortaleza, CE",
-      "neighborhood": "Meireles",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "empresarial"
-      ],
-      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.3,
-      "review_count": 73,
-      "business_hours": {
-        "weekdays": "08:00 - 17:30",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 21,
-      "license_number": 123046,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tnx39978ds8e",
-      "name": "Costa Seguros",
-      "owner": "Ana Costa",
-      "email": "ana.costa@gmail.com",
-      "phone": "(85) 95200-9981",
-      "website": "https://www.costaseguros.com.br",
-      "address": "Rua General Sampaio, 802 - Centro, Fortaleza, CE",
-      "neighborhood": "Centro",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "residencial"
-      ],
-      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.2,
-      "review_count": 47,
-      "business_hours": {
-        "weekdays": "08:00 - 17:30",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 10,
-      "license_number": 825752,
-      "social_media": {
-        "instagram": "costasegurosseguros",
-        "whatsapp": "5585841060167"
-      },
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tnrtdao0ukbwb",
-      "name": "Martins Broker",
-      "owner": "Pedro Martins",
-      "email": "pedro.martins@yahoo.com.br",
-      "phone": "(85) 91214-7293",
-      "website": "https://www.martinsbroker.com.br",
-      "address": "Avenida Santos Dumont, 1277 - Aldeota, Fortaleza, CE",
-      "neighborhood": "Aldeota",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "auto"
-      ],
-      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4,
-      "review_count": 13,
-      "business_hours": {
-        "weekdays": "09:00 - 17:30",
-        "saturday": "Fechado",
-        "sunday": "Fechado"
-      },
-      "years_experience": 11,
-      "license_number": 673705,
-      "social_media": {
-        "instagram": "martinsbrokerseguros"
-      },
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tn0i5wxpvu24gq",
-      "name": "Ferreira Seguros",
-      "owner": "Lucia Ferreira",
-      "email": "lucia.ferreira@outlook.com",
-      "phone": "(85) 93783-5815",
-      "website": "https://www.ferreiraseguros.com.br",
-      "address": "Avenida Beira Mar, 490, Sala 103 - Meireles, Fortaleza, CE",
-      "neighborhood": "Meireles",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "saude"
-      ],
-      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.1,
-      "review_count": 44,
-      "business_hours": {
-        "weekdays": "09:00 - 17:30",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 21,
-      "license_number": 278211,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tn8qz81foz28",
-      "name": "Lima Corretora",
-      "owner": "Roberto Lima",
-      "email": "roberto.lima@outlook.com",
-      "phone": "(85) 93708-2830",
-      "website": "https://www.limacorretora.com.br",
-      "address": "Rua Dom Manuel, 410 - Centro, Fortaleza, CE",
-      "neighborhood": "Centro",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "vida"
-      ],
-      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.9,
-      "review_count": 26,
-      "business_hours": {
-        "weekdays": "09:00 - 17:30",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 27,
-      "license_number": 105875,
-      "social_media": {
-        "instagram": "limacorretoraseguros"
-      },
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tn0dxjdtm4z8qb",
-      "name": "Souza Insurance",
-      "owner": "Fernanda Souza",
-      "email": "fernanda.souza@gmail.com",
-      "phone": "(85) 91389-4342",
-      "website": "https://www.souzainsurance.com.br",
-      "address": "Avenida Monsenhor Tabosa, 842, Sala 108 - Aldeota, Fortaleza, CE",
-      "neighborhood": "Aldeota",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "empresarial"
-      ],
-      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.4,
-      "review_count": 14,
-      "business_hours": {
-        "weekdays": "08:00 - 17:30",
-        "saturday": "Fechado",
-        "sunday": "Fechado"
-      },
-      "years_experience": 15,
-      "license_number": 533361,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tny7l70g7efhc",
-      "name": "Pereira Seguros",
-      "owner": "José Pereira",
-      "email": "jos.pereira@yahoo.com.br",
-      "phone": "(85) 93588-2307",
-      "website": "https://www.pereiraseguros.com.br",
-      "address": "Avenida Beira Mar, 181 - Meireles, Fortaleza, CE",
-      "neighborhood": "Meireles",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "auto"
-      ],
-      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.5,
-      "review_count": 54,
-      "business_hours": {
-        "weekdays": "08:00 - 17:00",
-        "saturday": "Fechado",
-        "sunday": "Fechado"
-      },
-      "years_experience": 19,
-      "license_number": 179279,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.147Z",
-      "agent": "Agent1",
-      "source": "generated"
-    },
-    {
-      "id": "agent1_meqmf1tnfdackvmgzo",
-      "name": "Castro Corretora",
-      "owner": "Helena Castro",
-      "email": "helena.castro@yahoo.com.br",
-      "phone": "(85) 92581-2389",
-      "website": "https://www.castrocorretora.com.br",
-      "address": "Av. General Sampaio, 1171 - Centro, Fortaleza, CE",
-      "neighborhood": "Centro",
-      "city": "Fortaleza",
-      "state": "CE",
-      "specialties": [
-        "residencial"
-      ],
-      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
-      "rating": 4.2,
-      "review_count": 22,
-      "business_hours": {
-        "weekdays": "08:00 - 18:00",
-        "saturday": "08:00 - 12:00",
-        "sunday": "Fechado"
-      },
-      "years_experience": 28,
-      "license_number": 908744,
-      "social_media": null,
-      "source_url": "https://www.generated-data.com",
-      "scraped_at": "2025-08-25T04:32:17.148Z",
-      "agent": "Agent1",
-      "source": "generated"
-    }
-  ],
-  "statistics": {
-    "by_neighborhood": {
-      "Centro": 4,
-      "Aldeota": 3,
-      "Meireles": 3
-    },
-    "by_specialty": {
-      "auto": 3,
-      "vida": 2,
-      "empresarial": 2,
-      "residencial": 2,
-      "saude": 1
-    },
-    "by_company_affiliation": {},
-    "rating_distribution": {
-      "3": 1,
-      "4": 9
-    },
-    "average_rating": 4.25,
-    "total_reviews": 343,
-    "verified_count": 0,
-    "with_social_media": 3
-  },
-  "validation": {
+  "timestamp": "2025-08-25T22:40:30.116Z",
+  "process": "consolidate_data.js",
+  "summary": {
     "totalProcessed": 66,
     "validRecords": 59,
     "rejectedRecords": 7,
@@ -918,5 +559,558 @@
       }
     ],
     "duplicatesRemoved": 11
-  }
+  },
+  "detailedIssues": [
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096782758_0",
+      "recordName": "em vida",
+      "recordPhone": "(85)3924-7835",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096782759_1",
+      "recordName": "PREVMAR",
+      "recordPhone": "85 3924-7835",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096817834_0",
+      "recordName": "Sustentare",
+      "recordPhone": "85 98776-6489",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096860838_0",
+      "recordName": "de Seguros\n\nURL Source",
+      "recordPhone": "unknown",
+      "recordEmail": "contato@seg10.com.br",
+      "issues": [
+        "Missing required fields: phone"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096961157_0",
+      "recordName": "de seguros auto",
+      "recordPhone": "unknown",
+      "recordEmail": "contato@glisaude.com.br",
+      "issues": [
+        "Missing required fields: phone"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096996884_0",
+      "recordName": "de Seguros Insurance Fortaleza",
+      "recordPhone": "unknown",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: phone, email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_1756096999405_1",
+      "recordName": "de Seguros",
+      "recordPhone": "8534023386",
+      "recordEmail": "contato@duetscorretora.com.br",
+      "issues": [
+        "Phone standardized from \"8534023386\" to \"(85) 3402-3386\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.098Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756097150375_2",
+      "recordName": "de seguro",
+      "recordPhone": "(85) 3023-1913",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321713_0",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99128-9875",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99128-9875\" to \"(85) 99128-9875\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99737-4045",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99737-4045\" to \"(85) 99737-4045\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "+55 (85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99922-4826\" to \"(85) 99922-4826\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99478-4473\" to \"(85) 99478-4473\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99073-0204",
+      "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99073-0204\" to \"(85) 99073-0204\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99073-0204",
+      "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "+55 (85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99176-5446\" to \"(85) 99176-5446\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99135-7634",
+      "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99135-7634\" to \"(85) 99135-7634\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99135-7634",
+      "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99276-9996",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99276-9996\" to \"(85) 99276-9996\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "+55 (85) 99224-7553",
+      "recordEmail": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99224-7553\" to \"(85) 99224-7553\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "+55 (85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99295-5212\" to \"(85) 99295-5212\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99034-3253",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99034-3253\" to \"(85) 99034-3253\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99034-3253",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "+55 (85) 99911-1301",
+      "recordEmail": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99911-1301\" to \"(85) 99911-1301\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99342-2706\" to \"(85) 99342-2706\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99211-8121",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99211-8121\" to \"(85) 99211-8121\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99211-8121",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "+55 (85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99690-0094\" to \"(85) 99690-0094\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99557-8902",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99557-8902\" to \"(85) 99557-8902\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99557-8902",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "+55 (85) 99374-4960",
+      "recordEmail": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99374-4960\" to \"(85) 99374-4960\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernando Henrique Araújo",
+      "recordPhone": "+55 (85) 99753-8500",
+      "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99753-8500\" to \"(85) 99753-8500\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernando Henrique Araújo",
+      "recordPhone": "+55 (85) 99753-8500",
+      "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Juliana Santos Pereira",
+      "recordPhone": "+55 (85) 99881-8444",
+      "recordEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99881-8444\" to \"(85) 99881-8444\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "+55 (85) 99520-1514",
+      "recordEmail": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99520-1514\" to \"(85) 99520-1514\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99017-2630",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99017-2630\" to \"(85) 99017-2630\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.099Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99757-7020",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99757-7020\" to \"(85) 99757-7020\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "(85) 99737-4045",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Duplicate removed: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br (kept 1 of 4 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "(85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br (kept 1 of 3 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "(85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: ricardo moura gomes (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "(85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: josé antônio ferreira (kept 1 of 3 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "(85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: roberto silva santos (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "(85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: carlos eduardo mendes (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "(85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: ana beatriz oliveira (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "(85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: ricardo moura gomes (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "(85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: josé antônio ferreira (3 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "(85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Manual review needed: Identical name: roberto silva santos (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "(85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Manual review needed: Identical name: carlos eduardo mendes (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:40:30.100Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "(85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: ana beatriz oliveira (2 similar records)"
+      ]
+    }
+  ],
+  "finalRecordCount": 10
 }

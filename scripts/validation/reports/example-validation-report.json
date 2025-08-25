@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "generatedAt": "2025-08-25T22:49:17.492Z",
+    "totalRecords": 5,
+    "reportVersion": "1.0"
+  },
+  "summary": {
+    "totalIssues": 13,
+    "recordsNeedingAttention": 5,
+    "recordsWithNoIssues": 0
+  },
+  "issuesByType": {
+    "missingRequiredFields": 1,
+    "invalidEmails": 2,
+    "invalidPhones": 5,
+    "lowCompleteness": 4,
+    "potentialDuplicates": 1
+  },
+  "validationResults": {
+    "requiredFields": {
+      "totalRecords": 5,
+      "validRecords": 4,
+      "invalidRecords": 1,
+      "validationResults": [
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "broker_1"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "email"
+          ],
+          "recordId": "broker_2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "broker_3"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "broker_4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "broker_5"
+        }
+      ],
+      "summary": {
+        "missingName": 0,
+        "missingPhone": 0,
+        "missingEmail": 1
+      }
+    },
+    "emails": {
+      "totalRecords": 5,
+      "validEmails": 3,
+      "invalidEmails": 2,
+      "normalizedEmails": 0,
+      "needsManualReview": 3,
+      "validationResults": [
+        {
+          "isValid": true,
+          "originalEmail": "contact@excellent.com",
+          "normalizedEmail": "contact@excellent.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "broker_1"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "",
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "broker_2"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "invalid-email",
+          "normalizedEmail": "invalid-email",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "broker_3"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "duplicate1@example.com",
+          "normalizedEmail": "duplicate1@example.com",
+          "issues": [
+            "Email appears to be a placeholder or test email"
+          ],
+          "severity": "warning",
+          "needsManualReview": true,
+          "recordId": "broker_4"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "duplicate2@example.com",
+          "normalizedEmail": "duplicate2@example.com",
+          "issues": [
+            "Email appears to be a placeholder or test email"
+          ],
+          "severity": "warning",
+          "needsManualReview": true,
+          "recordId": "broker_5"
+        }
+      ],
+      "summary": {
+        "critical": 2,
+        "warning": 2,
+        "info": 1,
+        "normalized": 0,
+        "suspicious": 2
+      }
+    },
+    "phones": {
+      "totalRecords": 5,
+      "validPhones": 0,
+      "invalidPhones": 5,
+      "cleanedPhones": 0,
+      "validationResults": [
+        {
+          "isValid": false,
+          "originalPhone": "(85) 99999-9999",
+          "cleanedPhone": "(85) 99999-9999",
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is obviously invalid (too short/long, all zeros, etc.)"
+          ],
+          "severity": "critical",
+          "recordId": "broker_1"
+        },
+        {
+          "isValid": false,
+          "originalPhone": "(85) 88888-8888",
+          "cleanedPhone": "(85) 88888-8888",
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is obviously invalid (too short/long, all zeros, etc.)"
+          ],
+          "severity": "critical",
+          "recordId": "broker_2"
+        },
+        {
+          "isValid": false,
+          "originalPhone": "123",
+          "cleanedPhone": "123",
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is obviously invalid (too short/long, all zeros, etc.)"
+          ],
+          "severity": "critical",
+          "recordId": "broker_3"
+        },
+        {
+          "isValid": false,
+          "originalPhone": "(85) 77777-7777",
+          "cleanedPhone": "(85) 77777-7777",
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is obviously invalid (too short/long, all zeros, etc.)"
+          ],
+          "severity": "critical",
+          "recordId": "broker_4"
+        },
+        {
+          "isValid": false,
+          "originalPhone": "(85) 66666-6666",
+          "cleanedPhone": "(85) 66666-6666",
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is obviously invalid (too short/long, all zeros, etc.)"
+          ],
+          "severity": "critical",
+          "recordId": "broker_5"
+        }
+      ],
+      "summary": {
+        "critical": 5,
+        "warning": 0,
+        "info": 0,
+        "standardized": 0
+      }
+    },
+    "completeness": {
+      "totalRecords": 5,
+      "averageCompleteness": 30.5,
+      "completenessResults": [
+        {
+          "recordId": "broker_1",
+          "totalFields": 19,
+          "filledFields": 13,
+          "emptyFields": 6,
+          "completenessPercentage": 68.4,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": true,
+            "city": true,
+            "state": true,
+            "postal_code": true,
+            "specialties": true,
+            "rating": true,
+            "review_count": true,
+            "description": true,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "broker_2",
+          "totalFields": 19,
+          "filledFields": 3,
+          "emptyFields": 16,
+          "completenessPercentage": 15.8,
+          "fieldStatus": {
+            "name": true,
+            "email": false,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": false,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "email",
+            "website",
+            "neighborhood",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "broker_3",
+          "totalFields": 19,
+          "filledFields": 5,
+          "emptyFields": 14,
+          "completenessPercentage": 26.3,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": true,
+            "address": true,
+            "neighborhood": false,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "neighborhood",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "broker_4",
+          "totalFields": 19,
+          "filledFields": 4,
+          "emptyFields": 15,
+          "completenessPercentage": 21.1,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": false,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "neighborhood",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        },
+        {
+          "recordId": "broker_5",
+          "totalFields": 19,
+          "filledFields": 4,
+          "emptyFields": 15,
+          "completenessPercentage": 21.1,
+          "fieldStatus": {
+            "name": true,
+            "email": true,
+            "phone": true,
+            "website": false,
+            "address": true,
+            "neighborhood": false,
+            "city": false,
+            "state": false,
+            "postal_code": false,
+            "specialties": false,
+            "rating": false,
+            "review_count": false,
+            "description": false,
+            "social_media": false,
+            "business_hours": false,
+            "license_number": false,
+            "years_experience": false,
+            "company_size": false,
+            "source_url": false
+          },
+          "missingFields": [
+            "website",
+            "neighborhood",
+            "city",
+            "state",
+            "postal_code",
+            "specialties",
+            "rating",
+            "review_count",
+            "description",
+            "social_media",
+            "business_hours",
+            "license_number",
+            "years_experience",
+            "company_size",
+            "source_url"
+          ]
+        }
+      ],
+      "summary": {
+        "highCompleteness": 0,
+        "mediumCompleteness": 1,
+        "lowCompleteness": 4,
+        "fieldFillRates": {
+          "name": {
+            "filled": 5,
+            "total": 5,
+            "percentage": 100
+          },
+          "email": {
+            "filled": 4,
+            "total": 5,
+            "percentage": 80
+          },
+          "phone": {
+            "filled": 5,
+            "total": 5,
+            "percentage": 100
+          },
+          "website": {
+            "filled": 2,
+            "total": 5,
+            "percentage": 40
+          },
+          "address": {
+            "filled": 5,
+            "total": 5,
+            "percentage": 100
+          },
+          "neighborhood": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "city": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "state": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "postal_code": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "specialties": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "rating": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "review_count": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "description": {
+            "filled": 1,
+            "total": 5,
+            "percentage": 20
+          },
+          "social_media": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          },
+          "business_hours": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          },
+          "license_number": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          },
+          "years_experience": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          },
+          "company_size": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          },
+          "source_url": {
+            "filled": 0,
+            "total": 5,
+            "percentage": 0
+          }
+        }
+      }
+    },
+    "duplicates": {
+      "totalRecords": 5,
+      "duplicatesFound": 1,
+      "duplicateGroups": [
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: duplicate name",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "broker_4",
+              "name": "Duplicate Name",
+              "phone": "(85) 77777-7777",
+              "email": "duplicate1@example.com",
+              "originalIndex": 3
+            },
+            {
+              "id": "broker_5",
+              "name": "Duplicate Name",
+              "phone": "(85) 66666-6666",
+              "email": "duplicate2@example.com",
+              "originalIndex": 4
+            }
+          ],
+          "suggestedAction": "manual_review"
+        }
+      ],
+      "needsManualReview": 1,
+      "summary": {
+        "phoneMatches": 0,
+        "emailMatches": 0,
+        "nameMatches": 1,
+        "totalDuplicateRecords": 2
+      }
+    }
+  },
+  "recordsNeedingAttention": [
+    {
+      "recordId": "broker_2",
+      "name": "Incomplete Broker",
+      "phone": "(85) 88888-8888",
+      "email": "Unknown",
+      "issues": [
+        {
+          "type": "missing_required_fields",
+          "description": "Missing: email",
+          "severity": "CRITICAL"
+        },
+        {
+          "type": "invalid_email",
+          "description": "Email address is missing or not a string",
+          "severity": "HIGH"
+        },
+        {
+          "type": "invalid_phone",
+          "description": "Phone number is obviously invalid (too short/long, all zeros, etc.)",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 15.8% complete (3/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "CRITICAL"
+    },
+    {
+      "recordId": "broker_1",
+      "name": "Excellent Insurance Co.",
+      "phone": "(85) 99999-9999",
+      "email": "contact@excellent.com",
+      "issues": [
+        {
+          "type": "invalid_phone",
+          "description": "Phone number is obviously invalid (too short/long, all zeros, etc.)",
+          "severity": "HIGH"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "broker_3",
+      "name": "Bad Data Broker",
+      "phone": "123",
+      "email": "invalid-email",
+      "issues": [
+        {
+          "type": "invalid_email",
+          "description": "Email format is invalid",
+          "severity": "HIGH"
+        },
+        {
+          "type": "invalid_phone",
+          "description": "Phone number is obviously invalid (too short/long, all zeros, etc.)",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 26.3% complete (5/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "broker_4",
+      "name": "Duplicate Name",
+      "phone": "(85) 77777-7777",
+      "email": "duplicate1@example.com",
+      "issues": [
+        {
+          "type": "invalid_phone",
+          "description": "Phone number is obviously invalid (too short/long, all zeros, etc.)",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 21.1% complete (4/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "recordId": "broker_5",
+      "name": "Duplicate Name",
+      "phone": "(85) 66666-6666",
+      "email": "duplicate2@example.com",
+      "issues": [
+        {
+          "type": "invalid_phone",
+          "description": "Phone number is obviously invalid (too short/long, all zeros, etc.)",
+          "severity": "HIGH"
+        },
+        {
+          "type": "low_completeness",
+          "description": "Only 21.1% complete (4/19 fields)",
+          "severity": "MEDIUM"
+        }
+      ],
+      "severity": "HIGH"
+    }
+  ]
+}

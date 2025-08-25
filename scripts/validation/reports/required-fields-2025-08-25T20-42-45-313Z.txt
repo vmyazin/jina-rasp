@@ -1,0 +1,19 @@
+Required Field Validation Report
+=====================================
+Total Records: 101
+Valid Records: 94 (93.1%)
+Invalid Records: 7
+
+Missing Field Summary:
+- Missing Name: 0 records
+- Missing Phone: 3 records
+- Missing Email: 5 records
+
+Records Needing Attention:
+- Record 81ec1ca5-9c61-42f1-bdee-4bce5108500e: Missing email
+- Record 5183f13c-369c-457c-a0a5-ba1f9673eaf5: Missing email
+- Record 64908941-88a4-4b88-b4c1-bd228b759942: Missing email
+- Record 51986d1e-ed05-4adb-a45d-91be658aaf7a: Missing phone
+- Record eb237d39-1869-4c7b-ba95-1f9e09420f91: Missing phone
+- Record 500694a1-718c-400a-b541-257dda0e767a: Missing phone, email
+- Record 74e99d9c-d121-4254-8262-5d55d4feb815: Missing email

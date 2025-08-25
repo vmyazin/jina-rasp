@@ -1,0 +1,2747 @@
+{
+  "totalRecords": 101,
+  "validationResults": {
+    "requiredFields": {
+      "totalRecords": 101,
+      "validRecords": 94,
+      "invalidRecords": 7,
+      "validationResults": [
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d2200880-e334-4ed9-998b-80c9ae12fae4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "129c2435-24aa-4494-b0e6-1049798d5e15"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "7997b144-b2e5-4171-9d8f-c966047946f3"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "47a17590-61af-43a9-9189-64c006b8b0ec"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "5ac36352-bafa-4548-8f73-715fdc347313"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "b3b05b55-9b19-49ec-801a-643d5e641561"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "e1bd4c7d-4af7-40df-8795-ba5a6dd83411"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "1671c6c6-5acd-499a-8462-3289ff619afe"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "e9f58276-e16f-4805-84a2-ff6ee7af6638"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "32ae1e31-d4f3-4b97-a612-cca9ef115247"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "de7ac7a8-40ac-4cea-bd31-7a9497deeded"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "503291d2-913d-4096-b8cf-70e642104a6e"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "1a42a491-7bb9-4370-906d-297c27011fc6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d8a96993-59bf-4eda-8db8-74c375313765"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "466e65e8-d885-4c3d-a4ac-691c63827cc9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "456f606f-014c-426d-8cf2-efa496f912dc"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "48844f6a-38ae-41a0-aca4-ee026556cee6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "974f04d8-b7c7-4a91-a946-b9546308a815"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "0d245d36-e0b9-4504-9245-b4e963fbeaaa"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "b1f792da-d23f-4f55-8c86-13bf87246a52"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "9dcafc12-5ac6-442a-8d47-f56e8a3f027a"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "8df6e94f-4142-4c66-aa2e-0bfcd07b951f"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "764d26ed-1d58-4b1b-9f3c-a50f0d86c4b2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "fcf890e4-e95b-4006-a935-8a7efa00395c"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "bc93476d-8057-4135-bff7-1eee221a862e"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "85ca202d-5b9a-4815-83d3-00938afa147d"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "f6ca3061-bf53-4a14-b231-9e2f9b73738d"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "ce53b564-5dbd-4a12-9a6c-40fde27385f4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "ae542e21-e549-49e0-9597-d9d596233d84"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "58bf52dc-f5d7-41e7-bd38-821ef041edc6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "0d17a406-cc24-4e2c-89e1-5585d24defd6"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "fc6d4aca-63cb-4cec-a58a-ce0412613e7b"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "e8aa2830-0992-4baa-a54f-34799e01fa86"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "4bbd9b90-e0ec-46bd-8370-1ba2aa9bd69f"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "6db49168-4413-44cb-962d-c091461fa382"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "a327a899-9029-4b22-b997-20ce3662f98a"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "email"
+          ],
+          "recordId": "81ec1ca5-9c61-42f1-bdee-4bce5108500e"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "email"
+          ],
+          "recordId": "5183f13c-369c-457c-a0a5-ba1f9673eaf5"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "email"
+          ],
+          "recordId": "64908941-88a4-4b88-b4c1-bd228b759942"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "phone"
+          ],
+          "recordId": "51986d1e-ed05-4adb-a45d-91be658aaf7a"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "phone"
+          ],
+          "recordId": "eb237d39-1869-4c7b-ba95-1f9e09420f91"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "phone",
+            "email"
+          ],
+          "recordId": "500694a1-718c-400a-b541-257dda0e767a"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "47d87cd8-7039-47bb-bb30-b6c877ee5bc3"
+        },
+        {
+          "isValid": false,
+          "missingFields": [
+            "email"
+          ],
+          "recordId": "74e99d9c-d121-4254-8262-5d55d4feb815"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "89abce97-d65f-4d84-b4a1-1ff8da96ec32"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "2465a3d3-cc9b-481a-836b-efa8f53b4847"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "11f4765d-b10f-4774-8a20-69650e0047a4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d4b03135-faae-4122-bfd6-4bee267914e4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "46584c11-eaf1-47b3-8fc9-3d8acfa72743"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "1fe6d96d-da84-44de-a8f0-8c66212a3980"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "10057711-33ac-434d-b0ce-7b707bfb7144"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d8e7a3ee-9517-4257-b2b7-de709ec2fe76"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "ada96e15-5868-4f8a-b321-664c0bb0488d"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "b0f22661-5f98-4c6c-8846-6d1542444a0f"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "f51e0ac1-d51f-4985-a2cf-75bac4518ba4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "9c138e71-dc1d-406c-a983-1be3fd741a9b"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "243713f0-ef6d-4444-9f40-14e92a091d12"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "e5632e7a-03f8-4a22-b37e-e2a986962f61"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "c421e066-eb0e-4e29-b86d-8b9facc46f0b"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "f198df4d-6a27-4b54-b0e5-7a8b17403163"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "fd242c23-10eb-4a88-81ce-3e54e07188ae"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "08b1d8cc-9966-4891-8aac-ec08e3756cc1"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "ad635ee6-4b02-44d2-99bc-a743459150ee"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "4d38be46-0444-4c21-b4ff-982b9c35f5a5"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "3028c389-1a53-4e59-a857-793c35bdc752"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "e8e81572-e65e-42b1-b9ec-46a2570564b5"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "17a418b0-d7f5-41e5-9eb2-3c90b498e0c7"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "edf2ca84-3635-4a69-83af-97bd715767d9"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "6ec7412b-1693-4cd6-bd44-27b478747bf2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "fef83ad2-ed7e-4aa2-9482-055ddcd20fa2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "aad36f99-11b4-449f-a52a-f7327287703e"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "f961a505-ac5c-4130-9799-7828508fde86"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "0a8fd21d-9aa1-4614-b7f3-6c0031e2124b"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "601f87fd-d72f-48fe-bec0-f1c1526bc255"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "481b39f1-f8e7-423c-9258-afbb5749adab"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "869fabba-608a-4631-bf2c-3de3427dbc08"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "ed8e337c-4fbb-4188-b41a-b775de6a592f"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "41702874-7852-4d08-8116-81c4c794da6c"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "adda242c-699a-4c06-80e2-faeb13d00fe7"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "692d8f5e-7481-4bde-ad05-eae475e96b88"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d0d2c894-6123-43f1-9564-461f77d34dd8"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "c9d4382d-c54a-498c-9b63-6f8a417aafb2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "a49089a4-cd36-4ade-b48f-bca56e745af2"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "c2cc6f6e-a801-4104-bb4a-fb893b60bdf0"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "c46860d6-b734-4881-ab14-cd35f11edc74"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "a3062fb3-d53e-43ff-9b7e-ab37e36e41c4"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "edd119a8-692e-4f23-9fcd-c643a840856f"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "914e888f-9911-478e-b63a-4fb8051f789a"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "55dd9451-1fe3-455b-a352-c1fbb5c43d68"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "4e4149bd-5d91-4e4b-8043-2a752d40b12b"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "254f4fd0-4d84-444e-9927-4212dca8ac9c"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "20b991f3-667c-4fe2-a0ec-0e61ceb78823"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "0b4b6b99-7815-4591-a46e-1981fe728cbe"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "d0d8cda1-3c8a-4fdc-af61-7b6d14107673"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "48908127-4f31-4e3a-9ae1-5a45f4f92a11"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "68d110da-68bd-46da-9835-a9170821d181"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "2d718288-154c-4dba-8d21-fbd8f0c7fe9e"
+        },
+        {
+          "isValid": true,
+          "missingFields": [],
+          "recordId": "2da4eb38-424a-4331-9515-6618b6e07a24"
+        }
+      ],
+      "summary": {
+        "missingName": 0,
+        "missingPhone": 3,
+        "missingEmail": 5
+      }
+    },
+    "phoneValidation": {
+      "totalRecords": 101,
+      "validPhones": 98,
+      "invalidPhones": 3,
+      "cleanedPhones": 27,
+      "validationResults": [
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97100-5622",
+          "cleanedPhone": "(85) 97100-5622",
+          "standardizedPhone": "(85) 97100-5622",
+          "issues": [],
+          "severity": "info",
+          "recordId": "d2200880-e334-4ed9-998b-80c9ae12fae4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92484-7871",
+          "cleanedPhone": "(85) 92484-7871",
+          "standardizedPhone": "(85) 92484-7871",
+          "issues": [],
+          "severity": "info",
+          "recordId": "129c2435-24aa-4494-b0e6-1049798d5e15"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95200-9981",
+          "cleanedPhone": "(85) 95200-9981",
+          "standardizedPhone": "(85) 95200-9981",
+          "issues": [],
+          "severity": "info",
+          "recordId": "7997b144-b2e5-4171-9d8f-c966047946f3"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91214-7293",
+          "cleanedPhone": "(85) 91214-7293",
+          "standardizedPhone": "(85) 91214-7293",
+          "issues": [],
+          "severity": "info",
+          "recordId": "47a17590-61af-43a9-9189-64c006b8b0ec"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93783-5815",
+          "cleanedPhone": "(85) 93783-5815",
+          "standardizedPhone": "(85) 93783-5815",
+          "issues": [],
+          "severity": "info",
+          "recordId": "5ac36352-bafa-4548-8f73-715fdc347313"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93708-2830",
+          "cleanedPhone": "(85) 93708-2830",
+          "standardizedPhone": "(85) 93708-2830",
+          "issues": [],
+          "severity": "info",
+          "recordId": "b3b05b55-9b19-49ec-801a-643d5e641561"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91389-4342",
+          "cleanedPhone": "(85) 91389-4342",
+          "standardizedPhone": "(85) 91389-4342",
+          "issues": [],
+          "severity": "info",
+          "recordId": "e1bd4c7d-4af7-40df-8795-ba5a6dd83411"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93588-2307",
+          "cleanedPhone": "(85) 93588-2307",
+          "standardizedPhone": "(85) 93588-2307",
+          "issues": [],
+          "severity": "info",
+          "recordId": "1671c6c6-5acd-499a-8462-3289ff619afe"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92581-2389",
+          "cleanedPhone": "(85) 92581-2389",
+          "standardizedPhone": "(85) 92581-2389",
+          "issues": [],
+          "severity": "info",
+          "recordId": "e9f58276-e16f-4805-84a2-ff6ee7af6638"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99606-9561",
+          "cleanedPhone": "(85) 99606-9561",
+          "standardizedPhone": "(85) 99606-9561",
+          "issues": [],
+          "severity": "info",
+          "recordId": "32ae1e31-d4f3-4b97-a612-cca9ef115247"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96810-9516",
+          "cleanedPhone": "(85) 96810-9516",
+          "standardizedPhone": "(85) 96810-9516",
+          "issues": [],
+          "severity": "info",
+          "recordId": "de7ac7a8-40ac-4cea-bd31-7a9497deeded"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95486-4452",
+          "cleanedPhone": "(85) 95486-4452",
+          "standardizedPhone": "(85) 95486-4452",
+          "issues": [],
+          "severity": "info",
+          "recordId": "503291d2-913d-4096-b8cf-70e642104a6e"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99737-4045",
+          "cleanedPhone": "55 (85) 99737-4045",
+          "standardizedPhone": "(85) 99737-4045",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "1a42a491-7bb9-4370-906d-297c27011fc6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92352-7764",
+          "cleanedPhone": "(85) 92352-7764",
+          "standardizedPhone": "(85) 92352-7764",
+          "issues": [],
+          "severity": "info",
+          "recordId": "d8a96993-59bf-4eda-8db8-74c375313765"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93103-4207",
+          "cleanedPhone": "(85) 93103-4207",
+          "standardizedPhone": "(85) 93103-4207",
+          "issues": [],
+          "severity": "info",
+          "recordId": "466e65e8-d885-4c3d-a4ac-691c63827cc9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97492-2404",
+          "cleanedPhone": "(85) 97492-2404",
+          "standardizedPhone": "(85) 97492-2404",
+          "issues": [],
+          "severity": "info",
+          "recordId": "456f606f-014c-426d-8cf2-efa496f912dc"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96555-7592",
+          "cleanedPhone": "(85) 96555-7592",
+          "standardizedPhone": "(85) 96555-7592",
+          "issues": [],
+          "severity": "info",
+          "recordId": "48844f6a-38ae-41a0-aca4-ee026556cee6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94715-6431",
+          "cleanedPhone": "(85) 94715-6431",
+          "standardizedPhone": "(85) 94715-6431",
+          "issues": [],
+          "severity": "info",
+          "recordId": "974f04d8-b7c7-4a91-a946-b9546308a815"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96340-7878",
+          "cleanedPhone": "(85) 96340-7878",
+          "standardizedPhone": "(85) 96340-7878",
+          "issues": [],
+          "severity": "info",
+          "recordId": "0d245d36-e0b9-4504-9245-b4e963fbeaaa"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98522-5433",
+          "cleanedPhone": "(85) 98522-5433",
+          "standardizedPhone": "(85) 98522-5433",
+          "issues": [],
+          "severity": "info",
+          "recordId": "b1f792da-d23f-4f55-8c86-13bf87246a52"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 9531-8615",
+          "cleanedPhone": "(85) 9531-8615",
+          "standardizedPhone": "(85) 9531-8615",
+          "issues": [],
+          "severity": "info",
+          "recordId": "9dcafc12-5ac6-442a-8d47-f56e8a3f027a"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95614-3712",
+          "cleanedPhone": "(85) 95614-3712",
+          "standardizedPhone": "(85) 95614-3712",
+          "issues": [],
+          "severity": "info",
+          "recordId": "8df6e94f-4142-4c66-aa2e-0bfcd07b951f"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99590-4876",
+          "cleanedPhone": "(85) 99590-4876",
+          "standardizedPhone": "(85) 99590-4876",
+          "issues": [],
+          "severity": "info",
+          "recordId": "764d26ed-1d58-4b1b-9f3c-a50f0d86c4b2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97623-6516",
+          "cleanedPhone": "(85) 97623-6516",
+          "standardizedPhone": "(85) 97623-6516",
+          "issues": [],
+          "severity": "info",
+          "recordId": "fcf890e4-e95b-4006-a935-8a7efa00395c"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95324-5733",
+          "cleanedPhone": "(85) 95324-5733",
+          "standardizedPhone": "(85) 95324-5733",
+          "issues": [],
+          "severity": "info",
+          "recordId": "bc93476d-8057-4135-bff7-1eee221a862e"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 5843-8986",
+          "cleanedPhone": "(85) 5843-8986",
+          "standardizedPhone": "(85) 5843-8986",
+          "issues": [],
+          "severity": "info",
+          "recordId": "85ca202d-5b9a-4815-83d3-00938afa147d"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93022-9286",
+          "cleanedPhone": "(85) 93022-9286",
+          "standardizedPhone": "(85) 93022-9286",
+          "issues": [],
+          "severity": "info",
+          "recordId": "f6ca3061-bf53-4a14-b231-9e2f9b73738d"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94006-1682",
+          "cleanedPhone": "(85) 94006-1682",
+          "standardizedPhone": "(85) 94006-1682",
+          "issues": [],
+          "severity": "info",
+          "recordId": "ce53b564-5dbd-4a12-9a6c-40fde27385f4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99513-2879",
+          "cleanedPhone": "(85) 99513-2879",
+          "standardizedPhone": "(85) 99513-2879",
+          "issues": [],
+          "severity": "info",
+          "recordId": "ae542e21-e549-49e0-9597-d9d596233d84"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92544-5504",
+          "cleanedPhone": "(85) 92544-5504",
+          "standardizedPhone": "(85) 92544-5504",
+          "issues": [],
+          "severity": "info",
+          "recordId": "58bf52dc-f5d7-41e7-bd38-821ef041edc6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91268-7586",
+          "cleanedPhone": "(85) 91268-7586",
+          "standardizedPhone": "(85) 91268-7586",
+          "issues": [],
+          "severity": "info",
+          "recordId": "0d17a406-cc24-4e2c-89e1-5585d24defd6"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99228-5141",
+          "cleanedPhone": "(85) 99228-5141",
+          "standardizedPhone": "(85) 99228-5141",
+          "issues": [],
+          "severity": "info",
+          "recordId": "fc6d4aca-63cb-4cec-a58a-ce0412613e7b"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98723-4017",
+          "cleanedPhone": "(85) 98723-4017",
+          "standardizedPhone": "(85) 98723-4017",
+          "issues": [],
+          "severity": "info",
+          "recordId": "e8aa2830-0992-4baa-a54f-34799e01fa86"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91360-8537",
+          "cleanedPhone": "(85) 91360-8537",
+          "standardizedPhone": "(85) 91360-8537",
+          "issues": [],
+          "severity": "info",
+          "recordId": "4bbd9b90-e0ec-46bd-8370-1ba2aa9bd69f"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97701-3055",
+          "cleanedPhone": "(85) 97701-3055",
+          "standardizedPhone": "(85) 97701-3055",
+          "issues": [],
+          "severity": "info",
+          "recordId": "6db49168-4413-44cb-962d-c091461fa382"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99981-0836",
+          "cleanedPhone": "(85) 99981-0836",
+          "standardizedPhone": "(85) 99981-0836",
+          "issues": [],
+          "severity": "info",
+          "recordId": "a327a899-9029-4b22-b997-20ce3662f98a"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85)3924-7835",
+          "cleanedPhone": "(85)3924-7835",
+          "standardizedPhone": "(85) 3924-7835",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "81ec1ca5-9c61-42f1-bdee-4bce5108500e"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "85 3924-7835",
+          "cleanedPhone": "85 3924-7835",
+          "standardizedPhone": "(85) 3924-7835",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "5183f13c-369c-457c-a0a5-ba1f9673eaf5"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "85 98776-6489",
+          "cleanedPhone": "85 98776-6489",
+          "standardizedPhone": "(85) 98776-6489",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "64908941-88a4-4b88-b4c1-bd228b759942"
+        },
+        {
+          "isValid": false,
+          "originalPhone": null,
+          "cleanedPhone": null,
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is missing or not a string"
+          ],
+          "severity": "critical",
+          "recordId": "51986d1e-ed05-4adb-a45d-91be658aaf7a"
+        },
+        {
+          "isValid": false,
+          "originalPhone": null,
+          "cleanedPhone": null,
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is missing or not a string"
+          ],
+          "severity": "critical",
+          "recordId": "eb237d39-1869-4c7b-ba95-1f9e09420f91"
+        },
+        {
+          "isValid": false,
+          "originalPhone": null,
+          "cleanedPhone": null,
+          "standardizedPhone": null,
+          "issues": [
+            "Phone number is missing or not a string"
+          ],
+          "severity": "critical",
+          "recordId": "500694a1-718c-400a-b541-257dda0e767a"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "8534023386",
+          "cleanedPhone": "8534023386",
+          "standardizedPhone": "(85) 3402-3386",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "47d87cd8-7039-47bb-bb30-b6c877ee5bc3"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 3023-1913",
+          "cleanedPhone": "(85) 3023-1913",
+          "standardizedPhone": "(85) 3023-1913",
+          "issues": [],
+          "severity": "info",
+          "recordId": "74e99d9c-d121-4254-8262-5d55d4feb815"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99128-9875",
+          "cleanedPhone": "55 (85) 99128-9875",
+          "standardizedPhone": "(85) 99128-9875",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "89abce97-d65f-4d84-b4a1-1ff8da96ec32"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99922-4826",
+          "cleanedPhone": "55 (85) 99922-4826",
+          "standardizedPhone": "(85) 99922-4826",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "2465a3d3-cc9b-481a-836b-efa8f53b4847"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99478-4473",
+          "cleanedPhone": "55 (85) 99478-4473",
+          "standardizedPhone": "(85) 99478-4473",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "11f4765d-b10f-4774-8a20-69650e0047a4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99073-0204",
+          "cleanedPhone": "55 (85) 99073-0204",
+          "standardizedPhone": "(85) 99073-0204",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99176-5446",
+          "cleanedPhone": "55 (85) 99176-5446",
+          "standardizedPhone": "(85) 99176-5446",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "d4b03135-faae-4122-bfd6-4bee267914e4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99135-7634",
+          "cleanedPhone": "55 (85) 99135-7634",
+          "standardizedPhone": "(85) 99135-7634",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "46584c11-eaf1-47b3-8fc9-3d8acfa72743"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99276-9996",
+          "cleanedPhone": "55 (85) 99276-9996",
+          "standardizedPhone": "(85) 99276-9996",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "1fe6d96d-da84-44de-a8f0-8c66212a3980"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99224-7553",
+          "cleanedPhone": "55 (85) 99224-7553",
+          "standardizedPhone": "(85) 99224-7553",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99295-5212",
+          "cleanedPhone": "55 (85) 99295-5212",
+          "standardizedPhone": "(85) 99295-5212",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "10057711-33ac-434d-b0ce-7b707bfb7144"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99034-3253",
+          "cleanedPhone": "55 (85) 99034-3253",
+          "standardizedPhone": "(85) 99034-3253",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99911-1301",
+          "cleanedPhone": "55 (85) 99911-1301",
+          "standardizedPhone": "(85) 99911-1301",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "d8e7a3ee-9517-4257-b2b7-de709ec2fe76"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99342-2706",
+          "cleanedPhone": "55 (85) 99342-2706",
+          "standardizedPhone": "(85) 99342-2706",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "ada96e15-5868-4f8a-b321-664c0bb0488d"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99211-8121",
+          "cleanedPhone": "55 (85) 99211-8121",
+          "standardizedPhone": "(85) 99211-8121",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "b0f22661-5f98-4c6c-8846-6d1542444a0f"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99690-0094",
+          "cleanedPhone": "55 (85) 99690-0094",
+          "standardizedPhone": "(85) 99690-0094",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "f51e0ac1-d51f-4985-a2cf-75bac4518ba4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99557-8902",
+          "cleanedPhone": "55 (85) 99557-8902",
+          "standardizedPhone": "(85) 99557-8902",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "9c138e71-dc1d-406c-a983-1be3fd741a9b"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99374-4960",
+          "cleanedPhone": "55 (85) 99374-4960",
+          "standardizedPhone": "(85) 99374-4960",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "243713f0-ef6d-4444-9f40-14e92a091d12"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99753-8500",
+          "cleanedPhone": "55 (85) 99753-8500",
+          "standardizedPhone": "(85) 99753-8500",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "e5632e7a-03f8-4a22-b37e-e2a986962f61"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99881-8444",
+          "cleanedPhone": "55 (85) 99881-8444",
+          "standardizedPhone": "(85) 99881-8444",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "c421e066-eb0e-4e29-b86d-8b9facc46f0b"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99520-1514",
+          "cleanedPhone": "55 (85) 99520-1514",
+          "standardizedPhone": "(85) 99520-1514",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "f198df4d-6a27-4b54-b0e5-7a8b17403163"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99017-2630",
+          "cleanedPhone": "55 (85) 99017-2630",
+          "standardizedPhone": "(85) 99017-2630",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "fd242c23-10eb-4a88-81ce-3e54e07188ae"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "+55 (85) 99757-7020",
+          "cleanedPhone": "55 (85) 99757-7020",
+          "standardizedPhone": "(85) 99757-7020",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "08b1d8cc-9966-4891-8aac-ec08e3756cc1"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92032-1605",
+          "cleanedPhone": "(85) 92032-1605",
+          "standardizedPhone": "(85) 92032-1605",
+          "issues": [],
+          "severity": "info",
+          "recordId": "ad635ee6-4b02-44d2-99bc-a743459150ee"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98904-7214",
+          "cleanedPhone": "(85) 98904-7214",
+          "standardizedPhone": "(85) 98904-7214",
+          "issues": [],
+          "severity": "info",
+          "recordId": "4d38be46-0444-4c21-b4ff-982b9c35f5a5"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96262-2925",
+          "cleanedPhone": "(85) 96262-2925",
+          "standardizedPhone": "(85) 96262-2925",
+          "issues": [],
+          "severity": "info",
+          "recordId": "3028c389-1a53-4e59-a857-793c35bdc752"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98635-1771",
+          "cleanedPhone": "(85) 98635-1771",
+          "standardizedPhone": "(85) 98635-1771",
+          "issues": [],
+          "severity": "info",
+          "recordId": "e8e81572-e65e-42b1-b9ec-46a2570564b5"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92663-8772",
+          "cleanedPhone": "(85) 92663-8772",
+          "standardizedPhone": "(85) 92663-8772",
+          "issues": [],
+          "severity": "info",
+          "recordId": "17a418b0-d7f5-41e5-9eb2-3c90b498e0c7"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93246-6352",
+          "cleanedPhone": "(85) 93246-6352",
+          "standardizedPhone": "(85) 93246-6352",
+          "issues": [],
+          "severity": "info",
+          "recordId": "edf2ca84-3635-4a69-83af-97bd715767d9"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93593-3705",
+          "cleanedPhone": "(85) 93593-3705",
+          "standardizedPhone": "(85) 93593-3705",
+          "issues": [],
+          "severity": "info",
+          "recordId": "6ec7412b-1693-4cd6-bd44-27b478747bf2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96700-3823",
+          "cleanedPhone": "(85) 96700-3823",
+          "standardizedPhone": "(85) 96700-3823",
+          "issues": [],
+          "severity": "info",
+          "recordId": "fef83ad2-ed7e-4aa2-9482-055ddcd20fa2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92247-1108",
+          "cleanedPhone": "(85) 92247-1108",
+          "standardizedPhone": "(85) 92247-1108",
+          "issues": [],
+          "severity": "info",
+          "recordId": "aad36f99-11b4-449f-a52a-f7327287703e"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94889-9136",
+          "cleanedPhone": "(85) 94889-9136",
+          "standardizedPhone": "(85) 94889-9136",
+          "issues": [],
+          "severity": "info",
+          "recordId": "f961a505-ac5c-4130-9799-7828508fde86"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98544-6776",
+          "cleanedPhone": "(85) 98544-6776",
+          "standardizedPhone": "(85) 98544-6776",
+          "issues": [],
+          "severity": "info",
+          "recordId": "0a8fd21d-9aa1-4614-b7f3-6c0031e2124b"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96748-3534",
+          "cleanedPhone": "(85) 96748-3534",
+          "standardizedPhone": "(85) 96748-3534",
+          "issues": [],
+          "severity": "info",
+          "recordId": "601f87fd-d72f-48fe-bec0-f1c1526bc255"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92071-3605",
+          "cleanedPhone": "(85) 92071-3605",
+          "standardizedPhone": "(85) 92071-3605",
+          "issues": [],
+          "severity": "info",
+          "recordId": "481b39f1-f8e7-423c-9258-afbb5749adab"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94583-8513",
+          "cleanedPhone": "(85) 94583-8513",
+          "standardizedPhone": "(85) 94583-8513",
+          "issues": [],
+          "severity": "info",
+          "recordId": "869fabba-608a-4631-bf2c-3de3427dbc08"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96892-1554",
+          "cleanedPhone": "(85) 96892-1554",
+          "standardizedPhone": "(85) 96892-1554",
+          "issues": [],
+          "severity": "info",
+          "recordId": "ed8e337c-4fbb-4188-b41a-b775de6a592f"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91702-9649",
+          "cleanedPhone": "(85) 91702-9649",
+          "standardizedPhone": "(85) 91702-9649",
+          "issues": [],
+          "severity": "info",
+          "recordId": "41702874-7852-4d08-8116-81c4c794da6c"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91779-8314",
+          "cleanedPhone": "(85) 91779-8314",
+          "standardizedPhone": "(85) 91779-8314",
+          "issues": [],
+          "severity": "info",
+          "recordId": "adda242c-699a-4c06-80e2-faeb13d00fe7"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95222-6936",
+          "cleanedPhone": "(85) 95222-6936",
+          "standardizedPhone": "(85) 95222-6936",
+          "issues": [],
+          "severity": "info",
+          "recordId": "692d8f5e-7481-4bde-ad05-eae475e96b88"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 93795-1610",
+          "cleanedPhone": "(85) 93795-1610",
+          "standardizedPhone": "(85) 93795-1610",
+          "issues": [],
+          "severity": "info",
+          "recordId": "d0d2c894-6123-43f1-9564-461f77d34dd8"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98215-8244",
+          "cleanedPhone": "(85) 98215-8244",
+          "standardizedPhone": "(85) 98215-8244",
+          "issues": [],
+          "severity": "info",
+          "recordId": "c9d4382d-c54a-498c-9b63-6f8a417aafb2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94178-9622",
+          "cleanedPhone": "(85) 94178-9622",
+          "standardizedPhone": "(85) 94178-9622",
+          "issues": [],
+          "severity": "info",
+          "recordId": "a49089a4-cd36-4ade-b48f-bca56e745af2"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 91756-2040",
+          "cleanedPhone": "(85) 91756-2040",
+          "standardizedPhone": "(85) 91756-2040",
+          "issues": [],
+          "severity": "info",
+          "recordId": "c2cc6f6e-a801-4104-bb4a-fb893b60bdf0"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 99783-9556",
+          "cleanedPhone": "(85) 99783-9556",
+          "standardizedPhone": "(85) 99783-9556",
+          "issues": [],
+          "severity": "info",
+          "recordId": "c46860d6-b734-4881-ab14-cd35f11edc74"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96264-3980",
+          "cleanedPhone": "(85) 96264-3980",
+          "standardizedPhone": "(85) 96264-3980",
+          "issues": [],
+          "severity": "info",
+          "recordId": "a3062fb3-d53e-43ff-9b7e-ab37e36e41c4"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92657-4124",
+          "cleanedPhone": "(85) 92657-4124",
+          "standardizedPhone": "(85) 92657-4124",
+          "issues": [],
+          "severity": "info",
+          "recordId": "edd119a8-692e-4f23-9fcd-c643a840856f"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 96973-1193",
+          "cleanedPhone": "(85) 96973-1193",
+          "standardizedPhone": "(85) 96973-1193",
+          "issues": [],
+          "severity": "info",
+          "recordId": "914e888f-9911-478e-b63a-4fb8051f789a"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 98416-4324",
+          "cleanedPhone": "(85) 98416-4324",
+          "standardizedPhone": "(85) 98416-4324",
+          "issues": [],
+          "severity": "info",
+          "recordId": "55dd9451-1fe3-455b-a352-c1fbb5c43d68"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92679-4484",
+          "cleanedPhone": "(85) 92679-4484",
+          "standardizedPhone": "(85) 92679-4484",
+          "issues": [],
+          "severity": "info",
+          "recordId": "4e4149bd-5d91-4e4b-8043-2a752d40b12b"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 97157-9784",
+          "cleanedPhone": "(85) 97157-9784",
+          "standardizedPhone": "(85) 97157-9784",
+          "issues": [],
+          "severity": "info",
+          "recordId": "254f4fd0-4d84-444e-9927-4212dca8ac9c"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95975-9985",
+          "cleanedPhone": "(85) 95975-9985",
+          "standardizedPhone": "(85) 95975-9985",
+          "issues": [],
+          "severity": "info",
+          "recordId": "20b991f3-667c-4fe2-a0ec-0e61ceb78823"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94330-1836",
+          "cleanedPhone": "(85) 94330-1836",
+          "standardizedPhone": "(85) 94330-1836",
+          "issues": [],
+          "severity": "info",
+          "recordId": "0b4b6b99-7815-4591-a46e-1981fe728cbe"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94646-6600",
+          "cleanedPhone": "(85) 94646-6600",
+          "standardizedPhone": "(85) 94646-6600",
+          "issues": [],
+          "severity": "info",
+          "recordId": "d0d8cda1-3c8a-4fdc-af61-7b6d14107673"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 95804-8472",
+          "cleanedPhone": "(85) 95804-8472",
+          "standardizedPhone": "(85) 95804-8472",
+          "issues": [],
+          "severity": "info",
+          "recordId": "48908127-4f31-4e3a-9ae1-5a45f4f92a11"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 94447-9389",
+          "cleanedPhone": "(85) 94447-9389",
+          "standardizedPhone": "(85) 94447-9389",
+          "issues": [],
+          "severity": "info",
+          "recordId": "68d110da-68bd-46da-9835-a9170821d181"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "(85) 92895-8815",
+          "cleanedPhone": "(85) 92895-8815",
+          "standardizedPhone": "(85) 92895-8815",
+          "issues": [],
+          "severity": "info",
+          "recordId": "2d718288-154c-4dba-8d21-fbd8f0c7fe9e"
+        },
+        {
+          "isValid": true,
+          "originalPhone": "123-456-7890",
+          "cleanedPhone": "123-456-7890",
+          "standardizedPhone": "(12) 3456-7890",
+          "issues": [
+            "Phone number was cleaned and standardized"
+          ],
+          "severity": "info",
+          "recordId": "2da4eb38-424a-4331-9515-6618b6e07a24"
+        }
+      ],
+      "summary": {
+        "critical": 3,
+        "warning": 0,
+        "info": 98,
+        "standardized": 27
+      }
+    },
+    "emailValidation": {
+      "totalRecords": 101,
+      "validEmails": 79,
+      "invalidEmails": 22,
+      "normalizedEmails": 0,
+      "needsManualReview": 18,
+      "validationResults": [
+        {
+          "isValid": true,
+          "originalEmail": "joo.silva@gmail.com",
+          "normalizedEmail": "joo.silva@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "d2200880-e334-4ed9-998b-80c9ae12fae4"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carlos.santos@uol.com.br",
+          "normalizedEmail": "carlos.santos@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "129c2435-24aa-4494-b0e6-1049798d5e15"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.costa@gmail.com",
+          "normalizedEmail": "ana.costa@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "7997b144-b2e5-4171-9d8f-c966047946f3"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "pedro.martins@yahoo.com.br",
+          "normalizedEmail": "pedro.martins@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "47a17590-61af-43a9-9189-64c006b8b0ec"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "lucia.ferreira@outlook.com",
+          "normalizedEmail": "lucia.ferreira@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "5ac36352-bafa-4548-8f73-715fdc347313"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.lima@outlook.com",
+          "normalizedEmail": "roberto.lima@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "b3b05b55-9b19-49ec-801a-643d5e641561"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.souza@gmail.com",
+          "normalizedEmail": "fernanda.souza@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "e1bd4c7d-4af7-40df-8795-ba5a6dd83411"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "jos.pereira@yahoo.com.br",
+          "normalizedEmail": "jos.pereira@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "1671c6c6-5acd-499a-8462-3289ff619afe"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "helena.castro@yahoo.com.br",
+          "normalizedEmail": "helena.castro@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "e9f58276-e16f-4805-84a2-ff6ee7af6638"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.almeida@uol.com.br",
+          "normalizedEmail": "ricardo.almeida@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "32ae1e31-d4f3-4b97-a612-cca9ef115247"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "camila.rocha@gmail.com",
+          "normalizedEmail": "camila.rocha@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "de7ac7a8-40ac-4cea-bd31-7a9497deeded"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "antonio.silva@uol.com.br",
+          "normalizedEmail": "antonio.silva@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "503291d2-913d-4096-b8cf-70e642104a6e"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "1a42a491-7bb9-4370-906d-297c27011fc6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "patricia.gomes@hotmail.com",
+          "normalizedEmail": "patricia.gomes@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "d8a96993-59bf-4eda-8db8-74c375313765"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "marcos.barbosa@gmail.com",
+          "normalizedEmail": "marcos.barbosa@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "466e65e8-d885-4c3d-a4ac-691c63827cc9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "juliana.mendes@gmail.com",
+          "normalizedEmail": "juliana.mendes@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "456f606f-014c-426d-8cf2-efa496f912dc"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "eduardo.ribeiro@gmail.com",
+          "normalizedEmail": "eduardo.ribeiro@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "48844f6a-38ae-41a0-aca4-ee026556cee6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "cristina.lopes@uol.com.br",
+          "normalizedEmail": "cristina.lopes@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "974f04d8-b7c7-4a91-a946-b9546308a815"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernando.cardos@outlook.com",
+          "normalizedEmail": "fernando.cardos@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "0d245d36-e0b9-4504-9245-b4e963fbeaaa"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "vanessa.moura@gmail.com",
+          "normalizedEmail": "vanessa.moura@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "b1f792da-d23f-4f55-8c86-13bf87246a52"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "sergio.teixeira@gmail.com",
+          "normalizedEmail": "sergio.teixeira@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "9dcafc12-5ac6-442a-8d47-f56e8a3f027a"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "claudia.nunes@uol.com.br",
+          "normalizedEmail": "claudia.nunes@uol.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "8df6e94f-4142-4c66-aa2e-0bfcd07b951f"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.pinto@outlook.com",
+          "normalizedEmail": "rafael.pinto@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "764d26ed-1d58-4b1b-9f3c-a50f0d86c4b2"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "simone.correia@outlook.com",
+          "normalizedEmail": "simone.correia@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "fcf890e4-e95b-4006-a935-8a7efa00395c"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "gustavo.farias@gmail.com",
+          "normalizedEmail": "gustavo.farias@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "bc93476d-8057-4135-bff7-1eee221a862e"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "adriana.vieira@hotmail.com",
+          "normalizedEmail": "adriana.vieira@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "85ca202d-5b9a-4815-83d3-00938afa147d"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "daniel.monteiro@yahoo.com.br",
+          "normalizedEmail": "daniel.monteiro@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "f6ca3061-bf53-4a14-b231-9e2f9b73738d"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rosana.campos@yahoo.com.br",
+          "normalizedEmail": "rosana.campos@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "ce53b564-5dbd-4a12-9a6c-40fde27385f4"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luciano.freitas@yahoo.com.br",
+          "normalizedEmail": "luciano.freitas@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "ae542e21-e549-49e0-9597-d9d596233d84"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.duarte@outlook.com",
+          "normalizedEmail": "mariana.duarte@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "58bf52dc-f5d7-41e7-bd38-821ef041edc6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "alexandre.dias@hotmail.com",
+          "normalizedEmail": "alexandre.dias@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "0d17a406-cc24-4e2c-89e1-5585d24defd6"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carla.machado@gmail.com",
+          "normalizedEmail": "carla.machado@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "fc6d4aca-63cb-4cec-a58a-ce0412613e7b"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renato.arago@hotmail.com",
+          "normalizedEmail": "renato.arago@hotmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "e8aa2830-0992-4baa-a54f-34799e01fa86"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "monica.tavares@gmail.com",
+          "normalizedEmail": "monica.tavares@gmail.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "4bbd9b90-e0ec-46bd-8370-1ba2aa9bd69f"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "paulo.nasciment@yahoo.com.br",
+          "normalizedEmail": "paulo.nasciment@yahoo.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "6db49168-4413-44cb-962d-c091461fa382"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "texas@corretoratexasfortaleza.com.br",
+          "normalizedEmail": "texas@corretoratexasfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "a327a899-9029-4b22-b997-20ce3662f98a"
+        },
+        {
+          "isValid": false,
+          "originalEmail": null,
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "81ec1ca5-9c61-42f1-bdee-4bce5108500e"
+        },
+        {
+          "isValid": false,
+          "originalEmail": null,
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "5183f13c-369c-457c-a0a5-ba1f9673eaf5"
+        },
+        {
+          "isValid": false,
+          "originalEmail": null,
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "64908941-88a4-4b88-b4c1-bd228b759942"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "contato@seg10.com.br",
+          "normalizedEmail": "contato@seg10.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "51986d1e-ed05-4adb-a45d-91be658aaf7a"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "contato@glisaude.com.br",
+          "normalizedEmail": "contato@glisaude.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "eb237d39-1869-4c7b-ba95-1f9e09420f91"
+        },
+        {
+          "isValid": false,
+          "originalEmail": null,
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "500694a1-718c-400a-b541-257dda0e767a"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "contato@duetscorretora.com.br",
+          "normalizedEmail": "contato@duetscorretora.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "47d87cd8-7039-47bb-bb30-b6c877ee5bc3"
+        },
+        {
+          "isValid": false,
+          "originalEmail": null,
+          "normalizedEmail": null,
+          "issues": [
+            "Email address is missing or not a string"
+          ],
+          "severity": "critical",
+          "needsManualReview": false,
+          "recordId": "74e99d9c-d121-4254-8262-5d55d4feb815"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "89abce97-d65f-4d84-b4a1-1ff8da96ec32"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "2465a3d3-cc9b-481a-836b-efa8f53b4847"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "11f4765d-b10f-4774-8a20-69650e0047a4"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "d4b03135-faae-4122-bfd6-4bee267914e4"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "46584c11-eaf1-47b3-8fc9-3d8acfa72743"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "1fe6d96d-da84-44de-a8f0-8c66212a3980"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+          "normalizedEmail": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "10057711-33ac-434d-b0ce-7b707bfb7144"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+          "normalizedEmail": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "d8e7a3ee-9517-4257-b2b7-de709ec2fe76"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "ada96e15-5868-4f8a-b321-664c0bb0488d"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "b0f22661-5f98-4c6c-8846-6d1542444a0f"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "f51e0ac1-d51f-4985-a2cf-75bac4518ba4"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "normalizedEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "9c138e71-dc1d-406c-a983-1be3fd741a9b"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "243713f0-ef6d-4444-9f40-14e92a091d12"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+          "normalizedEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "e5632e7a-03f8-4a22-b37e-e2a986962f61"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+          "normalizedEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "c421e066-eb0e-4e29-b86d-8b9facc46f0b"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+          "normalizedEmail": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "f198df4d-6a27-4b54-b0e5-7a8b17403163"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "fd242c23-10eb-4a88-81ce-3e54e07188ae"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "normalizedEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "08b1d8cc-9966-4891-8aac-ec08e3756cc1"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "cristina.machado@broker.com.br",
+          "normalizedEmail": "cristina.machado@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "ad635ee6-4b02-44d2-99bc-a743459150ee"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "gustavo.reis@broker.com.br",
+          "normalizedEmail": "gustavo.reis@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "4d38be46-0444-4c21-b4ff-982b9c35f5a5"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "maria.monteiro@broker.com.br",
+          "normalizedEmail": "maria.monteiro@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "3028c389-1a53-4e59-a857-793c35bdc752"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renata.nascimento@assessoria.com.br",
+          "normalizedEmail": "renata.nascimento@assessoria.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "e8e81572-e65e-42b1-b9ec-46a2570564b5"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "camila.santos@insurance.com.br",
+          "normalizedEmail": "camila.santos@insurance.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "17a418b0-d7f5-41e5-9eb2-3c90b498e0c7"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "maria.monteiro@broker.com.br",
+          "normalizedEmail": "maria.monteiro@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "edf2ca84-3635-4a69-83af-97bd715767d9"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "maria.oliveira@assessoria.com.br",
+          "normalizedEmail": "maria.oliveira@assessoria.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "6ec7412b-1693-4cd6-bd44-27b478747bf2"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rafael.cavalcanti@insurance.com.br",
+          "normalizedEmail": "rafael.cavalcanti@insurance.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "fef83ad2-ed7e-4aa2-9482-055ddcd20fa2"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "mariana.machado@garantia.com.br",
+          "normalizedEmail": "mariana.machado@garantia.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "aad36f99-11b4-449f-a52a-f7327287703e"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "joão.fernandes@representações.com.br",
+          "normalizedEmail": "joão.fernandes@representações.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "f961a505-ac5c-4130-9799-7828508fde86"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "priscila.rocha@proteção.com.br",
+          "normalizedEmail": "priscila.rocha@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "0a8fd21d-9aa1-4614-b7f3-6c0031e2124b"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "mônica.almeida@assessoria.com.br",
+          "normalizedEmail": "mônica.almeida@assessoria.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "601f87fd-d72f-48fe-bec0-f1c1526bc255"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ana.ferreira@assessoria.com.br",
+          "normalizedEmail": "ana.ferreira@assessoria.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "481b39f1-f8e7-423c-9258-afbb5749adab"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "sandra.fernandes@consultoria.com.br",
+          "normalizedEmail": "sandra.fernandes@consultoria.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "869fabba-608a-4631-bf2c-3de3427dbc08"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "bruno.costa@proteção.com.br",
+          "normalizedEmail": "bruno.costa@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "ed8e337c-4fbb-4188-b41a-b775de6a592f"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renata.silva@consultoria.com.br",
+          "normalizedEmail": "renata.silva@consultoria.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "41702874-7852-4d08-8116-81c4c794da6c"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "marcelo.martins@corretagem.com.br",
+          "normalizedEmail": "marcelo.martins@corretagem.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "adda242c-699a-4c06-80e2-faeb13d00fe7"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rodrigo.rocha@seguros.com.br",
+          "normalizedEmail": "rodrigo.rocha@seguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "692d8f5e-7481-4bde-ad05-eae475e96b88"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "gustavo.alves@seguros.com.br",
+          "normalizedEmail": "gustavo.alves@seguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "d0d2c894-6123-43f1-9564-461f77d34dd8"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "pedro.souza@seguridade.com.br",
+          "normalizedEmail": "pedro.souza@seguridade.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "c9d4382d-c54a-498c-9b63-6f8a417aafb2"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "rodrigo.carvalho@seguros.com.br",
+          "normalizedEmail": "rodrigo.carvalho@seguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "a49089a4-cd36-4ade-b48f-bca56e745af2"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "josé.nascimento@broker.com.br",
+          "normalizedEmail": "josé.nascimento@broker.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "c2cc6f6e-a801-4104-bb4a-fb893b60bdf0"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "tatiana.ribeiro@broker.com.br",
+          "normalizedEmail": "tatiana.ribeiro@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "c46860d6-b734-4881-ab14-cd35f11edc74"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "antônio.almeida@proteção.com.br",
+          "normalizedEmail": "antônio.almeida@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "a3062fb3-d53e-43ff-9b7e-ab37e36e41c4"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "priscila.dias@insurance.com.br",
+          "normalizedEmail": "priscila.dias@insurance.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "edd119a8-692e-4f23-9fcd-c643a840856f"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "ricardo.teixeira@corretagem.com.br",
+          "normalizedEmail": "ricardo.teixeira@corretagem.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "914e888f-9911-478e-b63a-4fb8051f789a"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "fabiana.correia@broker.com.br",
+          "normalizedEmail": "fabiana.correia@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "55dd9451-1fe3-455b-a352-c1fbb5c43d68"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "pedro.teixeira@insurance.com.br",
+          "normalizedEmail": "pedro.teixeira@insurance.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "4e4149bd-5d91-4e4b-8043-2a752d40b12b"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "renata.soares@insurance.com.br",
+          "normalizedEmail": "renata.soares@insurance.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "254f4fd0-4d84-444e-9927-4212dca8ac9c"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "luciana.cavalcanti@seguros.com.br",
+          "normalizedEmail": "luciana.cavalcanti@seguros.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "20b991f3-667c-4fe2-a0ec-0e61ceb78823"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "joão.souza@proteção.com.br",
+          "normalizedEmail": "joão.souza@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "0b4b6b99-7815-4591-a46e-1981fe728cbe"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "maria.souza@proteção.com.br",
+          "normalizedEmail": "maria.souza@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "d0d8cda1-3c8a-4fdc-af61-7b6d14107673"
+        },
+        {
+          "isValid": false,
+          "originalEmail": "bruno.rocha@proteção.com.br",
+          "normalizedEmail": "bruno.rocha@proteção.com.br",
+          "issues": [
+            "Email format is invalid"
+          ],
+          "severity": "critical",
+          "needsManualReview": true,
+          "recordId": "48908127-4f31-4e3a-9ae1-5a45f4f92a11"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "priscila.cavalcanti@broker.com.br",
+          "normalizedEmail": "priscila.cavalcanti@broker.com.br",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "68d110da-68bd-46da-9835-a9170821d181"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "maria.oliveira@outlook.com",
+          "normalizedEmail": "maria.oliveira@outlook.com",
+          "issues": [],
+          "severity": "info",
+          "needsManualReview": false,
+          "recordId": "2d718288-154c-4dba-8d21-fbd8f0c7fe9e"
+        },
+        {
+          "isValid": true,
+          "originalEmail": "test@example.com",
+          "normalizedEmail": "test@example.com",
+          "issues": [
+            "Email appears to be a placeholder or test email"
+          ],
+          "severity": "warning",
+          "needsManualReview": true,
+          "recordId": "2da4eb38-424a-4331-9515-6618b6e07a24"
+        }
+      ],
+      "summary": {
+        "critical": 22,
+        "warning": 1,
+        "info": 78,
+        "normalized": 0,
+        "suspicious": 1
+      }
+    },
+    "duplicateDetection": {
+      "totalRecords": 101,
+      "duplicatesFound": 9,
+      "duplicateGroups": [
+        {
+          "matchType": "phone_exact",
+          "reason": "Identical phone number: 8539247835",
+          "reviewType": "auto",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "81ec1ca5-9c61-42f1-bdee-4bce5108500e",
+              "name": "em vida",
+              "phone": "(85)3924-7835",
+              "email": "",
+              "originalIndex": 36
+            },
+            {
+              "id": "5183f13c-369c-457c-a0a5-ba1f9673eaf5",
+              "name": "PREVMAR",
+              "phone": "85 3924-7835",
+              "email": "",
+              "originalIndex": 37
+            }
+          ],
+          "suggestedAction": "merge"
+        },
+        {
+          "matchType": "email_exact",
+          "reason": "Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+          "reviewType": "auto",
+          "recordCount": 4,
+          "records": [
+            {
+              "id": "1a42a491-7bb9-4370-906d-297c27011fc6",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "+55 (85) 99737-4045",
+              "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 12
+            },
+            {
+              "id": "1fe6d96d-da84-44de-a8f0-8c66212a3980",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "+55 (85) 99276-9996",
+              "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 50
+            },
+            {
+              "id": "fd242c23-10eb-4a88-81ce-3e54e07188ae",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "+55 (85) 99017-2630",
+              "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 63
+            },
+            {
+              "id": "08b1d8cc-9966-4891-8aac-ec08e3756cc1",
+              "name": "Fernanda Ribeiro Castro",
+              "phone": "+55 (85) 99757-7020",
+              "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 64
+            }
+          ],
+          "suggestedAction": "merge"
+        },
+        {
+          "matchType": "email_exact",
+          "reason": "Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+          "reviewType": "auto",
+          "recordCount": 3,
+          "records": [
+            {
+              "id": "ada96e15-5868-4f8a-b321-664c0bb0488d",
+              "name": "Marcos Vinícius Soares",
+              "phone": "+55 (85) 99342-2706",
+              "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 55
+            },
+            {
+              "id": "b0f22661-5f98-4c6c-8846-6d1542444a0f",
+              "name": "Marcos Vinícius Soares",
+              "phone": "+55 (85) 99211-8121",
+              "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 56
+            },
+            {
+              "id": "9c138e71-dc1d-406c-a983-1be3fd741a9b",
+              "name": "Marcos Vinícius Soares",
+              "phone": "+55 (85) 99557-8902",
+              "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 58
+            }
+          ],
+          "suggestedAction": "merge"
+        },
+        {
+          "matchType": "email_exact",
+          "reason": "Identical email address: maria.monteiro@broker.com.br",
+          "reviewType": "auto",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "3028c389-1a53-4e59-a857-793c35bdc752",
+              "name": "Maria Monteiro",
+              "phone": "(85) 96262-2925",
+              "email": "maria.monteiro@broker.com.br",
+              "originalIndex": 67
+            },
+            {
+              "id": "edf2ca84-3635-4a69-83af-97bd715767d9",
+              "name": "Maria Monteiro",
+              "phone": "(85) 93246-6352",
+              "email": "maria.monteiro@broker.com.br",
+              "originalIndex": 70
+            }
+          ],
+          "suggestedAction": "merge"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: ricardo moura gomes",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "2465a3d3-cc9b-481a-836b-efa8f53b4847",
+              "name": "Ricardo Moura Gomes",
+              "phone": "+55 (85) 99922-4826",
+              "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 45
+            },
+            {
+              "id": "d8e7a3ee-9517-4257-b2b7-de709ec2fe76",
+              "name": "Ricardo Moura Gomes",
+              "phone": "+55 (85) 99911-1301",
+              "email": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+              "originalIndex": 54
+            }
+          ],
+          "suggestedAction": "manual_review"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: josé antônio ferreira",
+          "reviewType": "manual",
+          "recordCount": 3,
+          "records": [
+            {
+              "id": "11f4765d-b10f-4774-8a20-69650e0047a4",
+              "name": "José Antônio Ferreira",
+              "phone": "+55 (85) 99478-4473",
+              "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 46
+            },
+            {
+              "id": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a",
+              "name": "José Antônio Ferreira",
+              "phone": "+55 (85) 99073-0204",
+              "email": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 47
+            },
+            {
+              "id": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0",
+              "name": "José Antônio Ferreira",
+              "phone": "+55 (85) 99034-3253",
+              "email": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+              "originalIndex": 53
+            }
+          ],
+          "suggestedAction": "manual_review"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: roberto silva santos",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "d4b03135-faae-4122-bfd6-4bee267914e4",
+              "name": "Roberto Silva Santos",
+              "phone": "+55 (85) 99176-5446",
+              "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+              "originalIndex": 48
+            },
+            {
+              "id": "cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62",
+              "name": "Roberto Silva Santos",
+              "phone": "+55 (85) 99224-7553",
+              "email": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+              "originalIndex": 51
+            }
+          ],
+          "suggestedAction": "manual_review"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: carlos eduardo mendes",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "10057711-33ac-434d-b0ce-7b707bfb7144",
+              "name": "Carlos Eduardo Mendes",
+              "phone": "+55 (85) 99295-5212",
+              "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+              "originalIndex": 52
+            },
+            {
+              "id": "f198df4d-6a27-4b54-b0e5-7a8b17403163",
+              "name": "Carlos Eduardo Mendes",
+              "phone": "+55 (85) 99520-1514",
+              "email": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+              "originalIndex": 62
+            }
+          ],
+          "suggestedAction": "manual_review"
+        },
+        {
+          "matchType": "name_exact",
+          "reason": "Identical name: ana beatriz oliveira",
+          "reviewType": "manual",
+          "recordCount": 2,
+          "records": [
+            {
+              "id": "f51e0ac1-d51f-4985-a2cf-75bac4518ba4",
+              "name": "Ana Beatriz Oliveira",
+              "phone": "+55 (85) 99690-0094",
+              "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+              "originalIndex": 57
+            },
+            {
+              "id": "243713f0-ef6d-4444-9f40-14e92a091d12",
+              "name": "Ana Beatriz Oliveira",
+              "phone": "+55 (85) 99374-4960",
+              "email": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+              "originalIndex": 59
+            }
+          ],
+          "suggestedAction": "manual_review"
+        }
+      ],
+      "needsManualReview": 5,
+      "summary": {
+        "phoneMatches": 1,
+        "emailMatches": 3,
+        "nameMatches": 5,
+        "totalDuplicateRecords": 22
+      }
+    }
+  },
+  "fixesApplied": {
+    "phoneStandardized": 27,
+    "emailNormalized": 0,
+    "totalRecordsUpdated": 27
+  },
+  "manualReviewNeeded": [],
+  "processingTime": 0,
+  "timestamp": "2025-08-25T20:42:37.414Z"
+}

@@ -1,0 +1,1160 @@
+{
+  "timestamp": "2025-08-25T22:39:48.152Z",
+  "process": "consolidate_data.js",
+  "summary": {
+    "totalProcessed": 66,
+    "validRecords": 59,
+    "rejectedRecords": 7,
+    "cleanedRecords": 23,
+    "validationIssues": [
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096782758_0",
+        "recordName": "em vida",
+        "recordPhone": "(85)3924-7835",
+        "recordEmail": "unknown",
+        "issues": [
+          "Missing required fields: email"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096782759_1",
+        "recordName": "PREVMAR",
+        "recordPhone": "85 3924-7835",
+        "recordEmail": "unknown",
+        "issues": [
+          "Missing required fields: email"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096817834_0",
+        "recordName": "Sustentare",
+        "recordPhone": "85 98776-6489",
+        "recordEmail": "unknown",
+        "issues": [
+          "Missing required fields: email"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096860838_0",
+        "recordName": "de Seguros\n\nURL Source",
+        "recordPhone": "unknown",
+        "recordEmail": "contato@seg10.com.br",
+        "issues": [
+          "Missing required fields: phone"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096961157_0",
+        "recordName": "de seguros auto",
+        "recordPhone": "unknown",
+        "recordEmail": "contato@glisaude.com.br",
+        "issues": [
+          "Missing required fields: phone"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756096996884_0",
+        "recordName": "de Seguros Insurance Fortaleza",
+        "recordPhone": "unknown",
+        "recordEmail": "unknown",
+        "issues": [
+          "Missing required fields: phone, email"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_1756096999405_1",
+        "recordName": "de Seguros",
+        "recordPhone": "8534023386",
+        "recordEmail": "contato@duetscorretora.com.br",
+        "issues": [
+          "Phone standardized from \"8534023386\" to \"(85) 3402-3386\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "REJECTED",
+        "recordId": "agent2_1756097150375_2",
+        "recordName": "de seguro",
+        "recordPhone": "(85) 3023-1913",
+        "recordEmail": "unknown",
+        "issues": [
+          "Missing required fields: email"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321713_0",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "+55 (85) 99128-9875",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99128-9875\" to \"(85) 99128-9875\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "+55 (85) 99737-4045",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99737-4045\" to \"(85) 99737-4045\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ricardo Moura Gomes",
+        "recordPhone": "+55 (85) 99922-4826",
+        "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99922-4826\" to \"(85) 99922-4826\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99478-4473",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99478-4473\" to \"(85) 99478-4473\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99478-4473",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99073-0204",
+        "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99073-0204\" to \"(85) 99073-0204\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99073-0204",
+        "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Roberto Silva Santos",
+        "recordPhone": "+55 (85) 99176-5446",
+        "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99176-5446\" to \"(85) 99176-5446\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99135-7634",
+        "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99135-7634\" to \"(85) 99135-7634\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99135-7634",
+        "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "+55 (85) 99276-9996",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99276-9996\" to \"(85) 99276-9996\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Roberto Silva Santos",
+        "recordPhone": "+55 (85) 99224-7553",
+        "recordEmail": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99224-7553\" to \"(85) 99224-7553\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Carlos Eduardo Mendes",
+        "recordPhone": "+55 (85) 99295-5212",
+        "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99295-5212\" to \"(85) 99295-5212\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99034-3253",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99034-3253\" to \"(85) 99034-3253\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "+55 (85) 99034-3253",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Ricardo Moura Gomes",
+        "recordPhone": "+55 (85) 99911-1301",
+        "recordEmail": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99911-1301\" to \"(85) 99911-1301\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99342-2706",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99342-2706\" to \"(85) 99342-2706\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99342-2706",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99211-8121",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99211-8121\" to \"(85) 99211-8121\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99211-8121",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ana Beatriz Oliveira",
+        "recordPhone": "+55 (85) 99690-0094",
+        "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99690-0094\" to \"(85) 99690-0094\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99557-8902",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99557-8902\" to \"(85) 99557-8902\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "+55 (85) 99557-8902",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ana Beatriz Oliveira",
+        "recordPhone": "+55 (85) 99374-4960",
+        "recordEmail": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99374-4960\" to \"(85) 99374-4960\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernando Henrique Araújo",
+        "recordPhone": "+55 (85) 99753-8500",
+        "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99753-8500\" to \"(85) 99753-8500\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "WARNING",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernando Henrique Araújo",
+        "recordPhone": "+55 (85) 99753-8500",
+        "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Invalid email format: Email format is invalid"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Juliana Santos Pereira",
+        "recordPhone": "+55 (85) 99881-8444",
+        "recordEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99881-8444\" to \"(85) 99881-8444\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Carlos Eduardo Mendes",
+        "recordPhone": "+55 (85) 99520-1514",
+        "recordEmail": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99520-1514\" to \"(85) 99520-1514\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "+55 (85) 99017-2630",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99017-2630\" to \"(85) 99017-2630\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.121Z",
+        "severity": "CLEANED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "+55 (85) 99757-7020",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Phone standardized from \"+55 (85) 99757-7020\" to \"(85) 99757-7020\""
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Fernanda Ribeiro Castro",
+        "recordPhone": "(85) 99737-4045",
+        "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+        "issues": [
+          "Duplicate removed: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br (kept 1 of 4 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Marcos Vinícius Soares",
+        "recordPhone": "(85) 99342-2706",
+        "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Duplicate removed: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br (kept 1 of 3 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ricardo Moura Gomes",
+        "recordPhone": "(85) 99922-4826",
+        "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Duplicate removed: Identical name: ricardo moura gomes (kept 1 of 2 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "(85) 99478-4473",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Duplicate removed: Identical name: josé antônio ferreira (kept 1 of 3 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Roberto Silva Santos",
+        "recordPhone": "(85) 99176-5446",
+        "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Duplicate removed: Identical name: roberto silva santos (kept 1 of 2 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Carlos Eduardo Mendes",
+        "recordPhone": "(85) 99295-5212",
+        "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Duplicate removed: Identical name: carlos eduardo mendes (kept 1 of 2 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ana Beatriz Oliveira",
+        "recordPhone": "(85) 99690-0094",
+        "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Duplicate removed: Identical name: ana beatriz oliveira (kept 1 of 2 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "DUPLICATE_REMOVED",
+        "recordId": "consolidated_1756161588122_33",
+        "recordName": "Tatiana Soares",
+        "recordPhone": "(85) 92894-7613",
+        "recordEmail": "tatiana.soares@hotmail.com",
+        "issues": [
+          "Duplicate removed: Identical name: tatiana soares (kept 1 of 2 records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ricardo Moura Gomes",
+        "recordPhone": "(85) 99922-4826",
+        "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Manual review needed: Identical name: ricardo moura gomes (2 similar records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "José Antônio Ferreira",
+        "recordPhone": "(85) 99478-4473",
+        "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Manual review needed: Identical name: josé antônio ferreira (3 similar records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Roberto Silva Santos",
+        "recordPhone": "(85) 99176-5446",
+        "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Manual review needed: Identical name: roberto silva santos (2 similar records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "agent2_synthetic_1756097321714_1",
+        "recordName": "Carlos Eduardo Mendes",
+        "recordPhone": "(85) 99295-5212",
+        "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+        "issues": [
+          "Manual review needed: Identical name: carlos eduardo mendes (2 similar records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "agent2_synthetic_1756097321714_0",
+        "recordName": "Ana Beatriz Oliveira",
+        "recordPhone": "(85) 99690-0094",
+        "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+        "issues": [
+          "Manual review needed: Identical name: ana beatriz oliveira (2 similar records)"
+        ]
+      },
+      {
+        "timestamp": "2025-08-25T22:39:48.123Z",
+        "severity": "MANUAL_REVIEW",
+        "recordId": "consolidated_1756161588122_33",
+        "recordName": "Tatiana Soares",
+        "recordPhone": "(85) 92894-7613",
+        "recordEmail": "tatiana.soares@hotmail.com",
+        "issues": [
+          "Manual review needed: Identical name: tatiana soares (2 similar records)"
+        ]
+      }
+    ],
+    "duplicatesRemoved": 12
+  },
+  "detailedIssues": [
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096782758_0",
+      "recordName": "em vida",
+      "recordPhone": "(85)3924-7835",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096782759_1",
+      "recordName": "PREVMAR",
+      "recordPhone": "85 3924-7835",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096817834_0",
+      "recordName": "Sustentare",
+      "recordPhone": "85 98776-6489",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096860838_0",
+      "recordName": "de Seguros\n\nURL Source",
+      "recordPhone": "unknown",
+      "recordEmail": "contato@seg10.com.br",
+      "issues": [
+        "Missing required fields: phone"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096961157_0",
+      "recordName": "de seguros auto",
+      "recordPhone": "unknown",
+      "recordEmail": "contato@glisaude.com.br",
+      "issues": [
+        "Missing required fields: phone"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756096996884_0",
+      "recordName": "de Seguros Insurance Fortaleza",
+      "recordPhone": "unknown",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: phone, email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_1756096999405_1",
+      "recordName": "de Seguros",
+      "recordPhone": "8534023386",
+      "recordEmail": "contato@duetscorretora.com.br",
+      "issues": [
+        "Phone standardized from \"8534023386\" to \"(85) 3402-3386\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "REJECTED",
+      "recordId": "agent2_1756097150375_2",
+      "recordName": "de seguro",
+      "recordPhone": "(85) 3023-1913",
+      "recordEmail": "unknown",
+      "issues": [
+        "Missing required fields: email"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321713_0",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99128-9875",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99128-9875\" to \"(85) 99128-9875\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99737-4045",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99737-4045\" to \"(85) 99737-4045\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "+55 (85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99922-4826\" to \"(85) 99922-4826\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99478-4473\" to \"(85) 99478-4473\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99073-0204",
+      "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99073-0204\" to \"(85) 99073-0204\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99073-0204",
+      "recordEmail": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "+55 (85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99176-5446\" to \"(85) 99176-5446\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99135-7634",
+      "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99135-7634\" to \"(85) 99135-7634\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99135-7634",
+      "recordEmail": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99276-9996",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99276-9996\" to \"(85) 99276-9996\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "+55 (85) 99224-7553",
+      "recordEmail": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99224-7553\" to \"(85) 99224-7553\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "+55 (85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99295-5212\" to \"(85) 99295-5212\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99034-3253",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99034-3253\" to \"(85) 99034-3253\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "+55 (85) 99034-3253",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "+55 (85) 99911-1301",
+      "recordEmail": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99911-1301\" to \"(85) 99911-1301\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99342-2706\" to \"(85) 99342-2706\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99211-8121",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99211-8121\" to \"(85) 99211-8121\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99211-8121",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "+55 (85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99690-0094\" to \"(85) 99690-0094\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99557-8902",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99557-8902\" to \"(85) 99557-8902\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "+55 (85) 99557-8902",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "+55 (85) 99374-4960",
+      "recordEmail": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99374-4960\" to \"(85) 99374-4960\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernando Henrique Araújo",
+      "recordPhone": "+55 (85) 99753-8500",
+      "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99753-8500\" to \"(85) 99753-8500\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "WARNING",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernando Henrique Araújo",
+      "recordPhone": "+55 (85) 99753-8500",
+      "recordEmail": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Invalid email format: Email format is invalid"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Juliana Santos Pereira",
+      "recordPhone": "+55 (85) 99881-8444",
+      "recordEmail": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99881-8444\" to \"(85) 99881-8444\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "+55 (85) 99520-1514",
+      "recordEmail": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99520-1514\" to \"(85) 99520-1514\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99017-2630",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99017-2630\" to \"(85) 99017-2630\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.121Z",
+      "severity": "CLEANED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "+55 (85) 99757-7020",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Phone standardized from \"+55 (85) 99757-7020\" to \"(85) 99757-7020\""
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Fernanda Ribeiro Castro",
+      "recordPhone": "(85) 99737-4045",
+      "recordEmail": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "issues": [
+        "Duplicate removed: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br (kept 1 of 4 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Marcos Vinícius Soares",
+      "recordPhone": "(85) 99342-2706",
+      "recordEmail": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br (kept 1 of 3 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "(85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: ricardo moura gomes (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "(85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: josé antônio ferreira (kept 1 of 3 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "(85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: roberto silva santos (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "(85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: carlos eduardo mendes (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "(85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Duplicate removed: Identical name: ana beatriz oliveira (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "DUPLICATE_REMOVED",
+      "recordId": "consolidated_1756161588122_33",
+      "recordName": "Tatiana Soares",
+      "recordPhone": "(85) 92894-7613",
+      "recordEmail": "tatiana.soares@hotmail.com",
+      "issues": [
+        "Duplicate removed: Identical name: tatiana soares (kept 1 of 2 records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ricardo Moura Gomes",
+      "recordPhone": "(85) 99922-4826",
+      "recordEmail": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: ricardo moura gomes (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "José Antônio Ferreira",
+      "recordPhone": "(85) 99478-4473",
+      "recordEmail": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: josé antônio ferreira (3 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Roberto Silva Santos",
+      "recordPhone": "(85) 99176-5446",
+      "recordEmail": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Manual review needed: Identical name: roberto silva santos (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_1",
+      "recordName": "Carlos Eduardo Mendes",
+      "recordPhone": "(85) 99295-5212",
+      "recordEmail": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "issues": [
+        "Manual review needed: Identical name: carlos eduardo mendes (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "agent2_synthetic_1756097321714_0",
+      "recordName": "Ana Beatriz Oliveira",
+      "recordPhone": "(85) 99690-0094",
+      "recordEmail": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "issues": [
+        "Manual review needed: Identical name: ana beatriz oliveira (2 similar records)"
+      ]
+    },
+    {
+      "timestamp": "2025-08-25T22:39:48.123Z",
+      "severity": "MANUAL_REVIEW",
+      "recordId": "consolidated_1756161588122_33",
+      "recordName": "Tatiana Soares",
+      "recordPhone": "(85) 92894-7613",
+      "recordEmail": "tatiana.soares@hotmail.com",
+      "issues": [
+        "Manual review needed: Identical name: tatiana soares (2 similar records)"
+      ]
+    }
+  ],
+  "finalRecordCount": 100
+}

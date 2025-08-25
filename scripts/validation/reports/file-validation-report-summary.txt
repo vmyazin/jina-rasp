@@ -1,0 +1,17 @@
+Simple Validation Report Summary
+=====================================
+Generated: 8/25/2025, 7:48:42 PM
+Total Records: 10
+
+Overall Status:
+- Records with no issues: 10
+- Records needing attention: 0
+- Total issues found: 0
+
+Issues by Type:
+- Missing required fields: 0 records
+- Invalid emails: 0 records
+- Invalid phones: 0 records
+- Low completeness (<50%): 0 records
+- Potential duplicates: 0 records
+

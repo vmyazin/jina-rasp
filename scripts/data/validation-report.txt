@@ -1,0 +1,19 @@
+Required Field Validation Report
+=====================================
+Total Records: 100
+Valid Records: 93 (93.0%)
+Invalid Records: 7
+
+Missing Field Summary:
+- Missing Name: 0 records
+- Missing Phone: 3 records
+- Missing Email: 5 records
+
+Records Needing Attention:
+- Record agent2_1756096782758_0: Missing email
+- Record agent2_1756096782759_1: Missing email
+- Record agent2_1756096817834_0: Missing email
+- Record agent2_1756096860838_0: Missing phone
+- Record agent2_1756096961157_0: Missing phone
+- Record agent2_1756096996884_0: Missing phone, email
+- Record agent2_1756097150375_2: Missing email

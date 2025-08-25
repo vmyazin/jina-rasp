@@ -1,0 +1,93 @@
+Duplicate Detection Report
+=====================================
+Total Records: 101
+Duplicate Groups Found: 9
+Records Involved in Duplicates: 22 (21.8%)
+Groups Needing Manual Review: 5
+
+Match Summary:
+- Phone Number Matches: 1 groups
+- Email Address Matches: 3 groups
+- Name Matches: 5 groups (need manual review)
+
+Duplicate Groups Found:
+
+Group 1 [AUTO]:
+  Reason: Identical phone number: 8539247835
+  Records (2):
+    - ID: 81ec1ca5-9c61-42f1-bdee-4bce5108500e, Name: "em vida", Phone: "(85)3924-7835", Email: ""
+    - ID: 5183f13c-369c-457c-a0a5-ba1f9673eaf5, Name: "PREVMAR", Phone: "85 3924-7835", Email: ""
+  Suggested Action: merge
+
+Group 2 [AUTO]:
+  Reason: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br
+  Records (4):
+    - ID: 1a42a491-7bb9-4370-906d-297c27011fc6, Name: "Fernanda Ribeiro Castro", Phone: "+55 (85) 99737-4045", Email: "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br"
+    - ID: 1fe6d96d-da84-44de-a8f0-8c66212a3980, Name: "Fernanda Ribeiro Castro", Phone: "+55 (85) 99276-9996", Email: "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br"
+    - ID: fd242c23-10eb-4a88-81ce-3e54e07188ae, Name: "Fernanda Ribeiro Castro", Phone: "+55 (85) 99017-2630", Email: "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br"
+    - ID: 08b1d8cc-9966-4891-8aac-ec08e3756cc1, Name: "Fernanda Ribeiro Castro", Phone: "+55 (85) 99757-7020", Email: "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br"
+  Suggested Action: merge
+
+Group 3 [AUTO]:
+  Reason: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br
+  Records (3):
+    - ID: ada96e15-5868-4f8a-b321-664c0bb0488d, Name: "Marcos Vinícius Soares", Phone: "+55 (85) 99342-2706", Email: "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br"
+    - ID: b0f22661-5f98-4c6c-8846-6d1542444a0f, Name: "Marcos Vinícius Soares", Phone: "+55 (85) 99211-8121", Email: "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br"
+    - ID: 9c138e71-dc1d-406c-a983-1be3fd741a9b, Name: "Marcos Vinícius Soares", Phone: "+55 (85) 99557-8902", Email: "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br"
+  Suggested Action: merge
+
+Group 4 [AUTO]:
+  Reason: Identical email address: maria.monteiro@broker.com.br
+  Records (2):
+    - ID: 3028c389-1a53-4e59-a857-793c35bdc752, Name: "Maria Monteiro", Phone: "(85) 96262-2925", Email: "maria.monteiro@broker.com.br"
+    - ID: edf2ca84-3635-4a69-83af-97bd715767d9, Name: "Maria Monteiro", Phone: "(85) 93246-6352", Email: "maria.monteiro@broker.com.br"
+  Suggested Action: merge
+
+Group 5 [MANUAL]:
+  Reason: Identical name: ricardo moura gomes
+  Records (2):
+    - ID: 2465a3d3-cc9b-481a-836b-efa8f53b4847, Name: "Ricardo Moura Gomes", Phone: "+55 (85) 99922-4826", Email: "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br"
+    - ID: d8e7a3ee-9517-4257-b2b7-de709ec2fe76, Name: "Ricardo Moura Gomes", Phone: "+55 (85) 99911-1301", Email: "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br"
+  Suggested Action: manual_review
+
+Group 6 [MANUAL]:
+  Reason: Identical name: josé antônio ferreira
+  Records (3):
+    - ID: 11f4765d-b10f-4774-8a20-69650e0047a4, Name: "José Antônio Ferreira", Phone: "+55 (85) 99478-4473", Email: "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br"
+    - ID: 5f2515ef-bd94-4db7-9d91-0b392d8bf45a, Name: "José Antônio Ferreira", Phone: "+55 (85) 99073-0204", Email: "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br"
+    - ID: b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0, Name: "José Antônio Ferreira", Phone: "+55 (85) 99034-3253", Email: "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br"
+  Suggested Action: manual_review
+
+Group 7 [MANUAL]:
+  Reason: Identical name: roberto silva santos
+  Records (2):
+    - ID: d4b03135-faae-4122-bfd6-4bee267914e4, Name: "Roberto Silva Santos", Phone: "+55 (85) 99176-5446", Email: "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br"
+    - ID: cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62, Name: "Roberto Silva Santos", Phone: "+55 (85) 99224-7553", Email: "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br"
+  Suggested Action: manual_review
+
+Group 8 [MANUAL]:
+  Reason: Identical name: carlos eduardo mendes
+  Records (2):
+    - ID: 10057711-33ac-434d-b0ce-7b707bfb7144, Name: "Carlos Eduardo Mendes", Phone: "+55 (85) 99295-5212", Email: "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br"
+    - ID: f198df4d-6a27-4b54-b0e5-7a8b17403163, Name: "Carlos Eduardo Mendes", Phone: "+55 (85) 99520-1514", Email: "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br"
+  Suggested Action: manual_review
+
+Group 9 [MANUAL]:
+  Reason: Identical name: ana beatriz oliveira
+  Records (2):
+    - ID: f51e0ac1-d51f-4985-a2cf-75bac4518ba4, Name: "Ana Beatriz Oliveira", Phone: "+55 (85) 99690-0094", Email: "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br"
+    - ID: 243713f0-ef6d-4444-9f40-14e92a091d12, Name: "Ana Beatriz Oliveira", Phone: "+55 (85) 99374-4960", Email: "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br"
+  Suggested Action: manual_review
+
+Auto-Mergeable Groups (4):
+- Group 1: Identical phone number: 8539247835 (2 records)
+- Group 2: Identical email address: fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br (4 records)
+- Group 3: Identical email address: marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br (3 records)
+- Group 4: Identical email address: maria.monteiro@broker.com.br (2 records)
+
+Groups Needing Manual Review (5):
+- Group 1: Identical name: ricardo moura gomes (2 records)
+- Group 2: Identical name: josé antônio ferreira (3 records)
+- Group 3: Identical name: roberto silva santos (2 records)
+- Group 4: Identical name: carlos eduardo mendes (2 records)
+- Group 5: Identical name: ana beatriz oliveira (2 records)

@@ -1,0 +1,488 @@
+{
+  "summary": {
+    "totalRecordsNeedingReview": 38,
+    "criticalIssues": 32,
+    "duplicateGroups": 5,
+    "missingRequiredFields": 7
+  },
+  "records": [
+    {
+      "recordId": "81ec1ca5-9c61-42f1-bdee-4bce5108500e",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: email"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "5183f13c-369c-457c-a0a5-ba1f9673eaf5",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: email"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "64908941-88a4-4b88-b4c1-bd228b759942",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: email"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "51986d1e-ed05-4adb-a45d-91be658aaf7a",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: phone"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "eb237d39-1869-4c7b-ba95-1f9e09420f91",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: phone"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "500694a1-718c-400a-b541-257dda0e767a",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: phone, email"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "74e99d9c-d121-4254-8262-5d55d4feb815",
+      "issueType": "missing_required_fields",
+      "severity": "critical",
+      "issues": [
+        "Missing fields: email"
+      ],
+      "action": "Fill in missing required fields"
+    },
+    {
+      "recordId": "51986d1e-ed05-4adb-a45d-91be658aaf7a",
+      "issueType": "invalid_phone",
+      "severity": "critical",
+      "issues": [
+        "Phone number is missing or not a string"
+      ],
+      "originalValue": null,
+      "action": "Fix or replace phone number"
+    },
+    {
+      "recordId": "eb237d39-1869-4c7b-ba95-1f9e09420f91",
+      "issueType": "invalid_phone",
+      "severity": "critical",
+      "issues": [
+        "Phone number is missing or not a string"
+      ],
+      "originalValue": null,
+      "action": "Fix or replace phone number"
+    },
+    {
+      "recordId": "500694a1-718c-400a-b541-257dda0e767a",
+      "issueType": "invalid_phone",
+      "severity": "critical",
+      "issues": [
+        "Phone number is missing or not a string"
+      ],
+      "originalValue": null,
+      "action": "Fix or replace phone number"
+    },
+    {
+      "recordId": "81ec1ca5-9c61-42f1-bdee-4bce5108500e",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email address is missing or not a string"
+      ],
+      "originalValue": null,
+      "normalizedValue": null,
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "5183f13c-369c-457c-a0a5-ba1f9673eaf5",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email address is missing or not a string"
+      ],
+      "originalValue": null,
+      "normalizedValue": null,
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "64908941-88a4-4b88-b4c1-bd228b759942",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email address is missing or not a string"
+      ],
+      "originalValue": null,
+      "normalizedValue": null,
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "500694a1-718c-400a-b541-257dda0e767a",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email address is missing or not a string"
+      ],
+      "originalValue": null,
+      "normalizedValue": null,
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "74e99d9c-d121-4254-8262-5d55d4feb815",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email address is missing or not a string"
+      ],
+      "originalValue": null,
+      "normalizedValue": null,
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "11f4765d-b10f-4774-8a20-69650e0047a4",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "normalizedValue": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "normalizedValue": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "46584c11-eaf1-47b3-8fc9-3d8acfa72743",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "normalizedValue": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "normalizedValue": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "ada96e15-5868-4f8a-b321-664c0bb0488d",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "normalizedValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "b0f22661-5f98-4c6c-8846-6d1542444a0f",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "normalizedValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "9c138e71-dc1d-406c-a983-1be3fd741a9b",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "normalizedValue": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "e5632e7a-03f8-4a22-b37e-e2a986962f61",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "normalizedValue": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "f961a505-ac5c-4130-9799-7828508fde86",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "joão.fernandes@representações.com.br",
+      "normalizedValue": "joão.fernandes@representações.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "0a8fd21d-9aa1-4614-b7f3-6c0031e2124b",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "priscila.rocha@proteção.com.br",
+      "normalizedValue": "priscila.rocha@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "601f87fd-d72f-48fe-bec0-f1c1526bc255",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "mônica.almeida@assessoria.com.br",
+      "normalizedValue": "mônica.almeida@assessoria.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "ed8e337c-4fbb-4188-b41a-b775de6a592f",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "bruno.costa@proteção.com.br",
+      "normalizedValue": "bruno.costa@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "c2cc6f6e-a801-4104-bb4a-fb893b60bdf0",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "josé.nascimento@broker.com.br",
+      "normalizedValue": "josé.nascimento@broker.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "a3062fb3-d53e-43ff-9b7e-ab37e36e41c4",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "antônio.almeida@proteção.com.br",
+      "normalizedValue": "antônio.almeida@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "0b4b6b99-7815-4591-a46e-1981fe728cbe",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "joão.souza@proteção.com.br",
+      "normalizedValue": "joão.souza@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "d0d8cda1-3c8a-4fdc-af61-7b6d14107673",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "maria.souza@proteção.com.br",
+      "normalizedValue": "maria.souza@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "48908127-4f31-4e3a-9ae1-5a45f4f92a11",
+      "issueType": "email_issue",
+      "severity": "critical",
+      "issues": [
+        "Email format is invalid"
+      ],
+      "originalValue": "bruno.rocha@proteção.com.br",
+      "normalizedValue": "bruno.rocha@proteção.com.br",
+      "action": "Fix or replace email address"
+    },
+    {
+      "recordId": "2da4eb38-424a-4331-9515-6618b6e07a24",
+      "issueType": "email_issue",
+      "severity": "warning",
+      "issues": [
+        "Email appears to be a placeholder or test email"
+      ],
+      "originalValue": "test@example.com",
+      "normalizedValue": "test@example.com",
+      "action": "Review suspicious email"
+    },
+    {
+      "recordId": "multiple",
+      "issueType": "duplicate_records",
+      "severity": "warning",
+      "issues": [
+        "Identical name: ricardo moura gomes"
+      ],
+      "duplicateRecords": [
+        {
+          "id": "2465a3d3-cc9b-481a-836b-efa8f53b4847",
+          "name": "Ricardo Moura Gomes",
+          "phone": "+55 (85) 99922-4826",
+          "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 45
+        },
+        {
+          "id": "d8e7a3ee-9517-4257-b2b7-de709ec2fe76",
+          "name": "Ricardo Moura Gomes",
+          "phone": "+55 (85) 99911-1301",
+          "email": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+          "originalIndex": 54
+        }
+      ],
+      "action": "Review and merge duplicate records manually"
+    },
+    {
+      "recordId": "multiple",
+      "issueType": "duplicate_records",
+      "severity": "warning",
+      "issues": [
+        "Identical name: josé antônio ferreira"
+      ],
+      "duplicateRecords": [
+        {
+          "id": "11f4765d-b10f-4774-8a20-69650e0047a4",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99478-4473",
+          "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 46
+        },
+        {
+          "id": "5f2515ef-bd94-4db7-9d91-0b392d8bf45a",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99073-0204",
+          "email": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 47
+        },
+        {
+          "id": "b0e5e9bb-1e53-4565-ac40-eb85aba9d2d0",
+          "name": "José Antônio Ferreira",
+          "phone": "+55 (85) 99034-3253",
+          "email": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 53
+        }
+      ],
+      "action": "Review and merge duplicate records manually"
+    },
+    {
+      "recordId": "multiple",
+      "issueType": "duplicate_records",
+      "severity": "warning",
+      "issues": [
+        "Identical name: roberto silva santos"
+      ],
+      "duplicateRecords": [
+        {
+          "id": "d4b03135-faae-4122-bfd6-4bee267914e4",
+          "name": "Roberto Silva Santos",
+          "phone": "+55 (85) 99176-5446",
+          "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 48
+        },
+        {
+          "id": "cf24ee3f-e5a0-42dc-a0a3-29f2170a9a62",
+          "name": "Roberto Silva Santos",
+          "phone": "+55 (85) 99224-7553",
+          "email": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+          "originalIndex": 51
+        }
+      ],
+      "action": "Review and merge duplicate records manually"
+    },
+    {
+      "recordId": "multiple",
+      "issueType": "duplicate_records",
+      "severity": "warning",
+      "issues": [
+        "Identical name: carlos eduardo mendes"
+      ],
+      "duplicateRecords": [
+        {
+          "id": "10057711-33ac-434d-b0ce-7b707bfb7144",
+          "name": "Carlos Eduardo Mendes",
+          "phone": "+55 (85) 99295-5212",
+          "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+          "originalIndex": 52
+        },
+        {
+          "id": "f198df4d-6a27-4b54-b0e5-7a8b17403163",
+          "name": "Carlos Eduardo Mendes",
+          "phone": "+55 (85) 99520-1514",
+          "email": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+          "originalIndex": 62
+        }
+      ],
+      "action": "Review and merge duplicate records manually"
+    },
+    {
+      "recordId": "multiple",
+      "issueType": "duplicate_records",
+      "severity": "warning",
+      "issues": [
+        "Identical name: ana beatriz oliveira"
+      ],
+      "duplicateRecords": [
+        {
+          "id": "f51e0ac1-d51f-4985-a2cf-75bac4518ba4",
+          "name": "Ana Beatriz Oliveira",
+          "phone": "+55 (85) 99690-0094",
+          "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+          "originalIndex": 57
+        },
+        {
+          "id": "243713f0-ef6d-4444-9f40-14e92a091d12",
+          "name": "Ana Beatriz Oliveira",
+          "phone": "+55 (85) 99374-4960",
+          "email": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+          "originalIndex": 59
+        }
+      ],
+      "action": "Review and merge duplicate records manually"
+    }
+  ]
+}

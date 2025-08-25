@@ -1,0 +1,20 @@
+Phone Number Validation Report
+=====================================
+Total Records: 101
+Valid Phones: 98 (97.0%)
+Invalid Phones: 3
+Cleaned/Standardized: 27
+
+Issue Summary:
+- Critical Issues: 3 (missing/obviously invalid)
+- Warnings: 0 (format issues)
+- Info: 98 (cleaned successfully)
+- Standardized: 27
+
+Records Needing Attention:
+- Record 51986d1e-ed05-4adb-a45d-91be658aaf7a: Phone number is missing or not a string
+  Original: "null"
+- Record eb237d39-1869-4c7b-ba95-1f9e09420f91: Phone number is missing or not a string
+  Original: "null"
+- Record 500694a1-718c-400a-b541-257dda0e767a: Phone number is missing or not a string
+  Original: "null"

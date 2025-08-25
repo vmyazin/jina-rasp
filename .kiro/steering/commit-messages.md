@@ -14,7 +14,7 @@ Always write commit messages using markdown format. Keep them concise and inform
 
 ## Template
 ```markdown
-**[TYPE]**: Brief description of changes
+TYPE(): Brief description of changes
 
 - Key change or improvement made
 - Impact or benefit of the change
