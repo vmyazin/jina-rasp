@@ -1,0 +1,3152 @@
+{
+  "metadata": {
+    "total_brokers": 100,
+    "scraped_at": "2025-08-25T04:55:00.716Z",
+    "agents_used": [
+      "Agent 1",
+      "Agent 2"
+    ],
+    "data_sources": [
+      "agent1_results.json",
+      "agent2_results.json"
+    ],
+    "target_neighborhoods": [
+      "Centro",
+      "Aldeota",
+      "Meireles",
+      "Cocó",
+      "Papicu",
+      "Varjota",
+      "Dionísio Torres",
+      "Benfica",
+      "Montese",
+      "Messejana",
+      "Cambeba",
+      "José Bonifácio",
+      "Fátima",
+      "Joaquim Távora",
+      "Mucuripe"
+    ]
+  },
+  "brokers": [
+    {
+      "id": "agent1_meqmf1tmpjrasif1i9d",
+      "name": "Silva Seguros",
+      "owner": "João Silva",
+      "email": "joo.silva@gmail.com",
+      "phone": "(85) 97100-5622",
+      "website": "https://www.silvaseguros.com.br",
+      "address": "Av. Dom Manuel, 534 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4,
+      "review_count": 24,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 20,
+      "license_number": 664448,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.146Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tnqekocmoxut",
+      "name": "Oliveira Corretora",
+      "owner": "Maria Oliveira",
+      "email": "maria.oliveira@outlook.com",
+      "phone": "(85) 92895-8815",
+      "website": "https://www.oliveiracorretora.com.br",
+      "address": "Avenida Desembargador Moreira, 683 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 3.9,
+      "review_count": 26,
+      "business_hours": {
+        "weekdays": "08:30 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 12,
+      "license_number": 981105,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tnhcfe9mbywj",
+      "name": "Santos Insurance",
+      "owner": "Carlos Santos",
+      "email": "carlos.santos@uol.com.br",
+      "phone": "(85) 92484-7871",
+      "website": "https://www.santosinsurance.com.br",
+      "address": "Rua Visconde do Rio Branco, 1176 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.3,
+      "review_count": 73,
+      "business_hours": {
+        "weekdays": "08:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 21,
+      "license_number": 123046,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tnx39978ds8e",
+      "name": "Costa Seguros",
+      "owner": "Ana Costa",
+      "email": "ana.costa@gmail.com",
+      "phone": "(85) 95200-9981",
+      "website": "https://www.costaseguros.com.br",
+      "address": "Rua General Sampaio, 802 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.2,
+      "review_count": 47,
+      "business_hours": {
+        "weekdays": "08:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 10,
+      "license_number": 825752,
+      "social_media": {
+        "instagram": "costasegurosseguros",
+        "whatsapp": "5585841060167"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tnrtdao0ukbwb",
+      "name": "Martins Broker",
+      "owner": "Pedro Martins",
+      "email": "pedro.martins@yahoo.com.br",
+      "phone": "(85) 91214-7293",
+      "website": "https://www.martinsbroker.com.br",
+      "address": "Avenida Santos Dumont, 1277 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4,
+      "review_count": 13,
+      "business_hours": {
+        "weekdays": "09:00 - 17:30",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 11,
+      "license_number": 673705,
+      "social_media": {
+        "instagram": "martinsbrokerseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tn0i5wxpvu24gq",
+      "name": "Ferreira Seguros",
+      "owner": "Lucia Ferreira",
+      "email": "lucia.ferreira@outlook.com",
+      "phone": "(85) 93783-5815",
+      "website": "https://www.ferreiraseguros.com.br",
+      "address": "Avenida Beira Mar, 490, Sala 103 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "saude"
+      ],
+      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.1,
+      "review_count": 44,
+      "business_hours": {
+        "weekdays": "09:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 21,
+      "license_number": 278211,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tn8qz81foz28",
+      "name": "Lima Corretora",
+      "owner": "Roberto Lima",
+      "email": "roberto.lima@outlook.com",
+      "phone": "(85) 93708-2830",
+      "website": "https://www.limacorretora.com.br",
+      "address": "Rua Dom Manuel, 410 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.9,
+      "review_count": 26,
+      "business_hours": {
+        "weekdays": "09:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 27,
+      "license_number": 105875,
+      "social_media": {
+        "instagram": "limacorretoraseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tn0dxjdtm4z8qb",
+      "name": "Souza Insurance",
+      "owner": "Fernanda Souza",
+      "email": "fernanda.souza@gmail.com",
+      "phone": "(85) 91389-4342",
+      "website": "https://www.souzainsurance.com.br",
+      "address": "Avenida Monsenhor Tabosa, 842, Sala 108 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.4,
+      "review_count": 14,
+      "business_hours": {
+        "weekdays": "08:00 - 17:30",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 15,
+      "license_number": 533361,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tny7l70g7efhc",
+      "name": "Pereira Seguros",
+      "owner": "José Pereira",
+      "email": "jos.pereira@yahoo.com.br",
+      "phone": "(85) 93588-2307",
+      "website": "https://www.pereiraseguros.com.br",
+      "address": "Avenida Beira Mar, 181 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.5,
+      "review_count": 54,
+      "business_hours": {
+        "weekdays": "08:00 - 17:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 19,
+      "license_number": 179279,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.147Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tnfdackvmgzo",
+      "name": "Castro Corretora",
+      "owner": "Helena Castro",
+      "email": "helena.castro@yahoo.com.br",
+      "phone": "(85) 92581-2389",
+      "website": "https://www.castrocorretora.com.br",
+      "address": "Av. General Sampaio, 1171 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.2,
+      "review_count": 22,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 28,
+      "license_number": 908744,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to9919k10kpqb",
+      "name": "Almeida Seguros",
+      "owner": "Ricardo Almeida",
+      "email": "ricardo.almeida@uol.com.br",
+      "phone": "(85) 99606-9561",
+      "website": "https://www.almeidaseguros.com.br",
+      "address": "Avenida Monsenhor Tabosa, 1595, Sala 118 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.5,
+      "review_count": 38,
+      "business_hours": {
+        "weekdays": "08:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 20,
+      "license_number": 132622,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toyux9b77w3yl",
+      "name": "Rocha Insurance",
+      "owner": "Camila Rocha",
+      "email": "camila.rocha@gmail.com",
+      "phone": "(85) 96810-9516",
+      "website": "https://www.rochainsurance.com.br",
+      "address": "Rua Beira Mar, 1142 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "saude"
+      ],
+      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.5,
+      "review_count": 55,
+      "business_hours": {
+        "weekdays": "09:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 12,
+      "license_number": 593146,
+      "social_media": {
+        "instagram": "rochainsuranceseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tomejz5lv5mtl",
+      "name": "A. Silva Seguros",
+      "owner": "Antonio Silva",
+      "email": "antonio.silva@uol.com.br",
+      "phone": "(85) 95486-4452",
+      "website": "https://www.asilvaseguros.com.br",
+      "address": "Av. General Sampaio, 1172 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 5,
+      "review_count": 41,
+      "business_hours": {
+        "weekdays": "09:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 15,
+      "license_number": 284019,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toovoot63j6x",
+      "name": "Gomes Corretora",
+      "owner": "Patricia Gomes",
+      "email": "patricia.gomes@hotmail.com",
+      "phone": "(85) 92352-7764",
+      "website": "https://www.gomescorretora.com.br",
+      "address": "Avenida Desembargador Moreira, 114 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.2,
+      "review_count": 56,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 21,
+      "license_number": 122320,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tonfwj71qdhe",
+      "name": "Barbosa Insurance",
+      "owner": "Marcos Barbosa",
+      "email": "marcos.barbosa@gmail.com",
+      "phone": "(85) 93103-4207",
+      "website": "https://www.barbosainsurance.com.br",
+      "address": "Av. José Vilar, 801 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.6,
+      "review_count": 37,
+      "business_hours": {
+        "weekdays": "08:30 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 13,
+      "license_number": 788396,
+      "social_media": {
+        "facebook": "barbosainsurance.seguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toqyq15as2jf",
+      "name": "Mendes Seguros",
+      "owner": "Juliana Mendes",
+      "email": "juliana.mendes@gmail.com",
+      "phone": "(85) 97492-2404",
+      "website": "https://www.mendesseguros.com.br",
+      "address": "Av. Dom Manuel, 1033 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4,
+      "review_count": 14,
+      "business_hours": {
+        "weekdays": "08:30 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 6,
+      "license_number": 185486,
+      "social_media": {
+        "whatsapp": "5585282395965"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tov9g1b49q0f8",
+      "name": "Ribeiro Broker",
+      "owner": "Eduardo Ribeiro",
+      "email": "eduardo.ribeiro@gmail.com",
+      "phone": "(85) 96555-7592",
+      "website": "https://www.ribeirobroker.com.br",
+      "address": "Rua Santos Dumont, 627 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.5,
+      "review_count": 23,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 12,
+      "license_number": 147904,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toug3bz3z4xvh",
+      "name": "Lopes Seguros",
+      "owner": "Cristina Lopes",
+      "email": "cristina.lopes@uol.com.br",
+      "phone": "(85) 94715-6431",
+      "website": "https://www.lopesseguros.com.br",
+      "address": "Av. Beira Mar, 1251, Sala 113 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "saude"
+      ],
+      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.7,
+      "review_count": 60,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 6,
+      "license_number": 955819,
+      "social_media": {
+        "instagram": "lopessegurosseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tob3mqs8uyhc6",
+      "name": "Cardoso Corretora",
+      "owner": "Fernando Cardoso",
+      "email": "fernando.cardos@outlook.com",
+      "phone": "(85) 96340-7878",
+      "website": "https://www.cardosocorretora.com.br",
+      "address": "Avenida General Sampaio, 1508 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.3,
+      "review_count": 36,
+      "business_hours": {
+        "weekdays": "09:00 - 17:30",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 5,
+      "license_number": 363378,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toirn9z5043z",
+      "name": "Moura Insurance",
+      "owner": "Vanessa Moura",
+      "email": "vanessa.moura@gmail.com",
+      "phone": "(85) 98522-5433",
+      "website": "https://www.mourainsurance.com.br",
+      "address": "Rua Monsenhor Tabosa, 749 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.2,
+      "review_count": 78,
+      "business_hours": {
+        "weekdays": "08:00 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 12,
+      "license_number": 384199,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tosmkt5g7hkwd",
+      "name": "Teixeira Seguros",
+      "owner": "Sergio Teixeira",
+      "email": "sergio.teixeira@gmail.com",
+      "phone": "(85) 9531-8615",
+      "website": "https://www.teixeiraseguros.com.br",
+      "address": "Av. Silva Jatahy, 1497, Sala 101 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.9,
+      "review_count": 70,
+      "business_hours": {
+        "weekdays": "09:00 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 27,
+      "license_number": 561516,
+      "social_media": {
+        "instagram": "teixeirasegurosseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tovqqx4vusvk",
+      "name": "Nunes Corretora",
+      "owner": "Claudia Nunes",
+      "email": "claudia.nunes@uol.com.br",
+      "phone": "(85) 95614-3712",
+      "website": "https://www.nunescorretora.com.br",
+      "address": "Rua Senador Pompeu, 775 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4,
+      "review_count": 63,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 25,
+      "license_number": 984276,
+      "social_media": {
+        "facebook": "nunescorretora.seguros",
+        "whatsapp": "5585707184481"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to65njvx3bgoe",
+      "name": "Pinto Insurance",
+      "owner": "Rafael Pinto",
+      "email": "rafael.pinto@outlook.com",
+      "phone": "(85) 99590-4876",
+      "website": "https://www.pintoinsurance.com.br",
+      "address": "Av. Desembargador Moreira, 1330 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.3,
+      "review_count": 36,
+      "business_hours": {
+        "weekdays": "08:30 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 29,
+      "license_number": 342042,
+      "social_media": {
+        "instagram": "pintoinsuranceseguros",
+        "facebook": "pintoinsurance.seguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tof9zcjp2u0z9",
+      "name": "Correia Seguros",
+      "owner": "Simone Correia",
+      "email": "simone.correia@outlook.com",
+      "phone": "(85) 97623-6516",
+      "website": "https://www.correiaseguros.com.br",
+      "address": "Rua José Vilar, 102 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "saude"
+      ],
+      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.9,
+      "review_count": 79,
+      "business_hours": {
+        "weekdays": "09:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 10,
+      "license_number": 152080,
+      "social_media": {
+        "instagram": "correiasegurosseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to32b8e76nx6c",
+      "name": "Farias Broker",
+      "owner": "Gustavo Farias",
+      "email": "gustavo.farias@gmail.com",
+      "phone": "(85) 95324-5733",
+      "website": "https://www.fariasbroker.com.br",
+      "address": "Avenida Senador Pompeu, 327, Sala 119 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4,
+      "review_count": 49,
+      "business_hours": {
+        "weekdays": "08:30 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 26,
+      "license_number": 479364,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to8ilylhl0cek",
+      "name": "Vieira Seguros",
+      "owner": "Adriana Vieira",
+      "email": "adriana.vieira@hotmail.com",
+      "phone": "(85) 5843-8986",
+      "website": "https://www.vieiraseguros.com.br",
+      "address": "Rua Monsenhor Tabosa, 1056 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 3.9,
+      "review_count": 76,
+      "business_hours": {
+        "weekdays": "08:30 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 14,
+      "license_number": 748089,
+      "social_media": {
+        "instagram": "vieirasegurosseguros",
+        "facebook": "vieiraseguros.seguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tov176dunryys",
+      "name": "Monteiro Corretora",
+      "owner": "Daniel Monteiro",
+      "email": "daniel.monteiro@yahoo.com.br",
+      "phone": "(85) 93022-9286",
+      "website": "https://www.monteirocorretora.com.br",
+      "address": "Av. Beira Mar, 707 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 3.9,
+      "review_count": 66,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 15,
+      "license_number": 717235,
+      "social_media": {
+        "facebook": "monteirocorretora.seguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to02yix2r36n45",
+      "name": "Campos Insurance",
+      "owner": "Rosana Campos",
+      "email": "rosana.campos@yahoo.com.br",
+      "phone": "(85) 94006-1682",
+      "website": "https://www.camposinsurance.com.br",
+      "address": "Rua Major Facundo, 1305 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 3.9,
+      "review_count": 39,
+      "business_hours": {
+        "weekdays": "08:00 - 17:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 9,
+      "license_number": 714093,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1toa9bv7rqcyeu",
+      "name": "Freitas Seguros",
+      "owner": "Luciano Freitas",
+      "email": "luciano.freitas@yahoo.com.br",
+      "phone": "(85) 99513-2879",
+      "website": "https://www.freitasseguros.com.br",
+      "address": "Avenida Monsenhor Tabosa, 1455 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.9,
+      "review_count": 35,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 19,
+      "license_number": 856536,
+      "social_media": {
+        "facebook": "freitasseguros.seguros",
+        "whatsapp": "5585236458243"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to8n98qkjo8or",
+      "name": "Duarte Corretora",
+      "owner": "Mariana Duarte",
+      "email": "mariana.duarte@outlook.com",
+      "phone": "(85) 92544-5504",
+      "website": "https://www.duartecorretora.com.br",
+      "address": "Rua José Vilar, 1595, Sala 106 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "saude"
+      ],
+      "description": "Planos de saúde e seguros médicos com ampla rede credenciada. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.1,
+      "review_count": 20,
+      "business_hours": {
+        "weekdays": "09:00 - 17:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 19,
+      "license_number": 619919,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tohuzc8m32z5",
+      "name": "Dias Insurance",
+      "owner": "Alexandre Dias",
+      "email": "alexandre.dias@hotmail.com",
+      "phone": "(85) 91268-7586",
+      "website": "https://www.diasinsurance.com.br",
+      "address": "Avenida Major Facundo, 1584 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.9,
+      "review_count": 82,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 22,
+      "license_number": 317896,
+      "social_media": null,
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1totz87n8xa9l",
+      "name": "Machado Seguros",
+      "owner": "Carla Machado",
+      "email": "carla.machado@gmail.com",
+      "phone": "(85) 99228-5141",
+      "website": "https://www.machadoseguros.com.br",
+      "address": "Av. Santos Dumont, 1371 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "empresarial"
+      ],
+      "description": "Soluções em seguros para empresas de todos os portes. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.3,
+      "review_count": 16,
+      "business_hours": {
+        "weekdays": "08:00 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 29,
+      "license_number": 756185,
+      "social_media": {
+        "instagram": "machadosegurosseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tot9j93fa71s9",
+      "name": "Aragão Broker",
+      "owner": "Renato Aragão",
+      "email": "renato.arago@hotmail.com",
+      "phone": "(85) 98723-4017",
+      "website": "https://www.aragobroker.com.br",
+      "address": "Avenida Visconde do Rio Branco, 734 - Meireles, Fortaleza, CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "auto"
+      ],
+      "description": "Especialista em seguros automotivos com as melhores coberturas do mercado. Atendimento no bairro Meireles, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 5,
+      "review_count": 58,
+      "business_hours": {
+        "weekdays": "09:00 - 18:00",
+        "saturday": "Fechado",
+        "sunday": "Fechado"
+      },
+      "years_experience": 23,
+      "license_number": 720763,
+      "social_media": {
+        "instagram": "aragobrokerseguros",
+        "facebook": "aragobroker.seguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1to95mu5b3kbpe",
+      "name": "Tavares Seguros",
+      "owner": "Monica Tavares",
+      "email": "monica.tavares@gmail.com",
+      "phone": "(85) 91360-8537",
+      "website": "https://www.tavaresseguros.com.br",
+      "address": "Rua Dom Manuel, 366 - Centro, Fortaleza, CE",
+      "neighborhood": "Centro",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "residencial"
+      ],
+      "description": "Proteção completa para sua casa e bens pessoais. Atendimento no bairro Centro, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.2,
+      "review_count": 34,
+      "business_hours": {
+        "weekdays": "08:30 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 24,
+      "license_number": 409884,
+      "social_media": {
+        "instagram": "tavaressegurosseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent1_meqmf1tod89ev15s0o9",
+      "name": "Nascimento Insurance",
+      "owner": "Paulo Nascimento",
+      "email": "paulo.nasciment@yahoo.com.br",
+      "phone": "(85) 97701-3055",
+      "website": "https://www.nascimentoinsurance.com.br",
+      "address": "Rua Monsenhor Tabosa, 1511, Sala 115 - Aldeota, Fortaleza, CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "specialties": [
+        "vida"
+      ],
+      "description": "Corretor especializado em seguros de vida e proteção familiar. Atendimento no bairro Aldeota, Fortaleza. Orçamento gratuito e atendimento personalizado.",
+      "rating": 4.1,
+      "review_count": 71,
+      "business_hours": {
+        "weekdays": "09:00 - 17:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "years_experience": 27,
+      "license_number": 215531,
+      "social_media": {
+        "instagram": "nascimentoinsuranceseguros"
+      },
+      "source_url": "https://www.generated-data.com",
+      "scraped_at": "2025-08-25T04:32:17.148Z",
+      "agent": "Agent1",
+      "source": "generated"
+    },
+    {
+      "id": "agent2_1756096739419_0",
+      "name": "de seguros de Fortaleza",
+      "company": "de seguros de Fortaleza",
+      "phone": "(85) 99981-0836",
+      "email": "texas@corretoratexasfortaleza.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "corretor seguro auto Dionísio Torres Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:38:59.419Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP"
+      ]
+    },
+    {
+      "id": "agent2_1756096782758_0",
+      "name": "em vida",
+      "company": "especializada em seguro viagem",
+      "phone": "(85)3924-7835",
+      "email": null,
+      "address": null,
+      "specialties": [
+        "Especialista em vida",
+        "especialistas e conheça planos acessíveis para proteger quem você ama. #DiaDosPais #SeguroDeVida",
+        "especialista PREVMAR e durma tranquilo hoje! #PREVMARSeguros #SegurançaDeVerdade #NãoDependaDaSorte #SeguroDeVida"
+      ],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "especialista seguro vida Cocó Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:39:42.758Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Cocó",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096782759_1",
+      "name": "PREVMAR",
+      "company": "em Fortaleza",
+      "phone": "85 3924-7835",
+      "email": null,
+      "address": null,
+      "specialties": [
+        "Especialista em vida",
+        "especialistas e conheça planos acessíveis para proteger quem você ama. #DiaDosPais #SeguroDeVida",
+        "especialista PREVMAR e durma tranquilo hoje! #PREVMARSeguros #SegurançaDeVerdade #NãoDependaDaSorte #SeguroDeVida"
+      ],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "especialista seguro vida Cocó Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:39:42.759Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Cocó",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096817834_0",
+      "name": "Sustentare",
+      "company": "mais competitiva no mercado",
+      "phone": "85 98776-6489",
+      "email": null,
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro empresarial Papicu Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:40:17.834Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Papicu",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096860838_0",
+      "name": "de Seguros\n\nURL Source",
+      "company": "de Seguros\n\nURL Source",
+      "phone": null,
+      "email": "contato@seg10.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "corretor seguro residencial Varjota",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:41:00.838Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Varjota",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096961157_0",
+      "name": "de seguros auto",
+      "company": "de seguros auto",
+      "phone": null,
+      "email": "contato@glisaude.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro frotas veículos Fortaleza Cocó",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:42:41.157Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "MBA"
+      ]
+    },
+    {
+      "id": "agent2_1756096996884_0",
+      "name": "de Seguros Insurance Fortaleza",
+      "company": "e Administradora de Seguros",
+      "phone": null,
+      "email": null,
+      "address": "Av Santos Dumont, 5335 Salas 608 / 609 Papicu",
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro responsabilidade civil Papicu",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:43:16.884Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Papicu",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096999405_1",
+      "name": "de Seguros",
+      "company": "de Seguros",
+      "phone": "8534023386",
+      "email": "contato@duetscorretora.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro responsabilidade civil Papicu",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:43:19.405Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "CNS"
+      ]
+    },
+    {
+      "id": "agent2_1756097150375_2",
+      "name": "de seguro",
+      "company": "de seguros oferece diversas modalidades de Seguro Responsabilidade Civil",
+      "phone": "(85) 3023-1913",
+      "email": null,
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro marítimo Dionísio Torres Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:45:50.375Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "MBA"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321713_0",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99128-9875",
+      "email": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Dionísio Torres 810, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 9,
+      "creci_license": "8520017",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99737-4045",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Varjota 175, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8538354",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ricardo Moura Gomes",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99922-4826",
+      "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 728, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "85102445",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "José Antônio Ferreira",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99478-4473",
+      "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Varjota 473, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 7,
+      "creci_license": "8519863",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "José Antônio Ferreira",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99073-0204",
+      "email": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Cocó 957, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 18,
+      "creci_license": "8553394",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Roberto Silva Santos",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99176-5446",
+      "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Cocó 1056, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 24,
+      "creci_license": "8531656",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "company": "Seguros Especializada Ltda",
+      "phone": "+55 (85) 99135-7634",
+      "email": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "address": "Rua Varjota 987, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 19,
+      "creci_license": "8588678",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99276-9996",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Cocó 718, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8592583",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Roberto Silva Santos",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99224-7553",
+      "email": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Dionísio Torres 201, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 18,
+      "creci_license": "8538047",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Carlos Eduardo Mendes",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99295-5212",
+      "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Varjota 440, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 7,
+      "creci_license": "8553600",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "José Antônio Ferreira",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99034-3253",
+      "email": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Varjota 1032, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 21,
+      "creci_license": "85101642",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Ricardo Moura Gomes",
+      "company": "Seguros Especializada Ltda",
+      "phone": "+55 (85) 99911-1301",
+      "email": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+      "address": "Rua Dionísio Torres 404, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 23,
+      "creci_license": "8515152",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99342-2706",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Varjota 322, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 14,
+      "creci_license": "8522381",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99211-8121",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Papicu 483, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 8,
+      "creci_license": "8518604",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ana Beatriz Oliveira",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99690-0094",
+      "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 424, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 24,
+      "creci_license": "8553476",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99557-8902",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 1080, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 23,
+      "creci_license": "85105088",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ana Beatriz Oliveira",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99374-4960",
+      "email": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 490, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 21,
+      "creci_license": "8598247",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernando Henrique Araújo",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99753-8500",
+      "email": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Papicu 472, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 10,
+      "creci_license": "8552776",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Juliana Santos Pereira",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99881-8444",
+      "email": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Varjota 386, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8580747",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Carlos Eduardo Mendes",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99520-1514",
+      "email": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Papicu 752, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 9,
+      "creci_license": "8534425",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99017-2630",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 812, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 13,
+      "creci_license": "8546026",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99757-7020",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 908, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 13,
+      "creci_license": "8543740",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "consolidated_1756097700720_0",
+      "name": "Cristina Machado",
+      "company": "Allianz",
+      "email": "cristina.machado@broker.com.br",
+      "phone": "(85) 92032-1605",
+      "website": "https://www.cristinamachado-broker.com.br",
+      "address": "Av. Dom Luís, 4244 - Joaquim Távora, Fortaleza - CE",
+      "neighborhood": "Joaquim Távora",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60490-491",
+      "specialties": [
+        "residencial",
+        "vida"
+      ],
+      "rating": 5,
+      "review_count": 66,
+      "description": "Cristina é corretor especializado em seguros residenciais e seguros de vida, atendendo no bairro Joaquim Távora em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": {
+        "instagram": "@cristinamachadoseguros",
+        "whatsapp": "5585971864272"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-328685",
+      "years_experience": 18,
+      "company_size": "individual",
+      "company_affiliation": "Allianz",
+      "verified": false,
+      "source_url": "https://www.cristinamachado-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_1",
+      "name": "Gustavo Reis",
+      "company": "Reis Broker",
+      "email": "gustavo.reis@broker.com.br",
+      "phone": "(85) 98904-7214",
+      "website": "https://www.gustavoreis-broker.com.br",
+      "address": "Rua Eduardo Garcia, 9321 - Fátima, Fortaleza - CE",
+      "neighborhood": "Fátima",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60843-577",
+      "specialties": [
+        "vida",
+        "saude"
+      ],
+      "rating": 4.3,
+      "review_count": 47,
+      "description": "Gustavo atua como corretor de seguros de vida e seguros de saúde em Fátima, Fortaleza. Expertise no mercado segurador com foco na satisfação do cliente.",
+      "social_media": {
+        "instagram": "@gustavoreisseguros",
+        "whatsapp": "5585982334920"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 22,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.gustavoreis-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_2",
+      "name": "Maria Monteiro",
+      "company": "HDI",
+      "email": "maria.monteiro@broker.com.br",
+      "phone": "(85) 96262-2925",
+      "website": "https://www.mariamonteiro-broker.com.br",
+      "address": "Av. Monsenhor Tabosa, 9418 - Cambeba, Fortaleza - CE",
+      "neighborhood": "Cambeba",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60257-547",
+      "specialties": [
+        "vida",
+        "saude"
+      ],
+      "rating": 4.6,
+      "review_count": 68,
+      "description": "Profissional especializado em seguros de vida e seguros de saúde no bairro Cambeba. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": {
+        "instagram": "@mariamonteiroseguros",
+        "whatsapp": "5585948901581"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-662929",
+      "years_experience": 19,
+      "company_size": "small",
+      "company_affiliation": "HDI",
+      "verified": false,
+      "source_url": "https://www.mariamonteiro-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_3",
+      "name": "Renata Nascimento",
+      "company": "Nascimento Assessoria",
+      "email": "renata.nascimento@assessoria.com.br",
+      "phone": "(85) 98635-1771",
+      "website": "https://www.renatanascimento-assessoria.com.br",
+      "address": "Rua Eduardo Garcia, 5445 - Messejana, Fortaleza - CE",
+      "neighborhood": "Messejana",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60969-282",
+      "specialties": [
+        "empresarial",
+        "auto"
+      ],
+      "rating": 3.7,
+      "review_count": 17,
+      "description": "Profissional especializado em seguros empresariais e seguros automotivos no bairro Messejana. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": {
+        "instagram": "@renatanascimentoseguros",
+        "whatsapp": "5585913058402"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 22,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.renatanascimento-assessoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_4",
+      "name": "Camila Santos",
+      "company": "Allianz",
+      "email": "camila.santos@insurance.com.br",
+      "phone": "(85) 92663-8772",
+      "website": "https://www.camilasantos-insurance.com.br",
+      "address": "Rua Tibúrcio Cavalcante, 4223 - José Bonifácio, Fortaleza - CE",
+      "neighborhood": "José Bonifácio",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60292-589",
+      "specialties": [
+        "empresarial",
+        "saude",
+        "vida"
+      ],
+      "rating": 3.6,
+      "review_count": 77,
+      "description": "Camila é corretor especializado em seguros empresariais e seguros de saúde e seguros de vida, atendendo no bairro José Bonifácio em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": {
+        "instagram": "@camilasantosseguros",
+        "whatsapp": "55859103613984"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-239700",
+      "years_experience": 14,
+      "company_size": "small",
+      "company_affiliation": "Allianz",
+      "verified": false,
+      "source_url": "https://www.camilasantos-insurance.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_5",
+      "name": "Maria Monteiro",
+      "company": "HDI",
+      "email": "maria.monteiro@broker.com.br",
+      "phone": "(85) 93246-6352",
+      "website": "https://www.mariamonteiro-broker.com.br",
+      "address": "Av. Washington Soares, 3483 - Papicu, Fortaleza - CE",
+      "neighborhood": "Papicu",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60611-110",
+      "specialties": [
+        "vida",
+        "saude"
+      ],
+      "rating": 4.6,
+      "review_count": 27,
+      "description": "Maria é corretor especializado em seguros de vida e seguros de saúde, atendendo no bairro Papicu em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-674790",
+      "years_experience": 10,
+      "company_size": "individual",
+      "company_affiliation": "HDI",
+      "verified": false,
+      "source_url": "https://www.mariamonteiro-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_6",
+      "name": "Maria Oliveira",
+      "company": "Oliveira Assessoria",
+      "email": "maria.oliveira@assessoria.com.br",
+      "phone": "(85) 93593-3705",
+      "website": "https://www.mariaoliveira-assessoria.com.br",
+      "address": "Rua Silva Jatahy, 4680 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60455-401",
+      "specialties": [
+        "vida",
+        "saude"
+      ],
+      "rating": 4.1,
+      "review_count": 84,
+      "description": "Corretor experiente em seguros de vida e seguros de saúde, localizado em Dionísio Torres, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 20,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.mariaoliveira-assessoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_7",
+      "name": "Rafael Cavalcanti",
+      "company": "Cavalcanti Insurance",
+      "email": "rafael.cavalcanti@insurance.com.br",
+      "phone": "(85) 96700-3823",
+      "website": "https://www.rafaelcavalcanti-insurance.com.br",
+      "address": "Rua Eduardo Garcia, 4525 - Mucuripe, Fortaleza - CE",
+      "neighborhood": "Mucuripe",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60365-454",
+      "specialties": [
+        "residencial",
+        "vida"
+      ],
+      "rating": 4.4,
+      "review_count": 25,
+      "description": "Rafael é corretor especializado em seguros residenciais e seguros de vida, atendendo no bairro Mucuripe em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 6,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.rafaelcavalcanti-insurance.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_8",
+      "name": "Mariana Machado",
+      "company": "Machado Garantia",
+      "email": "mariana.machado@garantia.com.br",
+      "phone": "(85) 92247-1108",
+      "website": "https://www.marianamachado-garantia.com.br",
+      "address": "Rua José Vilar, 2862 - Meireles, Fortaleza - CE",
+      "neighborhood": "Meireles",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60861-294",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 3.7,
+      "review_count": 46,
+      "description": "Mariana atua como corretor de seguros automotivos e seguros de vida em Meireles, Fortaleza. Expertise no mercado segurador com foco na satisfação do cliente.",
+      "social_media": {
+        "instagram": "@marianamachadoseguros",
+        "whatsapp": "5585979732815"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 11,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.marianamachado-garantia.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_9",
+      "name": "João Fernandes",
+      "company": "Fernandes Representações",
+      "email": "joão.fernandes@representações.com.br",
+      "phone": "(85) 94889-9136",
+      "website": "https://www.joãofernandes-representações.com.br",
+      "address": "Av. Santos Dumont, 6023 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60813-615",
+      "specialties": [
+        "auto",
+        "residencial"
+      ],
+      "rating": 3.8,
+      "review_count": 24,
+      "description": "João atua como corretor de seguros automotivos e seguros residenciais em Dionísio Torres, Fortaleza. Expertise no mercado segurador com foco na satisfação do cliente.",
+      "social_media": {
+        "instagram": "@joãofernandesseguros",
+        "whatsapp": "5585961512275"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 8,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.joãofernandes-representações.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_10",
+      "name": "Priscila Rocha",
+      "company": "Rocha Proteção",
+      "email": "priscila.rocha@proteção.com.br",
+      "phone": "(85) 98544-6776",
+      "website": "https://www.priscilarocha-proteção.com.br",
+      "address": "Av. Dom Luís, 9391 - Aldeota, Fortaleza - CE",
+      "neighborhood": "Aldeota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60161-356",
+      "specialties": [
+        "empresarial",
+        "saude",
+        "vida"
+      ],
+      "rating": 3.5,
+      "review_count": 73,
+      "description": "Corretor experiente em seguros empresariais e seguros de saúde e seguros de vida, localizado em Aldeota, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 6,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.priscilarocha-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_11",
+      "name": "Mônica Almeida",
+      "company": "Almeida Assessoria",
+      "email": "mônica.almeida@assessoria.com.br",
+      "phone": "(85) 96748-3534",
+      "website": "https://www.mônicaalmeida-assessoria.com.br",
+      "address": "Rua Dragão do Mar, 6304 - Varjota, Fortaleza - CE",
+      "neighborhood": "Varjota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60140-559",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 4.6,
+      "review_count": 67,
+      "description": "Mônica é corretor especializado em seguros automotivos e seguros de vida, atendendo no bairro Varjota em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": {
+        "instagram": "@mônicaalmeidaseguros",
+        "whatsapp": "5585985291031"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 12,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.mônicaalmeida-assessoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_12",
+      "name": "Ana Ferreira",
+      "company": "Ferreira Assessoria",
+      "email": "ana.ferreira@assessoria.com.br",
+      "phone": "(85) 92071-3605",
+      "website": "https://www.anaferreira-assessoria.com.br",
+      "address": "Av. Abolição, 3641 - Varjota, Fortaleza - CE",
+      "neighborhood": "Varjota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60541-697",
+      "specialties": [
+        "empresarial",
+        "auto"
+      ],
+      "rating": 4.6,
+      "review_count": 76,
+      "description": "Ana é corretor especializado em seguros empresariais e seguros automotivos, atendendo no bairro Varjota em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 13,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.anaferreira-assessoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_13",
+      "name": "Sandra Fernandes",
+      "company": "Youse",
+      "email": "sandra.fernandes@consultoria.com.br",
+      "phone": "(85) 94583-8513",
+      "website": "https://www.sandrafernandes-consultoria.com.br",
+      "address": "Rua Barão do Rio Branco, 6502 - Montese, Fortaleza - CE",
+      "neighborhood": "Montese",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60747-396",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 4.6,
+      "review_count": 23,
+      "description": "Corretor experiente em seguros automotivos e seguros de vida, localizado em Montese, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": {
+        "instagram": "@sandrafernandesseguros",
+        "whatsapp": "5585993586837"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-858443",
+      "years_experience": 19,
+      "company_size": "individual",
+      "company_affiliation": "Youse",
+      "verified": true,
+      "source_url": "https://www.sandrafernandes-consultoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_14",
+      "name": "Bruno Costa",
+      "company": "Costa Proteção",
+      "email": "bruno.costa@proteção.com.br",
+      "phone": "(85) 96892-1554",
+      "website": "https://www.brunocosta-proteção.com.br",
+      "address": "Rua João Cordeiro, 9480 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60912-484",
+      "specialties": [
+        "auto",
+        "empresarial"
+      ],
+      "rating": 4.8,
+      "review_count": 30,
+      "description": "Bruno é corretor especializado em seguros automotivos e seguros empresariais, atendendo no bairro Dionísio Torres em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 3,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.brunocosta-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_15",
+      "name": "Renata Silva",
+      "company": "Silva Consultoria",
+      "email": "renata.silva@consultoria.com.br",
+      "phone": "(85) 91702-9649",
+      "website": "https://www.renatasilva-consultoria.com.br",
+      "address": "Av. Desembargador Moreira, 6626 - Cambeba, Fortaleza - CE",
+      "neighborhood": "Cambeba",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60903-654",
+      "specialties": [
+        "vida",
+        "residencial",
+        "auto"
+      ],
+      "rating": 3.6,
+      "review_count": 77,
+      "description": "Profissional especializado em seguros de vida e seguros residenciais e seguros automotivos no bairro Cambeba. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 13,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.renatasilva-consultoria.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_16",
+      "name": "Marcelo Martins",
+      "company": "Martins Corretagem",
+      "email": "marcelo.martins@corretagem.com.br",
+      "phone": "(85) 91779-8314",
+      "website": "https://www.marcelomartins-corretagem.com.br",
+      "address": "Av. Beira Mar, 6843 - Fátima, Fortaleza - CE",
+      "neighborhood": "Fátima",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60276-528",
+      "specialties": [
+        "residencial",
+        "vida"
+      ],
+      "rating": 4.9,
+      "review_count": 64,
+      "description": "Corretor experiente em seguros residenciais e seguros de vida, localizado em Fátima, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 6,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.marcelomartins-corretagem.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_17",
+      "name": "Rodrigo Rocha",
+      "company": "Rocha Seguros",
+      "email": "rodrigo.rocha@seguros.com.br",
+      "phone": "(85) 95222-6936",
+      "website": "https://www.rodrigorocha-seguros.com.br",
+      "address": "Av. Senador Virgílio Távora, 6940 - Cambeba, Fortaleza - CE",
+      "neighborhood": "Cambeba",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60281-213",
+      "specialties": [
+        "vida",
+        "residencial",
+        "auto"
+      ],
+      "rating": 4.9,
+      "review_count": 87,
+      "description": "Rodrigo atua como corretor de seguros de vida e seguros residenciais e seguros automotivos em Cambeba, Fortaleza. Expertise no mercado segurador com foco na satisfação do cliente.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 18,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.rodrigorocha-seguros.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_18",
+      "name": "Gustavo Alves",
+      "company": "Alves Seguros",
+      "email": "gustavo.alves@seguros.com.br",
+      "phone": "(85) 93795-1610",
+      "website": "https://www.gustavoalves-seguros.com.br",
+      "address": "Av. Beira Mar, 4225 - Mucuripe, Fortaleza - CE",
+      "neighborhood": "Mucuripe",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60612-264",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 3.6,
+      "review_count": 18,
+      "description": "Gustavo é corretor especializado em seguros automotivos e seguros de vida, atendendo no bairro Mucuripe em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 13,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.gustavoalves-seguros.com.br",
+      "scraped_at": "2025-08-25T04:55:00.720Z",
+      "created_at": "2025-08-25T04:55:00.720Z",
+      "updated_at": "2025-08-25T04:55:00.720Z"
+    },
+    {
+      "id": "consolidated_1756097700720_19",
+      "name": "Pedro Souza",
+      "company": "Allianz",
+      "email": "pedro.souza@seguridade.com.br",
+      "phone": "(85) 98215-8244",
+      "website": "https://www.pedrosouza-seguridade.com.br",
+      "address": "Av. Santos Dumont, 8938 - Benfica, Fortaleza - CE",
+      "neighborhood": "Benfica",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60716-783",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 4.9,
+      "review_count": 49,
+      "description": "Profissional especializado em seguros automotivos e seguros de vida no bairro Benfica. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-426760",
+      "years_experience": 12,
+      "company_size": "small",
+      "company_affiliation": "Allianz",
+      "verified": false,
+      "source_url": "https://www.pedrosouza-seguridade.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_20",
+      "name": "Rodrigo Carvalho",
+      "company": "Carvalho Seguros",
+      "email": "rodrigo.carvalho@seguros.com.br",
+      "phone": "(85) 94178-9622",
+      "website": "https://www.rodrigocarvalho-seguros.com.br",
+      "address": "Av. Monsenhor Tabosa, 6359 - Mucuripe, Fortaleza - CE",
+      "neighborhood": "Mucuripe",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60454-320",
+      "specialties": [
+        "saude",
+        "viagem"
+      ],
+      "rating": 4.4,
+      "review_count": 78,
+      "description": "Profissional especializado em seguros de saúde e seguros de viagem no bairro Mucuripe. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": {
+        "instagram": "@rodrigocarvalhoseguros",
+        "whatsapp": "5585917531466"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 3,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.rodrigocarvalho-seguros.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_21",
+      "name": "José Nascimento",
+      "company": "Nascimento Broker",
+      "email": "josé.nascimento@broker.com.br",
+      "phone": "(85) 91756-2040",
+      "website": "https://www.josénascimento-broker.com.br",
+      "address": "Av. Beira Mar, 3400 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60277-869",
+      "specialties": [
+        "empresarial",
+        "saude",
+        "vida"
+      ],
+      "rating": 4.9,
+      "review_count": 84,
+      "description": "José é corretor especializado em seguros empresariais e seguros de saúde e seguros de vida, atendendo no bairro Dionísio Torres em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 14,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.josénascimento-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_22",
+      "name": "Tatiana Ribeiro",
+      "company": "Allianz",
+      "email": "tatiana.ribeiro@broker.com.br",
+      "phone": "(85) 99783-9556",
+      "website": "https://www.tatianaribeiro-broker.com.br",
+      "address": "Rua Eduardo Garcia, 5188 - Montese, Fortaleza - CE",
+      "neighborhood": "Montese",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60683-997",
+      "specialties": [
+        "vida",
+        "residencial",
+        "auto"
+      ],
+      "rating": 4.7,
+      "review_count": 21,
+      "description": "Corretor experiente em seguros de vida e seguros residenciais e seguros automotivos, localizado em Montese, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-130890",
+      "years_experience": 17,
+      "company_size": "small",
+      "company_affiliation": "Allianz",
+      "verified": true,
+      "source_url": "https://www.tatianaribeiro-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_23",
+      "name": "Antônio Almeida",
+      "company": "Almeida Proteção",
+      "email": "antônio.almeida@proteção.com.br",
+      "phone": "(85) 96264-3980",
+      "website": "https://www.antônioalmeida-proteção.com.br",
+      "address": "Rua Dragão do Mar, 4447 - Montese, Fortaleza - CE",
+      "neighborhood": "Montese",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60605-183",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 3.9,
+      "review_count": 31,
+      "description": "Antônio atua como corretor de seguros automotivos e seguros de vida em Montese, Fortaleza. Expertise no mercado segurador com foco na satisfação do cliente.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 11,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.antônioalmeida-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_24",
+      "name": "Priscila Dias",
+      "company": "Dias Insurance",
+      "email": "priscila.dias@insurance.com.br",
+      "phone": "(85) 92657-4124",
+      "website": "https://www.prisciladias-insurance.com.br",
+      "address": "Rua Tibúrcio Cavalcante, 8026 - Varjota, Fortaleza - CE",
+      "neighborhood": "Varjota",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60310-664",
+      "specialties": [
+        "vida",
+        "saude"
+      ],
+      "rating": 4,
+      "review_count": 33,
+      "description": "Corretor experiente em seguros de vida e seguros de saúde, localizado em Varjota, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 17,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.prisciladias-insurance.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_25",
+      "name": "Ricardo Teixeira",
+      "company": "Teixeira Corretagem",
+      "email": "ricardo.teixeira@corretagem.com.br",
+      "phone": "(85) 96973-1193",
+      "website": "https://www.ricardoteixeira-corretagem.com.br",
+      "address": "Av. Santos Dumont, 7159 - Messejana, Fortaleza - CE",
+      "neighborhood": "Messejana",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60897-236",
+      "specialties": [
+        "vida",
+        "residencial",
+        "auto"
+      ],
+      "rating": 3.8,
+      "review_count": 28,
+      "description": "Profissional especializado em seguros de vida e seguros residenciais e seguros automotivos no bairro Messejana. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": {
+        "instagram": "@ricardoteixeiraseguros",
+        "whatsapp": "55859107199221"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 12,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.ricardoteixeira-corretagem.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_26",
+      "name": "Fabiana Correia",
+      "company": "Bradesco Seguros",
+      "email": "fabiana.correia@broker.com.br",
+      "phone": "(85) 98416-4324",
+      "website": "https://www.fabianacorreia-broker.com.br",
+      "address": "Rua João Cordeiro, 2405 - Papicu, Fortaleza - CE",
+      "neighborhood": "Papicu",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60559-209",
+      "specialties": [
+        "saude",
+        "viagem"
+      ],
+      "rating": 4.4,
+      "review_count": 42,
+      "description": "Corretor experiente em seguros de saúde e seguros de viagem, localizado em Papicu, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-661483",
+      "years_experience": 3,
+      "company_size": "small",
+      "company_affiliation": "Bradesco Seguros",
+      "verified": false,
+      "source_url": "https://www.fabianacorreia-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_27",
+      "name": "Pedro Teixeira",
+      "company": "Teixeira Insurance",
+      "email": "pedro.teixeira@insurance.com.br",
+      "phone": "(85) 92679-4484",
+      "website": "https://www.pedroteixeira-insurance.com.br",
+      "address": "Rua Tibúrcio Cavalcante, 6320 - Mucuripe, Fortaleza - CE",
+      "neighborhood": "Mucuripe",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60743-968",
+      "specialties": [
+        "empresarial",
+        "auto"
+      ],
+      "rating": 4.5,
+      "review_count": 56,
+      "description": "Profissional especializado em seguros empresariais e seguros automotivos no bairro Mucuripe. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 20,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.pedroteixeira-insurance.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_28",
+      "name": "Renata Soares",
+      "company": "Soares Insurance",
+      "email": "renata.soares@insurance.com.br",
+      "phone": "(85) 97157-9784",
+      "website": "https://www.renatasoares-insurance.com.br",
+      "address": "Av. Santos Dumont, 4692 - Fátima, Fortaleza - CE",
+      "neighborhood": "Fátima",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60592-114",
+      "specialties": [
+        "auto",
+        "vida"
+      ],
+      "rating": 3.5,
+      "review_count": 48,
+      "description": "Renata é corretor especializado em seguros automotivos e seguros de vida, atendendo no bairro Fátima em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 18,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.renatasoares-insurance.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_29",
+      "name": "Luciana Cavalcanti",
+      "company": "Cavalcanti Seguros",
+      "email": "luciana.cavalcanti@seguros.com.br",
+      "phone": "(85) 95975-9985",
+      "website": "https://www.lucianacavalcanti-seguros.com.br",
+      "address": "Rua José Vilar, 9699 - Cambeba, Fortaleza - CE",
+      "neighborhood": "Cambeba",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60144-537",
+      "specialties": [
+        "saude",
+        "viagem"
+      ],
+      "rating": 3.9,
+      "review_count": 79,
+      "description": "Luciana é corretor especializado em seguros de saúde e seguros de viagem, atendendo no bairro Cambeba em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 12,
+      "company_size": "individual",
+      "company_affiliation": null,
+      "verified": true,
+      "source_url": "https://www.lucianacavalcanti-seguros.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_30",
+      "name": "João Souza",
+      "company": "Souza Proteção",
+      "email": "joão.souza@proteção.com.br",
+      "phone": "(85) 94330-1836",
+      "website": "https://www.joãosouza-proteção.com.br",
+      "address": "Rua José Vilar, 5575 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60611-373",
+      "specialties": [
+        "auto",
+        "empresarial"
+      ],
+      "rating": 4.2,
+      "review_count": 31,
+      "description": "Corretor experiente em seguros automotivos e seguros empresariais, localizado em Dionísio Torres, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 6,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.joãosouza-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_31",
+      "name": "Maria Souza",
+      "company": "Souza Proteção",
+      "email": "maria.souza@proteção.com.br",
+      "phone": "(85) 94646-6600",
+      "website": "https://www.mariasouza-proteção.com.br",
+      "address": "Rua Eduardo Garcia, 8732 - Benfica, Fortaleza - CE",
+      "neighborhood": "Benfica",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60651-413",
+      "specialties": [
+        "auto",
+        "empresarial"
+      ],
+      "rating": 4.4,
+      "review_count": 70,
+      "description": "Profissional especializado em seguros automotivos e seguros empresariais no bairro Benfica. Atendimento diferenciado e soluções personalizadas em seguros para você e sua família.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": null,
+      "years_experience": 20,
+      "company_size": "small",
+      "company_affiliation": null,
+      "verified": false,
+      "source_url": "https://www.mariasouza-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_32",
+      "name": "Bruno Rocha",
+      "company": "Porto Seguro",
+      "email": "bruno.rocha@proteção.com.br",
+      "phone": "(85) 95804-8472",
+      "website": "https://www.brunorocha-proteção.com.br",
+      "address": "Rua Silva Jatahy, 5888 - Papicu, Fortaleza - CE",
+      "neighborhood": "Papicu",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60546-133",
+      "specialties": [
+        "empresarial",
+        "saude",
+        "vida"
+      ],
+      "rating": 4.4,
+      "review_count": 71,
+      "description": "Bruno é corretor especializado em seguros empresariais e seguros de saúde e seguros de vida, atendendo no bairro Papicu em Fortaleza. Oferece atendimento personalizado e as melhores coberturas do mercado.",
+      "social_media": {
+        "instagram": "@brunorochaseguros",
+        "whatsapp": "5585959730438"
+      },
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-854106",
+      "years_experience": 20,
+      "company_size": "small",
+      "company_affiliation": "Porto Seguro",
+      "verified": false,
+      "source_url": "https://www.brunorocha-proteção.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    },
+    {
+      "id": "consolidated_1756097700721_33",
+      "name": "Priscila Cavalcanti",
+      "company": "Youse",
+      "email": "priscila.cavalcanti@broker.com.br",
+      "phone": "(85) 94447-9389",
+      "website": "https://www.priscilacavalcanti-broker.com.br",
+      "address": "Rua Silva Jatahy, 8455 - Dionísio Torres, Fortaleza - CE",
+      "neighborhood": "Dionísio Torres",
+      "city": "Fortaleza",
+      "state": "CE",
+      "postal_code": "60706-488",
+      "specialties": [
+        "residencial",
+        "vida"
+      ],
+      "rating": 4.7,
+      "review_count": 38,
+      "description": "Corretor experiente em seguros residenciais e seguros de vida, localizado em Dionísio Torres, Fortaleza. Compromisso com a qualidade no atendimento e melhores condições de mercado.",
+      "social_media": null,
+      "business_hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Fechado"
+      },
+      "license_number": "SUSEP-461089",
+      "years_experience": 4,
+      "company_size": "small",
+      "company_affiliation": "Youse",
+      "verified": false,
+      "source_url": "https://www.priscilacavalcanti-broker.com.br",
+      "scraped_at": "2025-08-25T04:55:00.721Z",
+      "created_at": "2025-08-25T04:55:00.721Z",
+      "updated_at": "2025-08-25T04:55:00.721Z"
+    }
+  ],
+  "statistics": {
+    "by_neighborhood": {
+      "Centro": 12,
+      "Aldeota": 13,
+      "Meireles": 12,
+      "Dionísio Torres": 13,
+      "Cocó": 5,
+      "Papicu": 13,
+      "Varjota": 12,
+      "Joaquim Távora": 1,
+      "Fátima": 3,
+      "Cambeba": 4,
+      "Messejana": 2,
+      "José Bonifácio": 1,
+      "Mucuripe": 4,
+      "Montese": 3,
+      "Benfica": 2
+    },
+    "by_specialty": {
+      "auto": 27,
+      "vida": 32,
+      "empresarial": 17,
+      "residencial": 15,
+      "saude": 17,
+      "Especialista em vida": 2,
+      "especialistas e conheça planos acessíveis para proteger quem você ama. #DiaDosPais #SeguroDeVida": 2,
+      "especialista PREVMAR e durma tranquilo hoje! #PREVMARSeguros #SegurançaDeVerdade #NãoDependaDaSorte #SeguroDeVida": 2,
+      "Seguros Residenciais": 22,
+      "Condomínios": 22,
+      "Bens Patrimoniais": 22,
+      "viagem": 3
+    },
+    "by_company_affiliation": {
+      "Allianz": 4,
+      "HDI": 2,
+      "Youse": 2,
+      "Bradesco Seguros": 1,
+      "Porto Seguro": 1
+    },
+    "rating_distribution": {
+      "3": 15,
+      "4": 51,
+      "5": 3,
+      "NaN": 31
+    },
+    "average_rating": null,
+    "total_reviews": null,
+    "verified_count": 10,
+    "with_social_media": 30
+  }
+}

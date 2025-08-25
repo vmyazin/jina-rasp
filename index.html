@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretório de Corretores de Seguros - Fortaleza</title>
+    <meta name="description" content="Encontre os melhores corretores de seguros em Fortaleza, Ceará">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Corretores Fortaleza</h1>
+            <p class="tagline">Diretório de Corretores de Seguros em Fortaleza</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="search-section">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Buscar por nome, especialidade ou localização..." class="search-input">
+                    <button id="searchBtn" class="search-btn">Buscar</button>
+                </div>
+                <div class="filters">
+                    <select id="specialtyFilter" class="filter-select">
+                        <option value="">Todas as especialidades</option>
+                        <option value="auto">Seguro Auto</option>
+                        <option value="vida">Seguro de Vida</option>
+                        <option value="residencial">Seguro Residencial</option>
+                        <option value="empresarial">Seguro Empresarial</option>
+                    </select>
+                    <select id="regionFilter" class="filter-select">
+                        <option value="">Todas as regiões</option>
+                        <option value="centro">Centro</option>
+                        <option value="aldeota">Aldeota</option>
+                        <option value="meireles">Meireles</option>
+                        <option value="cocó">Cocó</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <div id="loadingSpinner" class="loading-spinner hidden">
+                    <div class="spinner"></div>
+                    <p>Buscando corretores...</p>
+                </div>
+                
+                <div id="resultsContainer" class="results-container">
+                    <div id="agentsList" class="agents-list"></div>
+                </div>
+
+                <div id="noResults" class="no-results hidden">
+                    <p>Nenhum corretor encontrado. Tente refinar sua busca.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Diretório de Corretores de Seguros - Fortaleza</p>
+        </div>
+    </footer>
+
+    <script src="app_updated.js"></script>
+</body>
+</html>

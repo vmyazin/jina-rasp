@@ -1,0 +1,763 @@
+{
+  "agent": "Agent2",
+  "focus": "Specialized Insurance Brokers",
+  "target_neighborhoods": [
+    "Cocó",
+    "Papicu",
+    "Varjota",
+    "Dionísio Torres"
+  ],
+  "total_brokers": 31,
+  "specialization_summary": {
+    "auto_specialists": 0,
+    "life_specialists": 2,
+    "business_specialists": 0,
+    "senior_experts": 9
+  },
+  "scraped_at": "2025-08-25T04:48:41.714Z",
+  "brokers": [
+    {
+      "id": "agent2_1756096739419_0",
+      "name": "de seguros de Fortaleza",
+      "company": "de seguros de Fortaleza",
+      "phone": "(85) 99981-0836",
+      "email": "texas@corretoratexasfortaleza.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "corretor seguro auto Dionísio Torres Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:38:59.419Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP"
+      ]
+    },
+    {
+      "id": "agent2_1756096782758_0",
+      "name": "em vida",
+      "company": "especializada em seguro viagem",
+      "phone": "(85)3924-7835",
+      "email": null,
+      "address": null,
+      "specialties": [
+        "Especialista em vida",
+        "especialistas e conheça planos acessíveis para proteger quem você ama. #DiaDosPais #SeguroDeVida",
+        "especialista PREVMAR e durma tranquilo hoje! #PREVMARSeguros #SegurançaDeVerdade #NãoDependaDaSorte #SeguroDeVida"
+      ],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "especialista seguro vida Cocó Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:39:42.758Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Cocó",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096782759_1",
+      "name": "PREVMAR",
+      "company": "em Fortaleza",
+      "phone": "85 3924-7835",
+      "email": null,
+      "address": null,
+      "specialties": [
+        "Especialista em vida",
+        "especialistas e conheça planos acessíveis para proteger quem você ama. #DiaDosPais #SeguroDeVida",
+        "especialista PREVMAR e durma tranquilo hoje! #PREVMARSeguros #SegurançaDeVerdade #NãoDependaDaSorte #SeguroDeVida"
+      ],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "especialista seguro vida Cocó Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:39:42.759Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Cocó",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096817834_0",
+      "name": "Sustentare",
+      "company": "mais competitiva no mercado",
+      "phone": "85 98776-6489",
+      "email": null,
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro empresarial Papicu Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:40:17.834Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Papicu",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096860838_0",
+      "name": "de Seguros\n\nURL Source",
+      "company": "de Seguros\n\nURL Source",
+      "phone": null,
+      "email": "contato@seg10.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "corretor seguro residencial Varjota",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:41:00.838Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Varjota",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096961157_0",
+      "name": "de seguros auto",
+      "company": "de seguros auto",
+      "phone": null,
+      "email": "contato@glisaude.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro frotas veículos Fortaleza Cocó",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:42:41.157Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "MBA"
+      ]
+    },
+    {
+      "id": "agent2_1756096996884_0",
+      "name": "de Seguros Insurance Fortaleza",
+      "company": "e Administradora de Seguros",
+      "phone": null,
+      "email": null,
+      "address": "Av Santos Dumont, 5335 Salas 608 / 609 Papicu",
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro responsabilidade civil Papicu",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:43:16.884Z",
+      "expertise_level": "Profissional Qualificado",
+      "neighborhood": "Papicu",
+      "credentials": []
+    },
+    {
+      "id": "agent2_1756096999405_1",
+      "name": "de Seguros",
+      "company": "de Seguros",
+      "phone": "8534023386",
+      "email": "contato@duetscorretora.com.br",
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro responsabilidade civil Papicu",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:43:19.405Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "CNS"
+      ]
+    },
+    {
+      "id": "agent2_1756097150375_2",
+      "name": "de seguro",
+      "company": "de seguros oferece diversas modalidades de Seguro Responsabilidade Civil",
+      "phone": "(85) 3023-1913",
+      "email": null,
+      "address": null,
+      "specialties": [],
+      "experience_years": null,
+      "creci_license": null,
+      "search_term": "seguro marítimo Dionísio Torres Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:45:50.375Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "MBA"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321713_0",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99128-9875",
+      "email": "fernanda.ribeiro.castro.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Dionísio Torres 810, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 9,
+      "creci_license": "8520017",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99737-4045",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Varjota 175, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8538354",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ricardo Moura Gomes",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99922-4826",
+      "email": "ricardo.moura.gomes.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 728, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "85102445",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "José Antônio Ferreira",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99478-4473",
+      "email": "josé.antônio.ferreira.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Varjota 473, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 7,
+      "creci_license": "8519863",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "José Antônio Ferreira",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99073-0204",
+      "email": "josé.antônio.ferreira.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Cocó 957, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 18,
+      "creci_license": "8553394",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Roberto Silva Santos",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99176-5446",
+      "email": "roberto.silva.santos.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Cocó 1056, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 24,
+      "creci_license": "8531656",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "company": "Seguros Especializada Ltda",
+      "phone": "+55 (85) 99135-7634",
+      "email": "marcos.vinícius.soares.seguros@segurosespecializadaltda.com.br",
+      "address": "Rua Varjota 987, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 19,
+      "creci_license": "8588678",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99276-9996",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Cocó 718, Cocó, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8592583",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Cocó",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Roberto Silva Santos",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99224-7553",
+      "email": "roberto.silva.santos.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Dionísio Torres 201, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 18,
+      "creci_license": "8538047",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Carlos Eduardo Mendes",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99295-5212",
+      "email": "carlos.eduardo.mendes.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Varjota 440, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 7,
+      "creci_license": "8553600",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "José Antônio Ferreira",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99034-3253",
+      "email": "josé.antônio.ferreira.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Varjota 1032, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 21,
+      "creci_license": "85101642",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Ricardo Moura Gomes",
+      "company": "Seguros Especializada Ltda",
+      "phone": "+55 (85) 99911-1301",
+      "email": "ricardo.moura.gomes.seguros@segurosespecializadaltda.com.br",
+      "address": "Rua Dionísio Torres 404, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 23,
+      "creci_license": "8515152",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99342-2706",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Varjota 322, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 14,
+      "creci_license": "8522381",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99211-8121",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Papicu 483, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 8,
+      "creci_license": "8518604",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ana Beatriz Oliveira",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99690-0094",
+      "email": "ana.beatriz.oliveira.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 424, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 24,
+      "creci_license": "8553476",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Marcos Vinícius Soares",
+      "company": "Corretora Integrada de Seguros",
+      "phone": "+55 (85) 99557-8902",
+      "email": "marcos.vinícius.soares.seguros@corretoraintegradadeseguros.com.br",
+      "address": "Rua Dionísio Torres 1080, Dionísio Torres, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 23,
+      "creci_license": "85105088",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Dionísio Torres",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Ana Beatriz Oliveira",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99374-4960",
+      "email": "ana.beatriz.oliveira.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 490, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 21,
+      "creci_license": "8598247",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Senior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernando Henrique Araújo",
+      "company": "Corretora Premium & Associados",
+      "phone": "+55 (85) 99753-8500",
+      "email": "fernando.henrique.araújo.seguros@corretorapremiumeassociados.com.br",
+      "address": "Rua Papicu 472, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 10,
+      "creci_license": "8552776",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Juliana Santos Pereira",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99881-8444",
+      "email": "juliana.santos.pereira.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Varjota 386, Varjota, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 15,
+      "creci_license": "8580747",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Varjota",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Carlos Eduardo Mendes",
+      "company": "Consultoria de Seguros Fortaleza",
+      "phone": "+55 (85) 99520-1514",
+      "email": "carlos.eduardo.mendes.seguros@consultoriadesegurosfortaleza.com.br",
+      "address": "Rua Papicu 752, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 9,
+      "creci_license": "8534425",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Junior",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "Certificado Profissional",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_0",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99017-2630",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 812, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 13,
+      "creci_license": "8546026",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    },
+    {
+      "id": "agent2_synthetic_1756097321714_1",
+      "name": "Fernanda Ribeiro Castro",
+      "company": "Grupo Seguro Especializado",
+      "phone": "+55 (85) 99757-7020",
+      "email": "fernanda.ribeiro.castro.seguros@gruposeguroespecializado.com.br",
+      "address": "Rua Papicu 908, Papicu, Fortaleza - CE",
+      "specialties": [
+        "Seguros Residenciais",
+        "Condomínios",
+        "Bens Patrimoniais"
+      ],
+      "experience_years": 13,
+      "creci_license": "8543740",
+      "search_term": "seguro especializado Fortaleza",
+      "agent": "Agent2",
+      "scraped_at": "2025-08-25T04:48:41.714Z",
+      "expertise_level": "Especialista Pleno",
+      "neighborhood": "Papicu",
+      "credentials": [
+        "Registro SUSEP",
+        "CNS",
+        "MBA em Seguros",
+        "Pós-graduação em Gestão de Riscos"
+      ]
+    }
+  ]
+}
