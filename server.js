@@ -3,14 +3,41 @@ const cors = require('cors');
 const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
 
+// Validate required environment variables
+const requiredEnvVars = ['SUPABASE_URL'];
+const missingEnvVars = requiredEnvVars.filter(envVar => !process.env[envVar]);
+
+if (missingEnvVars.length > 0) {
+    console.error('❌ Missing required environment variables:', missingEnvVars.join(', '));
+    process.exit(1);
+}
+
+// Warn about placeholder values
+const placeholderWarnings = [];
+if (!process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY.includes('your-actual-service-role-key-here')) {
+    placeholderWarnings.push('SUPABASE_SERVICE_ROLE_KEY is not properly configured');
+}
+
+if (placeholderWarnings.length > 0) {
+    console.warn('⚠️  Configuration warnings:');
+    placeholderWarnings.forEach(warning => console.warn(`   - ${warning}`));
+    console.warn('   Server will use fallback configurations but may have limited functionality.');
+}
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Initialize Supabase client with service role key (server-side only)
 const supabase = createClient(
     process.env.SUPABASE_URL,
-    process.env.SUPABASE_SERVICE_ROLE_KEY // Use service role key, not anon key
+    process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY // Fallback to anon key if service role not set
 );
+
+// Log warning if using anon key
+if (!process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY === 'your-actual-service-role-key-here') {
+    console.warn('⚠️  WARNING: Using SUPABASE_ANON_KEY instead of SERVICE_ROLE_KEY');
+    console.warn('   This may limit database access. Set SUPABASE_SERVICE_ROLE_KEY for full functionality.');
+}
 
 // Middleware
 app.use(cors({
