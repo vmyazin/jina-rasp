@@ -21,7 +21,7 @@ async function applyRLSPolicies() {
 
   try {
     // Read the RLS policies SQL file
-    const rlsPoliciesPath = path.join(__dirname, 'rls_policies.sql');
+    const rlsPoliciesPath = path.join(__dirname, '../../database/rls_policies.sql');
     const rlsPoliciesSQL = fs.readFileSync(rlsPoliciesPath, 'utf8');
 
     console.log('📄 Read RLS policies from:', rlsPoliciesPath);
@@ -112,7 +112,7 @@ function printSQLForManualExecution() {
   console.log('If automatic application failed, copy and paste the following SQL');
   console.log('statements into your Supabase SQL Editor:\n');
   
-  const rlsPoliciesPath = path.join(__dirname, 'rls_policies.sql');
+  const rlsPoliciesPath = path.join(__dirname, '../../database/rls_policies.sql');
   const rlsPoliciesSQL = fs.readFileSync(rlsPoliciesPath, 'utf8');
   
   console.log('=' .repeat(60));

@@ -63,7 +63,7 @@ python -m http.server 8000
 # Visit: http://localhost:8000
 
 # Test database connection
-node -e "require('./config.js'); console.log('Config loaded successfully')"
+npm run config:test
 ```
 
 ### Database Operations
@@ -72,8 +72,14 @@ node -e "require('./config.js'); console.log('Config loaded successfully')"
 supabase start
 supabase db push
 
+# Apply RLS security policies
+npm run security:apply-rls
+
+# Test RLS policies
+npm run security:test-rls
+
 # Run SQL migrations manually in Supabase dashboard
-# Execute: schema.sql
+# Execute: database/schema.sql and database/rls_policies.sql
 ```
 
 ## Configuration
@@ -84,6 +90,7 @@ supabase db push
 JINA_API_KEY=your_jina_api_key
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_ANON_KEY=your_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 SUPABASE_DB_PASSWORD=your_db_password
 NODE_ENV=production
 PORT=2999
@@ -120,19 +127,29 @@ query = query.contains('specialties', [specialty]);
 ## File Structure Context
 
 ```
-├── Frontend (Production)
-│   ├── index_production.html    # Main website
-│   ├── app_production.js        # Search & Supabase integration  
-│   └── styles.css              # Travel-inspired design system
-├── Data Collection
-│   ├── agent*_scraper.js       # Jina AI scrapers
-│   ├── consolidate_data.js     # Data merging
-│   └── setup_prod_db.js        # Database loading
-├── Database
-│   └── schema.sql              # PostgreSQL schema & functions
-└── Configuration
-    ├── .env                    # Environment variables
-    └── config.js              # Config loader
+├── public/                     # Frontend assets (served by Express)
+│   ├── index_production.html   # Main website
+│   ├── app_production.js       # Search & Supabase integration  
+│   └── styles.css             # Travel-inspired design system
+├── scripts/
+│   ├── data/                  # Data collection & processing
+│   │   ├── agent*_scraper.js  # Jina AI scrapers
+│   │   ├── consolidate_data.js # Data merging
+│   │   └── setup_prod_db.js   # Database loading
+│   └── security/              # Security & testing scripts
+│       ├── apply_rls_policies.js # Apply RLS policies
+│       └── test_rls_policies.js  # Test security policies
+├── database/                  # Database schemas & policies
+│   ├── schema.sql            # PostgreSQL schema & functions
+│   └── rls_policies.sql      # Row Level Security policies
+├── config/                   # Configuration files
+│   └── config.js            # Config loader
+├── docs/                     # Documentation
+│   ├── CLAUDE.md            # Project documentation
+│   ├── README.md            # User documentation
+│   └── DEVELOPMENT_PLAN.md   # Development roadmap
+├── server.js                # Express server & API endpoints
+└── .env                     # Environment variables
 ```
 
 ## Important Implementation Notes

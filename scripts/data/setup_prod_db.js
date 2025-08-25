@@ -1,4 +1,4 @@
-const config = require('./config');
+const config = require('../../config/config');
 const fs = require('fs');
 
 // Test production database connection

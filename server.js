@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
 
@@ -233,17 +234,15 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-// Serve static files in production
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('.'));
-    
-    // Serve index.html for all non-API routes
-    app.get('*', (req, res) => {
-        if (!req.path.startsWith('/api/')) {
-            res.sendFile(path.join(__dirname, 'index_production.html'));
-        }
-    });
-}
+// Serve static files from public directory
+app.use(express.static('public'));
+
+// Serve index.html for all non-API routes
+app.get('*', (req, res) => {
+    if (!req.path.startsWith('/api/')) {
+        res.sendFile(path.join(__dirname, 'public', 'index_production.html'));
+    }
+});
 
 // Error handling middleware
 app.use((error, req, res, next) => {
