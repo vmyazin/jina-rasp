@@ -154,11 +154,18 @@ See `.env.example` for complete configuration options.
 ```
 jina-rasp/
 ├── 🌐 Frontend
-│   ├── src/main.ts             # TypeScript application (development)
-│   ├── public/index.html       # Development HTML entry point
-│   ├── public/index_production.html   # Production HTML (legacy)
-│   ├── public/styles.css       # Styling
-│   ├── public/app_production.js       # JavaScript application (legacy)
+│   ├── src/
+│   │   ├── main.ts             # TypeScript entry point
+│   │   └── components/         # Lit web components
+│   │       ├── broker-app.ts   # Main app wrapper
+│   │       ├── broker-search.ts # Search form component
+│   │       ├── broker-list.ts  # Results list component
+│   │       └── broker-card.ts  # Individual broker card
+│   ├── public/
+│   │   ├── index.html          # HTML entry point
+│   │   ├── styles.css          # Styling (legacy)
+│   │   ├── index_production.html   # Production HTML (legacy)
+│   │   └── app_production.js       # JavaScript application (legacy)
 │   ├── vite.config.ts          # Vite configuration
 │   └── tsconfig.json           # TypeScript configuration
 ├── 🛡️ Backend Security
@@ -187,6 +194,29 @@ jina-rasp/
     ├── CLAUDE.md              # Developer guidance
     └── DEVELOPMENT_PLAN.md    # Roadmap & priorities
 ```
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Lit web components + TypeScript (component-based architecture)
+- **Build Tool**: Vite with hot reload and optimized production builds  
+- **Styling**: Open Props + custom CSS with glass morphism effects
+- **Database**: Supabase (PostgreSQL) with GIN indexes + custom search functions
+- **Data Collection**: Jina AI APIs (Search + Reader) with multi-agent scrapers
+- **Server**: Express.js proxy with rate limiting + CORS
+- **Deployment**: Static files + Node.js backend
+
+### Key Implementation Details:
+- **Search**: Custom PostgreSQL search_brokers() function with Portuguese full-text search
+- **Performance**: 300ms debouncing, AbortController for request cancellation, 5-min caching
+- **Security**: Row Level Security (RLS) policies, server-side API proxying, no exposed credentials
+- **Data Flow**: Individual scrapers → consolidation → bulk DB insert via Supabase client
+- **UI Pattern**: Search-first (no initial results), glass morphism with backdrop-filter
+- **Responsive**: CSS Grid + Flexbox, mobile-first with 768px breakpoint
+- **APIs**: Jina Search (s.jina.ai) + Reader (r.jina.ai) for web scraping
+- **State**: Lit reactive properties with component-based state management
+- **Components**: Modular architecture with broker-app, broker-search, broker-list, broker-card
+
+**Critical Config**: Environment variables for all API keys, Supabase connection via service role key for data operations.
 
 ## 🎯 Features
 
