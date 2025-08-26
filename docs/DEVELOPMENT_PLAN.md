@@ -73,7 +73,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Action**: Add composite indexes, analyze query execution plans
 - **Files**: `schema.sql:29-33`
 - **Metrics**: Target <200ms response time
-- **Timeline**: 1 week
 
 #### PERF-002: Search Cache Strategy 🟠
 
@@ -81,7 +80,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Stale results, memory usage
 - **Action**: Implement smarter cache invalidation strategy
 - **Files**: `app_production.js:181-182`
-- **Timeline**: 1 week
 
 #### PERF-003: Frontend Bundle Optimization 🟠
 
@@ -89,7 +87,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Slow initial page load
 - **Action**: Implement code splitting, minification, compression
 - **Files**: All frontend assets
-- **Timeline**: 2 weeks
 
 ### User Experience Improvements
 
@@ -99,7 +96,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Lower quality results shown first
 - **Action**: Improve search algorithm weighting
 - **Files**: `app_production.js:135-220`
-- **Timeline**: 1 week
 
 #### UX-002: Mobile Responsiveness Issues 🟠
 
@@ -107,7 +103,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Poor mobile user experience
 - **Action**: Comprehensive mobile testing and fixes
 - **Files**: `styles.css:351-407`
-- **Timeline**: 1 week
 
 #### UX-003: Loading States & Error Handling 🟠
 
@@ -115,7 +110,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Poor user feedback during failures
 - **Action**: Implement comprehensive error handling with Portuguese messages
 - **Files**: `app_production.js:270, 311`
-- **Timeline**: 1 week
 
 ---
 
@@ -129,7 +123,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Difficult maintenance, testing
 - **Action**: Split into modules (SearchManager, UIManager, DataLayer)
 - **Files**: `app_production.js`
-- **Timeline**: 2 weeks
 
 #### ARCH-002: Configuration Management 🟡
 
@@ -137,7 +130,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Difficult environment switching
 - **Action**: Centralize configuration with environment detection
 - **Files**: `config.js`, `app_production.js`
-- **Timeline**: 1 week
 
 #### ARCH-003: Error Logging & Monitoring 🟡
 
@@ -145,7 +137,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Blind to production issues
 - **Action**: Implement client-side error reporting
 - **Tools**: Consider Sentry, LogRocket, or similar
-- **Timeline**: 1 week
 
 ### Testing & Quality Assurance
 
@@ -156,7 +147,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Action**: Implement unit tests for core functionality
 - **Framework**: Jest + Testing Library
 - **Coverage**: Search, data formatting, UI interactions
-- **Timeline**: 2 weeks
 
 #### TEST-002: End-to-End Testing 🟡
 
@@ -164,7 +154,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Manual testing required for releases
 - **Action**: Implement E2E tests for critical user flows
 - **Framework**: Playwright or Cypress
-- **Timeline**: 1 week
 
 ### Data Management
 
@@ -174,7 +163,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Stale data over time
 - **Action**: Implement scheduled data refresh pipeline
 - **Components**: Cron jobs, data diff detection
-- **Timeline**: 3 weeks
 
 #### DATA-003: Search Analytics 🟡
 
@@ -182,7 +170,6 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Impact**: Can't optimize search experience
 - **Action**: Implement search analytics tracking
 - **Metrics**: Popular queries, no-result searches, click-through rates
-- **Timeline**: 2 weeks
 
 ---
 
@@ -195,28 +182,24 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Enhancement**: Add rating filters, experience range, company size
 - **Value**: Better search refinement
 - **Files**: `app_production.js`, `index_production.html`
-- **Timeline**: 2 weeks
 
 #### FEAT-002: Broker Profiles 🟢
 
 - **Enhancement**: Dedicated profile pages with reviews, gallery
 - **Value**: Rich broker information display
 - **Impact**: SEO benefits, user engagement
-- **Timeline**: 3 weeks
 
 #### FEAT-003: Contact Form Integration 🟢
 
 - **Enhancement**: In-app contact forms with email delivery
 - **Value**: Lead generation tracking
 - **Components**: Form handling, email service
-- **Timeline**: 2 weeks
 
 #### FEAT-004: Multilingual Support 🟢
 
 - **Enhancement**: English version for international users
 - **Value**: Broader market reach
 - **Components**: i18n framework, content translation
-- **Timeline**: 4 weeks
 
 ### Developer Experience
 
@@ -225,21 +208,18 @@ _Strategic roadmap for refactoring, security improvements, and feature enhanceme
 - **Enhancement**: Hot reloading, automated builds
 - **Value**: Faster development cycles
 - **Tools**: Vite or similar build tool
-- **Timeline**: 1 week
 
 #### DEV-002: Documentation & API Docs 🟢
 
 - **Enhancement**: Comprehensive API documentation
 - **Value**: Easier onboarding, maintenance
 - **Tools**: JSDoc, OpenAPI specs
-- **Timeline**: 1 week
 
 #### DEV-003: Deployment Automation 🟢
 
 - **Enhancement**: CI/CD pipeline with automated testing
 - **Value**: Reliable deployments
 - **Platform**: GitHub Actions or similar
-- **Timeline**: 1 week
 
 ---
 
