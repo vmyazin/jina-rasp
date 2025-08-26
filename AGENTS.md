@@ -1,8 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-Note: This file and `AGENTS.md` serve the same purpose for different coding CLIs. This file is tailored for Claude Code (claude.ai/code), while `AGENTS.md` is agent-agnostic guidance for other coding CLIs (e.g., OpenAI GPT-based tools, Copilot Chat, Cursor).
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI coding agents (e.g., Claude Code, OpenAI GPT-based tools, Copilot Chat, Cursor) when working with code in this repository.
 
 ## Project Overview
 
@@ -195,7 +193,7 @@ query = query.contains("specialties", [specialty]);
 ├── config/                   # Configuration files
 │   └── config.js            # Config loader
 ├── docs/                     # Documentation
-│   ├── CLAUDE.md            # Project documentation
+│   ├── AGENTS.md            # Project documentation for AI agents
 │   ├── README.md            # User documentation
 │   └── DEVELOPMENT_PLAN.md   # Development roadmap
 ├── server.js                # Express server & API endpoints
@@ -238,17 +236,17 @@ When adding new data, use the scraper → consolidate → database flow rather t
 
 ### Always Update After Major Changes:
 
-1. **CLAUDE.md** (this file) - Update architecture notes, commands, and technical patterns
+1. **AGENTS.md** (this file) - Update architecture notes, commands, and technical patterns
 2. **DEVELOPMENT_PLAN.md** - Mark completed items, update priorities, adjust timelines
 3. **README.md** - Update project overview, installation steps, and feature descriptions
 
 ### Update Rules:
 
-- **Architecture Changes**: Update both CLAUDE.md and README.md with new components, file structure changes
-- **Security Implementation**: Update DEVELOPMENT_PLAN.md to mark SEC-\* items as completed, add new security notes to README.md
-- **New Features**: Update README.md features section, DEVELOPMENT_PLAN.md to mark FEAT-\* items complete
-- **API Changes**: Update CLAUDE.md technical patterns and README.md API usage examples
-- **Environment Variables**: Update both CLAUDE.md and README.md environment configuration sections
+- **Architecture Changes**: Update both AGENTS.md and README.md with new components, file structure changes
+- **Security Implementation**: Update DEVELOPMENT_PLAN.md to mark SEC-* items as completed, add new security notes to README.md
+- **New Features**: Update README.md features section, DEVELOPMENT_PLAN.md to mark FEAT-* items complete
+- **API Changes**: Update AGENTS.md technical patterns and README.md API usage examples
+- **Environment Variables**: Update both AGENTS.md and README.md environment configuration sections
 
 ### Recent Major Changes Applied:
 
@@ -260,4 +258,5 @@ When adding new data, use the scraper → consolidate → database flow rather t
   - ✅ Updated README.md deployment section and security features
   - ✅ Updated DEVELOPMENT_PLAN.md to mark SEC-001, SEC-002, SEC-003 as completed
 
-This ensures documentation stays current and helps future developers understand the system architecture and recent changes.
+This ensures documentation stays current and helps future developers and agents understand the system architecture and recent changes.
+

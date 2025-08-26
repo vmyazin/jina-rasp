@@ -191,7 +191,7 @@ jina-rasp/
 │   └── package.json           # Dependencies
 └── 📝 Documentation
     ├── README.md              # This file
-    ├── CLAUDE.md              # Developer guidance
+    ├── AGENTS.md              # AI agent guidance
     └── DEVELOPMENT_PLAN.md    # Roadmap & priorities
 ```
 
