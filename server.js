@@ -1,8 +1,14 @@
-const express = require('express');
-const cors = require('cors');
-const path = require('path');
-const { createClient } = require('@supabase/supabase-js');
-require('dotenv').config();
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config();
 
 // Validate required environment variables
 const requiredEnvVars = ['SUPABASE_URL'];
@@ -43,8 +49,8 @@ if (!process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_ROLE_
 // Middleware
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? ['https://your-domain.com'] // Replace with your actual domain
-        : ['http://localhost:8000', 'http://127.0.0.1:8000']
+        ? true // Allow all origins in production for Vercel deployment
+        : ['http://localhost:8000', 'http://127.0.0.1:8000', 'http://localhost:5173']
 }));
 app.use(express.json());
 
@@ -265,4 +271,4 @@ app.listen(PORT, () => {
     console.log(`🔗 API Base: http://localhost:${PORT}/api`);
 });
 
-module.exports = app;
+export default app;
