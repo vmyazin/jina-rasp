@@ -2,9 +2,11 @@
 inclusion: always
 ---
 
-# Commit Message Guidelines
+# Commit Messages
 
-Always write commit messages after making changes (skip if not files are affected), using markdown format. Keep them concise and informative.
+Always write commit messages after your made changes that I requested (skip if no files are affected), using markdown format. Keep them concise and informative.
+
+If the change is a follow up, ammed the commit message.
 
 ## Format Requirements
 
