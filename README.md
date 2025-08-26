@@ -66,14 +66,54 @@ npm run validation:report
 
 4. **Start Development Server**
    ```bash
-   # Start secure Express server (recommended)
-   npm start
-   # Visit: http://localhost:3000
-   
-   # Alternative: Serve static files (less secure)
-   python -m http.server 8000
+   # 🚀 One command to start everything (recommended)
+   npm run dev
+   # This starts both API server (port 2999) and Vite dev server (port 8000)
    # Visit: http://localhost:8000
+   
+   # Alternative: Production server (serves built files)
+   npm start
+   # Visit: http://localhost:2999
    ```
+
+## 🛠️ Development Setup
+
+### Modern Development Stack (New)
+
+This project now uses **Vite + TypeScript** for modern development experience:
+
+- **⚡ Vite**: Lightning-fast development server with hot reload
+- **📘 TypeScript**: Type safety and better developer experience  
+- **🔄 Hot Reload**: Instant updates during development
+- **📦 Optimized Builds**: Production-ready bundling
+
+### Available Scripts
+
+```bash
+# Development (recommended)
+npm run dev          # 🚀 Start both API + Vite servers (one command!)
+npm run dev:vite     # Start only Vite dev server (http://localhost:8000)
+npm run server       # Start only Express API server (http://localhost:2999)
+
+# Production
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm start            # Start production server
+
+# Legacy (still supported)
+npm run serve        # Python static server (http://localhost:8000)
+```
+
+### Development Workflow
+
+1. **Start everything**: `npm run dev` (starts both API server + Vite dev server)
+2. **Open browser**: Visit http://localhost:8000 
+3. **Edit TypeScript**: Files in `src/main.ts` with hot reload
+4. **Build for production**: `npm run build` creates optimized bundle
+
+The `npm run dev` command uses `concurrently` to run both servers with colored output:
+- 🔵 **API** server on port 2999 (Express + Supabase)
+- 🟢 **VITE** dev server on port 8000 (with API proxy)
 
 ## 🔧 Environment Variables
 
@@ -114,9 +154,13 @@ See `.env.example` for complete configuration options.
 ```
 jina-rasp/
 ├── 🌐 Frontend
-│   ├── index_production.html   # Main website (production)
-│   ├── styles.css              # Styling
-│   └── app_production.js       # JavaScript application (secure)
+│   ├── src/main.ts             # TypeScript application (development)
+│   ├── public/index.html       # Development HTML entry point
+│   ├── public/index_production.html   # Production HTML (legacy)
+│   ├── public/styles.css       # Styling
+│   ├── public/app_production.js       # JavaScript application (legacy)
+│   ├── vite.config.ts          # Vite configuration
+│   └── tsconfig.json           # TypeScript configuration
 ├── 🛡️ Backend Security
 │   ├── server.js               # Express API proxy (secure)
 │   ├── rls_policies.sql        # Row Level Security policies
@@ -235,9 +279,9 @@ cp .env.example .env
 # 3. Start Supabase (optional - if using local)
 supabase start && supabase db push
 
-# 4. Start secure server
-npm start
-# Visit: http://localhost:3000
+# 4. Start everything with one command
+npm run dev
+# Visit: http://localhost:8000
 ```
 
 ### Production Deployment
