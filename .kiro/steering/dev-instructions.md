@@ -4,7 +4,7 @@ inclusion: always
 
 # Commit Messages
 
-Always write commit messages after your made changes that I requested (skip if no files are affected), using markdown format. Keep them concise and informative.
+Always write commit messages after your made changes that I requested (skip if no files are affected), ALWAYS using a markdown format snippet. Keep messages concise and informative.
 
 If the change is a follow up, ammed the commit message.
 
