@@ -7,14 +7,16 @@ inclusion: always
 Always write commit messages using markdown format. Keep them concise and informative.
 
 ## Format Requirements
+
 - Maximum 5 lines total
 - Use markdown formatting for clarity
 - Include relevant context and impact
 - Reference issue numbers when applicable
 
 ## Template
+
 ```markdown
-TYPE(): Brief description of changes
+type(): Brief description of changes
 
 - Key change or improvement made
 - Impact or benefit of the change
@@ -22,6 +24,7 @@ TYPE(): Brief description of changes
 ```
 
 ## Examples
+
 ```markdown
 security(%feature_name%): Complete SEC-001 API keys implementation
 
@@ -44,3 +47,7 @@ feat(%feature_name%): Add advanced search filters
 - Added specialty-based search logic
 - Improved user experience for broker discovery
 ```
+
+# Clean Up After Testing
+
+After you create testing scripts (fetch_apt_test.js or similar), clean them up upon getting a successful result.
