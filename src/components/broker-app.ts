@@ -184,15 +184,24 @@ export class BrokerApp extends LitElement {
 
     @media (max-width: 768px) {
       .header {
-        padding: var(--size-8) 0 var(--size-12);
+        padding: var(--size-6, 1.5rem) 0 var(--size-8, 2rem);
+      }
+      
+      .header .container {
+        padding: 0 var(--size-4, 1rem);
       }
       
       .logo {
-        font-size: var(--font-size-7);
+        font-size: var(--font-size-6, 2rem);
+        line-height: 1.2;
+        margin-bottom: var(--size-3, 0.75rem);
       }
       
       .tagline {
-        font-size: var(--font-size-2);
+        font-size: var(--font-size-1, 1rem);
+        line-height: 1.4;
+        padding: 0 var(--size-2, 0.5rem);
+        margin-bottom: var(--size-4, 1rem);
       }
 
       .footer-content {
@@ -203,6 +212,29 @@ export class BrokerApp extends LitElement {
       
       .footer-links a {
         font-size: var(--font-size-1);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header {
+        padding: var(--size-5, 1.25rem) 0 var(--size-6, 1.5rem);
+      }
+      
+      .header .container {
+        padding: 0 var(--size-3, 0.75rem);
+      }
+      
+      .logo {
+        font-size: var(--font-size-5, 1.75rem);
+        line-height: 1.1;
+        margin-bottom: var(--size-2, 0.5rem);
+      }
+      
+      .tagline {
+        font-size: var(--font-size-0, 0.875rem);
+        line-height: 1.3;
+        padding: 0 var(--size-1, 0.25rem);
+        margin-bottom: var(--size-3, 0.75rem);
       }
     }
   `;
