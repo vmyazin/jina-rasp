@@ -4,7 +4,7 @@ inclusion: always
 
 # Commit Message Guidelines
 
-Always write commit messages using markdown format. Keep them concise and informative.
+Always write commit messages after making changes (skip if not files are affected), using markdown format. Keep them concise and informative.
 
 ## Format Requirements
 
