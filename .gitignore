@@ -92,3 +92,4 @@ scripts/data/INSURANCE_BROKERS_FORTALEZA.md
 # Keep examples but ignore generated reports
 !scripts/validation/reports/README.md
 !scripts/validation/reports/.gitkeep
+.vercel
