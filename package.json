@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "serve": "python -m http.server 8000",
     "scrape:agent1": "node scripts/data/agent1_scraper.js",
-    "scrape:agent2": "node scripts/data/agent2_scraper.js", 
+    "scrape:agent2": "node scripts/data/agent2_scraper.js",
     "scrape:agent3": "node scripts/data/agent3_scraper.js",
     "data:consolidate": "node scripts/data/consolidate_data.js",
     "data:setup": "node scripts/data/setup_prod_db.js",
@@ -17,6 +17,8 @@
     "validation:stress-test": "node scripts/validation/validation-stress-test.js",
     "validation:report": "node scripts/validation/generate-simple-report.js database --limit=100",
     "config:test": "node -e \"require('./config/config'); console.log('Config loaded successfully')\"",
+    "update-open-props": "cp node_modules/open-props/open-props.min.css public/",
+    "postinstall": "npm run update-open-props",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -24,11 +26,12 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
     "axios": "^1.11.0",
-    "dotenv": "^17.2.1",
-    "node-fetch": "^3.3.2",
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "@supabase/supabase-js": "^2.38.0"
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "open-props": "^1.7.16"
   }
 }
