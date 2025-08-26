@@ -1,4 +1,4 @@
-import { createClient } from '@supabase/supabase-js';
+const { createClient } = require('@supabase/supabase-js');
 
 // Input validation helpers
 const validateSearchTerm = (term) => {
@@ -45,7 +45,7 @@ const checkRateLimit = (req) => {
     return true;
 };
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
     // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
