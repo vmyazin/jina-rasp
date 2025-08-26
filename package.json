@@ -23,9 +23,15 @@
     "validation:report": "node scripts/validation/generate-simple-report.js database --limit=100",
     "config:test": "node -e \"require('./config/config'); console.log('Config loaded successfully')\"",
     "test:dev": "node scripts/test-dev-setup.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:links": "playwright test tests/link-validation.spec.js",
+    "test:links:all": "node scripts/test-all-links.js",
+    "test:functionality": "playwright test tests/functionality.spec.js",
+    "test:report": "playwright show-report",
     "update-open-props": "cp node_modules/open-props/open-props.min.css public/",
-    "postinstall": "npm run update-open-props",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run update-open-props"
   },
   "keywords": [],
   "author": "",
@@ -42,6 +48,7 @@
     "open-props": "^1.7.16"
   },
   "devDependencies": {
+    "@playwright/test": "^1.55.0",
     "@types/node": "^20.10.0",
     "concurrently": "^8.2.2",
     "nodemon": "^3.0.2",
