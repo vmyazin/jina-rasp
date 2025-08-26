@@ -1,14 +1,8 @@
-import express from 'express';
-import cors from 'cors';
-import path from 'path';
-import { createClient } from '@supabase/supabase-js';
-import dotenv from 'dotenv';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-dotenv.config();
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const { createClient } = require('@supabase/supabase-js');
+require('dotenv').config();
 
 // Validate required environment variables
 const requiredEnvVars = ['SUPABASE_URL'];
@@ -48,7 +42,7 @@ if (!process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_ROLE_
 
 // Middleware
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production' 
+    origin: process.env.NODE_ENV === 'production'
         ? true // Allow all origins in production for Vercel deployment
         : ['http://localhost:8000', 'http://127.0.0.1:8000', 'http://localhost:5173']
 }));
@@ -79,26 +73,26 @@ const RATE_LIMIT_MAX_REQUESTS = 30; // 30 requests per minute
 const checkRateLimit = (req, res, next) => {
     const clientIP = req.ip || req.connection.remoteAddress;
     const now = Date.now();
-    
+
     if (!rateLimiter.has(clientIP)) {
         rateLimiter.set(clientIP, { count: 1, resetTime: now + RATE_LIMIT_WINDOW });
         return next();
     }
-    
+
     const clientData = rateLimiter.get(clientIP);
-    
+
     if (now > clientData.resetTime) {
         // Reset the counter
         rateLimiter.set(clientIP, { count: 1, resetTime: now + RATE_LIMIT_WINDOW });
         return next();
     }
-    
+
     if (clientData.count >= RATE_LIMIT_MAX_REQUESTS) {
-        return res.status(429).json({ 
-            error: 'Muitas solicitações. Tente novamente em um minuto.' 
+        return res.status(429).json({
+            error: 'Muitas solicitações. Tente novamente em um minuto.'
         });
     }
-    
+
     clientData.count++;
     next();
 };
@@ -122,8 +116,8 @@ app.get('/api/filters', checkRateLimit, async (req, res) => {
 
         if (specialtiesError || neighborhoodsError) {
             console.error('Filter loading error:', specialtiesError || neighborhoodsError);
-            return res.status(500).json({ 
-                error: 'Erro ao carregar filtros' 
+            return res.status(500).json({
+                error: 'Erro ao carregar filtros'
             });
         }
 
@@ -136,8 +130,8 @@ app.get('/api/filters', checkRateLimit, async (req, res) => {
         });
     } catch (error) {
         console.error('Filters endpoint error:', error);
-        res.status(500).json({ 
-            error: 'Erro interno do servidor' 
+        res.status(500).json({
+            error: 'Erro interno do servidor'
         });
     }
 });
@@ -146,12 +140,12 @@ app.get('/api/filters', checkRateLimit, async (req, res) => {
 app.post('/api/search', checkRateLimit, async (req, res) => {
     try {
         const { searchTerm, specialty, region } = req.body;
-        
+
         // Validate and sanitize inputs
         const cleanSearchTerm = validateSearchTerm(searchTerm);
         const cleanSpecialty = validateSpecialty(specialty);
         const cleanRegion = validateNeighborhood(region);
-        
+
         // Don't search if no valid criteria provided
         if (!cleanSearchTerm && !cleanSpecialty && !cleanRegion) {
             return res.json({ data: [], count: 0 });
@@ -181,14 +175,14 @@ app.post('/api/search', checkRateLimit, async (req, res) => {
 
         if (error) {
             console.error('Database query error:', error);
-            return res.status(500).json({ 
-                error: 'Erro na consulta ao banco de dados' 
+            return res.status(500).json({
+                error: 'Erro na consulta ao banco de dados'
             });
         }
 
         // Apply smart specialty detection client-side logic server-side
         let filteredData = data || [];
-        
+
         if (cleanSearchTerm && !cleanSpecialty) {
             const specialtyKeywords = {
                 'auto': ['auto', 'carro', 'veículo', 'veiculo'],
@@ -198,7 +192,7 @@ app.post('/api/search', checkRateLimit, async (req, res) => {
                 'saude': ['saúde', 'saude', 'medico', 'médico'],
                 'viagem': ['viagem', 'travel']
             };
-            
+
             const lowerTerm = cleanSearchTerm.toLowerCase();
             for (const [spec, keywords] of Object.entries(specialtyKeywords)) {
                 if (keywords.some(keyword => lowerTerm.includes(keyword))) {
@@ -209,7 +203,7 @@ app.post('/api/search', checkRateLimit, async (req, res) => {
                         .contains('specialties', [spec])
                         .order('name', { ascending: true })
                         .limit(50);
-                    
+
                     if (specialtyData && specialtyData.length > 0) {
                         filteredData = specialtyData;
                         break;
@@ -222,19 +216,19 @@ app.post('/api/search', checkRateLimit, async (req, res) => {
             data: filteredData,
             count: filteredData.length
         });
-        
+
     } catch (error) {
         console.error('Search endpoint error:', error);
-        res.status(500).json({ 
-            error: 'Erro interno do servidor' 
+        res.status(500).json({
+            error: 'Erro interno do servidor'
         });
     }
 });
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-    res.json({ 
-        status: 'ok', 
+    res.json({
+        status: 'ok',
         timestamp: new Date().toISOString(),
         version: '1.0.0'
     });
@@ -253,15 +247,15 @@ app.get('*', (req, res) => {
 // Error handling middleware
 app.use((error, req, res, next) => {
     console.error('Unhandled error:', error);
-    res.status(500).json({ 
-        error: 'Erro interno do servidor' 
+    res.status(500).json({
+        error: 'Erro interno do servidor'
     });
 });
 
 // 404 handler
 app.use('*', (req, res) => {
-    res.status(404).json({ 
-        error: 'Endpoint não encontrado' 
+    res.status(404).json({
+        error: 'Endpoint não encontrado'
     });
 });
 
@@ -271,4 +265,4 @@ app.listen(PORT, () => {
     console.log(`🔗 API Base: http://localhost:${PORT}/api`);
 });
 
-export default app;
+module.exports = app;
