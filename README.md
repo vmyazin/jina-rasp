@@ -32,6 +32,10 @@ npm run validation:stress-test
 npm run validation:report
 ```
 
+## 📚 Documentation
+
+- Jina AI Usage Guide: [docs/JINA_AI_USAGE_GUIDE.md](docs/JINA_AI_USAGE_GUIDE.md)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -192,6 +196,7 @@ jina-rasp/
 └── 📝 Documentation
     ├── README.md              # This file
     ├── AGENTS.md              # AI agent guidance
+    ├── JINA_AI_USAGE_GUIDE.md # Jina AI scraping/search guide
     └── DEVELOPMENT_PLAN.md    # Roadmap & priorities
 ```
 
