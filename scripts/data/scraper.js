@@ -19,6 +19,27 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
 
+// Ensure fetch is available (Node >=18 has global fetch; fallback to node-fetch)
+async function ensureFetch() {
+    if (typeof fetch === 'undefined') {
+        const mod = await import('node-fetch');
+        global.fetch = mod.default;
+    }
+}
+
+// Fetch helper with timeout for robustness
+async function fetchWithTimeout(url, options = {}, timeoutMs = 15000) {
+    await ensureFetch();
+    const controller = new AbortController();
+    const id = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const resp = await fetch(url, { ...options, signal: controller.signal });
+        return resp;
+    } finally {
+        clearTimeout(id);
+    }
+}
+
 class JinaScraper {
     constructor(maxResults = 50) {
         this.apiKey = process.env.JINA_API_KEY;
@@ -26,6 +47,7 @@ class JinaScraper {
         this.maxResults = maxResults;
         this.retryAttempts = 3;
         this.delayMs = 2000; // 2 second delay between requests
+        this.searchAbortThreshold = 5; // Stop search phase after repeated timeouts
         
         if (!this.apiKey) {
             throw new Error('JINA_API_KEY not found in environment variables');
@@ -86,6 +108,7 @@ class JinaScraper {
             // Phase 1: Search-based scraping
             console.log('🔍 Phase 1: Search-based broker discovery...');
             
+            let consecutiveSearchAborts = 0;
             for (let i = 0; i < this.searchQueries.length && this.brokers.length < this.maxResults; i++) {
                 const query = this.searchQueries[i];
                 console.log(`\n[${i + 1}/${this.searchQueries.length}] 🔎 Searching: "${query}"`);
@@ -93,6 +116,17 @@ class JinaScraper {
                 try {
                     const searchResults = await this.searchWithJina(query);
                     apiCallCount++;
+                    if (searchResults && searchResults.__aborted) {
+                        consecutiveSearchAborts++;
+                        console.log('   ⚠️ Search timed out; continuing...');
+                        if (consecutiveSearchAborts >= this.searchAbortThreshold) {
+                            console.log('   ⏭️ Too many timeouts from search; skipping remaining search queries.');
+                            break;
+                        }
+                        continue;
+                    } else {
+                        consecutiveSearchAborts = 0;
+                    }
                     
                     if (searchResults && searchResults.length > 0) {
                         console.log(`   📊 Found ${searchResults.length} search results`);
@@ -174,105 +208,88 @@ class JinaScraper {
     }
 
     async searchWithJina(query) {
-        try {
-            // Jina Search API expects a simple POST with query in URL
-            const searchUrl = `https://s.jina.ai/${encodeURIComponent(query)}`;
-            const response = await fetch(searchUrl, {
-                method: 'GET',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'Accept': 'application/json'
+        await ensureFetch();
+        const params = new URLSearchParams({ q: query, country: 'BR', page: '1' });
+        const searchUrl = `https://s.jina.ai/?${params.toString()}`;
+        const headers = { 'Accept': 'application/json', 'User-Agent': 'jina-rasp-scraper/1.0' };
+        if (this.apiKey) headers['Authorization'] = `Bearer ${this.apiKey}`;
+
+        for (let attempt = 1; attempt <= this.retryAttempts; attempt++) {
+            try {
+                const timeoutMs = 12000 + attempt * 6000; // 18s, 24s, 30s
+                const response = await fetchWithTimeout(searchUrl, { method: 'GET', headers }, timeoutMs);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status} ${response.statusText}`);
                 }
-            });
-
-            if (!response.ok) {
-                throw new Error(`Jina Search API error: ${response.status} ${response.statusText}`);
+                const data = await response.json();
+                return data.results || data.data?.results || [];
+            } catch (error) {
+                const msg = error && (error.message || `${error}`) || '';
+                const isAbort = msg.includes('AbortError');
+                console.error(`Jina Search API error (attempt ${attempt}/${this.retryAttempts}):`, msg);
+                if (attempt < this.retryAttempts) {
+                    await this.delay(1000 * attempt);
+                    continue;
+                }
+                if (isAbort) return { __aborted: true };
+                return null;
             }
-
-            const data = await response.json();
-            return data.data || [];
-            
-        } catch (error) {
-            console.error(`Jina Search API error:`, error);
-            return null;
         }
+        return null;
     }
 
     async scrapeDirectory(url) {
-        try {
-            // Jina Reader API expects URL as path parameter
-            const readerUrl = `https://r.jina.ai/${encodeURIComponent(url)}`;
-            const response = await fetch(readerUrl, {
-                method: 'GET',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'Accept': 'application/json'
+        await ensureFetch();
+        const exclude = 'header,footer,nav,script,style,form,aside,noscript';
+        const readerUrl = `https://r.jina.ai/${encodeURIComponent(url)}?exclude_selectors=${encodeURIComponent(exclude)}`;
+        for (let attempt = 1; attempt <= this.retryAttempts; attempt++) {
+            try {
+                const timeoutMs = 12000 + attempt * 6000;
+                const response = await fetchWithTimeout(readerUrl, { method: 'GET', headers: { 'User-Agent': 'jina-rasp-scraper/1.0' } }, timeoutMs);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status} ${response.statusText}`);
                 }
-            });
-
-            if (!response.ok) {
-                throw new Error(`Jina Reader API error: ${response.status} ${response.statusText}`);
+                const content = await response.text();
+                return this.extractBrokersFromContent(content, url);
+            } catch (error) {
+                console.error(`Jina Reader API error (attempt ${attempt}/${this.retryAttempts}):`, error.message || error);
+                if (attempt < this.retryAttempts) {
+                    await this.delay(1000 * attempt);
+                    continue;
+                }
+                return [];
             }
-
-            const data = await response.json();
-            const content = data.data?.content || data.content || '';
-            
-            return this.extractBrokersFromContent(content, url);
-            
-        } catch (error) {
-            console.error(`Jina Reader API error:`, error);
-            return [];
         }
+        return [];
     }
 
     async extractBrokersFromSearchResult(result, query) {
-        if (!result || !result.url || !result.content) {
+        if (!result || !result.url) {
             return [];
         }
 
-        // Extract broker information from search result
-        const brokers = [];
-        const content = result.content;
-        const url = result.url;
-        
-        // Look for phone numbers (Brazilian format)
-        const phoneRegex = /(\+55\s?)?(\(?\d{2}\)?\s?)?(\d{4,5}[-\s]?\d{4})/g;
-        const phones = [...content.matchAll(phoneRegex)].map(match => match[0]);
-        
-        // Look for email addresses
-        const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
-        const emails = [...content.matchAll(emailRegex)].map(match => match[0]);
-        
-        // Look for company names (broker-related keywords)
-        const companyRegex = /(corretor[a]?|seguro[s]?|agente|representante)\s+[A-Z][a-zA-Z\s]+/gi;
-        const companies = [...content.matchAll(companyRegex)].map(match => match[0]);
-        
-        // Create broker entries if we have contact information
-        if (phones.length > 0 || emails.length > 0) {
-            const broker = {
-                id: `scraper_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-                name: this.extractBrokerName(content) || companies[0] || 'Corretor de Seguros',
-                phone: phones[0] || null,
-                email: emails[0] || null,
-                address: this.extractAddress(content),
-                neighborhood: this.detectNeighborhood(content, query),
-                city: 'Fortaleza',
-                state: 'CE',
-                specialties: this.extractSpecialties(content),
-                source_url: url,
-                scraped_at: new Date().toISOString(),
-                agent: 'JinaScraper',
-                data_source: 'real_search_scraping',
-                verification_status: 'scraped'
-            };
-            
-            // Only include brokers with at least phone or email
-            if (broker.phone || broker.email) {
-                brokers.push(broker);
-            }
+        const url = result.url || result.link || result.u || null;
+        if (!url) return [];
+        try {
+            // Fetch full page content via r.jina.ai for reliable extraction
+            const brokers = await this.scrapeDirectory(url);
+            // Backfill website/source_url and neighborhood from query if missing
+            return brokers.map(b => ({
+                ...b,
+                source_url: b.source_url || url,
+                website: b.website || url,
+                neighborhood: b.neighborhood || this.detectNeighborhood('', query)
+            }));
+        } catch (e) {
+            // Fallback: attempt extraction from available snippet/fields
+            const content = result.content || result.description || '';
+            if (!content) return [];
+            const fallback = this.extractBrokersFromContent(content, url).map(b => ({
+                ...b,
+                neighborhood: b.neighborhood || this.detectNeighborhood(content, query)
+            }));
+            return fallback;
         }
-        
-        return brokers;
     }
 
     extractBrokersFromContent(content, sourceUrl) {
@@ -300,6 +317,7 @@ class JinaScraper {
                     city: 'Fortaleza',
                     state: 'CE',
                     specialties: this.extractSpecialties(line),
+                    website: sourceUrl || null,
                     source_url: sourceUrl,
                     scraped_at: new Date().toISOString(),
                     agent: 'JinaScraper',
@@ -360,8 +378,8 @@ class JinaScraper {
                 return neighborhood;
             }
         }
-        
-        return 'Centro'; // Default
+        // Leave undefined if not detected; avoid forcing incorrect default
+        return null;
     }
 
     extractSpecialties(text) {
